@@ -31,7 +31,7 @@ READ_TIMEOUT = 5
 MAX_CANDIDATES = 4000
 MAX_WORKERS = 80
 MAX_PAC_PROXIES = 40
-USER_AGENT = "turkey-proxy-pac/4.1"
+USER_AGENT = "turkey-proxy-pac/4.2"
 
 IP_CHECK_URLS = [
     "https://api.ipify.org?format=json",
@@ -136,7 +136,6 @@ def check_candidate(candidate: tuple[str, str]) -> dict:
         if not https_endpoint:
             return {"status": "https_failed", "ip": external_ip}
 
-        # GeoIP is deliberately queried directly, not through the candidate proxy.
         geo_response = requests.get(
             GEO_URL.format(ip=external_ip),
             timeout=(CONNECT_TIMEOUT, READ_TIMEOUT),
@@ -205,6 +204,8 @@ def main() -> None:
     live_candidates = [candidate for candidate, alive in zip(candidates_list, tcp_results) if alive]
     print(f"TCP-live candidates: {len(live_candidates)}")
 
+    # Keep protocol keys consistent with the source tags. In particular,
+    # "https" is a proxy protocol here, so the counter is https_proxy_tested.
     diagnostics = {
         "http_tested": 0,
         "https_proxy_tested": 0,
@@ -221,8 +222,14 @@ def main() -> None:
         "turkey_http_https": 0,
     }
 
+    protocol_counter_keys = {
+        "http": "http_tested",
+        "https": "https_proxy_tested",
+        "socks4": "socks4_tested",
+        "socks5": "socks5_tested",
+    }
     for proxy_type, _ in live_candidates:
-        diagnostics[f"{proxy_type}_tested"] += 1
+        diagnostics[protocol_counter_keys[proxy_type]] += 1
 
     working: list[dict] = []
     with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
