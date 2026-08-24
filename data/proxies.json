@@ -6,9 +6,9 @@
     "ip": "95.3.69.222",
     "country": "TR",
     "city": "Ankara",
-    "latency_ms": 4663,
-    "ip_check": "https://api64.ipify.org?format=json",
-    "https_check": "https://www.google.com/generate_204"
+    "latency_ms": 4852,
+    "ip_check": "https://api.ipify.org?format=json",
+    "https_check": "https://www.cloudflare.com/cdn-cgi/trace"
   },
   {
     "status": "ok",
@@ -17,8 +17,8 @@
     "ip": "37.221.79.37",
     "country": "TR",
     "city": "Istanbul",
-    "latency_ms": 5480,
+    "latency_ms": 11451,
     "ip_check": "https://api.ipify.org?format=json",
-    "https_check": "https://www.google.com/generate_204"
+    "https_check": "https://www.cloudflare.com/cdn-cgi/trace"
   }
 ]
