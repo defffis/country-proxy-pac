@@ -1,6 +1,10 @@
 {
-  "updated_at": null,
-  "sources": 0,
-  "candidates": 0,
-  "working_turkey_proxies": 0
+  "updated_at": "2026-08-24T18:22:35Z",
+  "sources": 7,
+  "candidates": 500,
+  "working_turkey_proxies": 1,
+  "max_workers": 40,
+  "https_validation": true,
+  "geoip": "ipwho.is",
+  "selection": "lowest HTTPS latency"
 }
