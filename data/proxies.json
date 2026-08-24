@@ -6,8 +6,8 @@
     "ip": "95.3.69.222",
     "country": "TR",
     "city": "Ankara",
-    "latency_ms": 4768,
+    "latency_ms": 2003,
     "ip_check": "https://api.ipify.org?format=json",
-    "https_check": "https://www.cloudflare.com/cdn-cgi/trace"
+    "https_check": "https://www.google.com/generate_204"
   }
 ]
