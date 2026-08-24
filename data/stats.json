@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-08-24T22:45:39Z",
+  "updated_at": "2026-08-24T23:03:52Z",
   "sources": 6,
   "candidates": 4000,
-  "tcp_live_candidates": 2127,
-  "working_turkey_proxies": 3,
+  "tcp_live_candidates": 2146,
+  "working_turkey_proxies": 2,
   "pac_http_proxies": 2,
   "max_workers": 80,
   "https_validation": true,
@@ -12,18 +12,18 @@
   "geoip": "ipwho.is",
   "selection": "lowest HTTPS latency",
   "diagnostics": {
-    "http_tested": 1042,
-    "https_proxy_tested": 922,
-    "socks4_tested": 119,
-    "socks5_tested": 44,
-    "external_ip_found": 139,
-    "external_ip_failed": 1988,
-    "https_ok": 109,
-    "https_failed": 30,
-    "geoip_ok": 109,
+    "http_tested": 1050,
+    "https_proxy_tested": 890,
+    "socks4_tested": 114,
+    "socks5_tested": 92,
+    "external_ip_found": 168,
+    "external_ip_failed": 1978,
+    "https_ok": 136,
+    "https_failed": 32,
+    "geoip_ok": 136,
     "geoip_failed": 0,
     "request_failed": 0,
-    "turkey": 3,
+    "turkey": 2,
     "turkey_http_https": 2
   },
   "source_stats": {
@@ -36,20 +36,20 @@
       "valid": 2821
     },
     "http:https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/http/data.txt": {
-      "found": 723,
-      "valid": 723
+      "found": 677,
+      "valid": 677
     },
     "https:https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/https/data.txt": {
-      "found": 1208,
-      "valid": 1208
+      "found": 1238,
+      "valid": 1238
     },
     "socks4:https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/socks4/data.txt": {
-      "found": 193,
-      "valid": 193
+      "found": 302,
+      "valid": 302
     },
     "socks5:https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/socks5/data.txt": {
-      "found": 123,
-      "valid": 123
+      "found": 216,
+      "valid": 216
     }
   }
 }
