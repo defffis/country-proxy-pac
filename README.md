@@ -2,143 +2,151 @@
 
 [Русская версия](#русская-версия) · [English version](#english-version)
 
-Автоматически обновляемые PAC-файлы с публичными HTTP/HTTPS-прокси, сгруппированными по стране выхода.
+Автоматически обновляемые списки и PAC-файлы публичных прокси, сгруппированных по стране фактического выхода в интернет.
 
-> **Важно:** проект использует публичные proxy-источники. Доступность, скорость и стабильность прокси не гарантируются.
+> **Важно:** проект использует публичные proxy-источники. Доступность, скорость, безопасность и стабильность прокси не гарантируются.
 
 ## Поддерживаемые страны
 
-| Страна | Код | PAC |
-|---|---|---|
-| 🇹🇷 Турция | `TR` | `pac/turkey.pac` |
-| 🇮🇳 Индия | `IN` | `pac/india.pac` |
-| 🇵🇱 Польша | `PL` | `pac/poland.pac` |
-| 🇳🇱 Нидерланды | `NL` | `pac/netherlands.pac` |
-| 🇩🇪 Германия | `DE` | `pac/germany.pac` |
-| 🇺🇸 США | `US` | `pac/usa.pac` |
-| 🇬🇧 Великобритания | `GB` | `pac/uk.pac` |
+| Страна | Код | HTTP/HTTPS PAC | SOCKS PAC |
+|---|---|---|---|
+| 🇹🇷 Турция | `TR` | `pac/turkey.pac` | `pac/turkey-socks.pac` |
+| 🇮🇳 Индия | `IN` | `pac/india.pac` | `pac/india-socks.pac` |
+| 🇵🇱 Польша | `PL` | `pac/poland.pac` | `pac/poland-socks.pac` |
+| 🇳🇱 Нидерланды | `NL` | `pac/netherlands.pac` | `pac/netherlands-socks.pac` |
+| 🇩🇪 Германия | `DE` | `pac/germany.pac` | `pac/germany-socks.pac` |
+| 🇺🇸 США | `US` | `pac/usa.pac` | `pac/usa-socks.pac` |
+| 🇬🇧 Великобритания | `GB` | `pac/uk.pac` | `pac/uk-socks.pac` |
 
-Для каждой страны также создаётся вариант `*-http.pac`.
+## Готовые ссылки
 
-## Готовые PAC URL
+Все файлы доступны напрямую через `raw.githubusercontent.com` и не требуют GitHub Pages.
 
-PAC-файлы можно подключать напрямую через `raw.githubusercontent.com`:
+### HTTP/HTTPS PAC
 
-| Страна | PAC | HTTP PAC |
-|---|---|---|
-| Турция | `https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/turkey.pac` | `https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/turkey-http.pac` |
-| Индия | `https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/india.pac` | `https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/india-http.pac` |
-| Польша | `https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/poland.pac` | `https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/poland-http.pac` |
-| Нидерланды | `https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/netherlands.pac` | `https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/netherlands-http.pac` |
-| Германия | `https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/germany.pac` | `https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/germany-http.pac` |
-| США | `https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/usa.pac` | `https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/usa-http.pac` |
-| Великобритания | `https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/uk.pac` | `https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/uk-http.pac` |
+```text
+https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/turkey.pac
+https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/india.pac
+https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/poland.pac
+https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/netherlands.pac
+https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/germany.pac
+https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/usa.pac
+https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/uk.pac
+```
 
-> URL выше указывают непосредственно на файлы в GitHub и не требуют GitHub Pages.
+### Комбинированный SOCKS PAC
+
+```text
+https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/turkey-socks.pac
+https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/india-socks.pac
+https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/poland-socks.pac
+https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/netherlands-socks.pac
+https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/germany-socks.pac
+https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/usa-socks.pac
+https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/uk-socks.pac
+```
+
+### Отдельные списки протоколов
+
+Для каждой страны публикуются четыре обычных текстовых списка:
+
+```text
+proxies/<country>-http.txt
+proxies/<country>-https.txt
+proxies/<country>-socks4.txt
+proxies/<country>-socks5.txt
+```
+
+Например:
+
+```text
+https://raw.githubusercontent.com/defffis/country-proxy-pac/main/proxies/turkey-http.txt
+https://raw.githubusercontent.com/defffis/country-proxy-pac/main/proxies/turkey-https.txt
+https://raw.githubusercontent.com/defffis/country-proxy-pac/main/proxies/turkey-socks4.txt
+https://raw.githubusercontent.com/defffis/country-proxy-pac/main/proxies/turkey-socks5.txt
+```
+
+## Важный нюанс SOCKS4/SOCKS5 в PAC
+
+Стандартный PAC использует директиву:
+
+```javascript
+SOCKS 1.2.3.4:1080
+```
+
+В стандартном формате PAC **нет отдельной директивы `SOCKS4` и `SOCKS5`**. Поэтому проект создаёт единый `*-socks.pac`, в который входят проверенные SOCKS4 и SOCKS5 endpoints.
+
+Точный протокол сохраняется в отдельных файлах `*-socks4.txt` и `*-socks5.txt`.
+
+Если конкретный клиент PAC интерпретирует `SOCKS` только как SOCKS5 или вообще не поддерживает SOCKS PAC, следует использовать соответствующий `.txt` список или нативную конфигурацию клиента.
 
 ## Как это работает
 
-1. GitHub Actions запускает обновление автоматически каждые 30 минут или вручную.
-2. Скрипт загружает прокси из нескольких публичных источников.
-3. Прокси нормализуются и удаляются дубликаты.
-4. Проверяется корректность IPv4 и порта.
-5. Выполняется быстрый TCP pre-check.
-6. Рабочие кандидаты проверяются через HTTP/HTTPS/SOCKS4/SOCKS5.
-7. Определяется внешний IP через HTTPS endpoints.
-8. Внешний IP проверяется через GeoIP.
-9. Прокси распределяются по странам выхода.
-10. Для HTTP/HTTPS-прокси формируются PAC-файлы.
-11. Результаты и статистика сохраняются в `data/`.
-12. GitHub Actions автоматически коммитит изменения.
-
-## Почему проверяется exit IP
-
-Страна самого proxy-сервера не обязательно совпадает со страной фактического выхода в интернет. Поэтому проект определяет внешний IP через прокси и только после этого выполняет GeoIP-проверку.
-
-Условно:
-
 ```text
-Proxy IP:PORT
-      ↓
-  HTTPS request
-      ↓
-  External IP
-      ↓
-     GeoIP
-      ↓
- Country code
-      ↓
+Public proxy sources
+        ↓
+  Normalize + deduplicate
+        ↓
+      IPv4:PORT
+        ↓
+     TCP pre-check
+        ↓
+ HTTP / HTTPS / SOCKS4 / SOCKS5
+        ↓
+    External IP check
+        ↓
+       GeoIP
+        ↓
+  Actual exit country
+        ↓
  ┌────┬────┬────┬────┬────┬────┬────┐
  │ TR │ IN │ PL │ NL │ DE │ US │ GB │
  └────┴────┴────┴────┴────┴────┴────┘
+        ↓
+   Country datasets
+        ↓
+ PAC + protocol-specific lists
 ```
 
-## Структура проекта
+Страна определяется по **внешнему IP, полученному через прокси**, а не по IP самого proxy-сервера.
+
+## Форматы публикации
+
+Для каждой страны создаются:
 
 ```text
-.
-├── .github/
-│   └── workflows/
-│       └── update.yml
-├── data/
-│   ├── proxies.json
-│   └── stats.json
-├── pac/
-│   ├── turkey.pac
-│   ├── turkey-http.pac
-│   ├── india.pac
-│   ├── india-http.pac
-│   ├── poland.pac
-│   ├── poland-http.pac
-│   ├── netherlands.pac
-│   ├── netherlands-http.pac
-│   ├── germany.pac
-│   ├── germany-http.pac
-│   ├── usa.pac
-│   ├── usa-http.pac
-│   ├── uk.pac
-│   └── uk-http.pac
-├── src/
-│   └── update.py
-├── index.html
-├── requirements.txt
-└── README.md
+pac/<country>.pac          # HTTP/HTTPS PAC
+pac/<country>-http.pac     # HTTP/HTTPS PAC, explicit name
+pac/<country>-socks.pac    # combined SOCKS4 + SOCKS5 PAC
+
+proxies/<country>-http.txt
+proxies/<country>-https.txt
+proxies/<country>-socks4.txt
+proxies/<country>-socks5.txt
 ```
 
-## Формат `proxies.json`
+Также в `data/<country>.json` сохраняются расширенные сведения о проверенных прокси, включая тип, exit IP, страну, город и latency.
 
-Каждый найденный прокси содержит примерно такие данные:
+## Проверка прокси
 
-```json
-{
-  "proxy": "1.2.3.4:8080",
-  "type": "http",
-  "ip": "1.2.3.4",
-  "country": "TR",
-  "city": "Istanbul",
-  "latency_ms": 850
-}
-```
+Кандидат проходит несколько этапов:
 
-`data/proxies.json` содержит рабочие прокси, найденные в текущем запуске. `data/stats.json` содержит статистику проверки и сведения по странам.
+1. Проверка формата IPv4:PORT.
+2. TCP pre-check.
+3. Подключение через заявленный протокол.
+4. Определение внешнего IP через несколько HTTPS endpoints.
+5. Реальный HTTPS probe.
+6. GeoIP-проверка внешнего IP.
+7. Отбор только целевых стран.
+8. Сортировка по измеренной latency.
 
-## PAC
-
-PAC-файлы используют стандартный формат JavaScript:
-
-```javascript
-function FindProxyForURL(url, host) {
-    return "PROXY 1.2.3.4:8080; PROXY 5.6.7.8:3128; DIRECT";
-}
-```
-
-В PAC включаются только HTTP/HTTPS-прокси, поскольку SOCKS4/SOCKS5 требуют другой схемы использования.
-
-Прокси перечисляются по возрастанию измеренной HTTPS latency. После списка прокси добавляется `DIRECT` как fallback.
+Для HTTP/HTTPS PAC выбираются лучшие HTTP/HTTPS endpoints. SOCKS4 и SOCKS5 публикуются отдельно и дополнительно объединяются в SOCKS PAC.
 
 ## Автоматическое обновление
 
-Workflow находится в:
+GitHub Actions запускает сборщик каждые 30 минут и поддерживает ручной запуск через `workflow_dispatch`.
+
+Workflow:
 
 ```text
 .github/workflows/update.yml
@@ -150,178 +158,204 @@ Workflow находится в:
 17 и 47 минута каждого часа
 ```
 
-Также запуск можно выполнить вручную через **GitHub Actions → Update Country Proxy PACs → Run workflow**.
+После успешного запуска изменения автоматически коммитятся в репозиторий.
+
+## Структура проекта
+
+```text
+.
+├── .github/workflows/update.yml
+├── data/
+│   ├── proxies.json
+│   ├── stats.json
+│   └── <country>.json
+├── pac/
+│   ├── <country>.pac
+│   ├── <country>-http.pac
+│   └── <country>-socks.pac
+├── proxies/
+│   ├── <country>-http.txt
+│   ├── <country>-https.txt
+│   ├── <country>-socks4.txt
+│   └── <country>-socks5.txt
+├── src/update.py
+├── index.html
+├── requirements.txt
+└── README.md
+```
 
 ## Локальный запуск
 
-Требуется Python 3.12+.
+Требуется Python 3.12+:
 
 ```bash
 pip install -r requirements.txt
 python src/update.py
 ```
 
-Результаты будут записаны в:
-
-```text
-data/
-pac/
-```
+Результаты будут записаны в `data/`, `pac/` и `proxies/`.
 
 ## Ограничения
 
-- Источники прокси являются публичными и могут изменяться или становиться недоступными.
-- Публичные прокси часто нестабильны и могут иметь высокую задержку.
-- Наличие прокси в списке не означает его безопасность или анонимность.
-- GeoIP-базы могут ошибаться или обновляться с задержкой.
-- Количество рабочих прокси для разных стран может существенно различаться.
-- SOCKS-прокси проверяются для анализа, но не добавляются в стандартный HTTP PAC.
+- Публичные proxy-листы нестабильны и постоянно меняются.
+- Количество рабочих прокси сильно различается между странами.
+- GeoIP может ошибаться или обновляться с задержкой.
+- Наличие прокси в списке не означает безопасность или анонимность.
+- SOCKS PAC использует стандартную директиву `SOCKS`, поэтому не гарантирует отдельное различение SOCKS4/SOCKS5 на стороне клиента.
 
 ## Использование
 
-Проект предназначен для тестирования сетевого доступа, разработки, автоматизации и других законных задач, где требуется выбрать прокси по стране выхода.
+Проект предназначен для сетевого тестирования, разработки, автоматизации и других законных задач, где требуется выбирать прокси по стране выхода.
 
 ---
 
 # English version
 
-Automatically updated PAC files containing public HTTP/HTTPS proxies grouped by their exit country.
+Automatically updated proxy lists and PAC files containing public proxies grouped by their actual internet exit country.
 
-> **Important:** this project uses public proxy sources. Proxy availability, speed, stability, security, and anonymity are not guaranteed.
+> **Important:** this project uses public proxy sources. Availability, speed, security, and stability are not guaranteed.
 
 ## Supported countries
 
-| Country | Code | PAC |
-|---|---|---|
-| 🇹🇷 Turkey | `TR` | `pac/turkey.pac` |
-| 🇮🇳 India | `IN` | `pac/india.pac` |
-| 🇵🇱 Poland | `PL` | `pac/poland.pac` |
-| 🇳🇱 Netherlands | `NL` | `pac/netherlands.pac` |
-| 🇩🇪 Germany | `DE` | `pac/germany.pac` |
-| 🇺🇸 United States | `US` | `pac/usa.pac` |
-| 🇬🇧 United Kingdom | `GB` | `pac/uk.pac` |
+| Country | Code | HTTP/HTTPS PAC | SOCKS PAC |
+|---|---|---|---|
+| 🇹🇷 Turkey | `TR` | `pac/turkey.pac` | `pac/turkey-socks.pac` |
+| 🇮🇳 India | `IN` | `pac/india.pac` | `pac/india-socks.pac` |
+| 🇵🇱 Poland | `PL` | `pac/poland.pac` | `pac/poland-socks.pac` |
+| 🇳🇱 Netherlands | `NL` | `pac/netherlands.pac` | `pac/netherlands-socks.pac` |
+| 🇩🇪 Germany | `DE` | `pac/germany.pac` | `pac/germany-socks.pac` |
+| 🇺🇸 United States | `US` | `pac/usa.pac` | `pac/usa-socks.pac` |
+| 🇬🇧 United Kingdom | `GB` | `pac/uk.pac` | `pac/uk-socks.pac` |
 
-A `*-http.pac` variant is also generated for each country.
+## Ready-to-use files
 
-## Ready-to-use PAC URLs
+All files are available directly through `raw.githubusercontent.com`; GitHub Pages is not required.
 
-PAC files can be loaded directly from `raw.githubusercontent.com`:
+### HTTP/HTTPS PAC
 
-| Country | PAC | HTTP PAC |
-|---|---|---|
-| Turkey | `https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/turkey.pac` | `https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/turkey-http.pac` |
-| India | `https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/india.pac` | `https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/india-http.pac` |
-| Poland | `https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/poland.pac` | `https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/poland-http.pac` |
-| Netherlands | `https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/netherlands.pac` | `https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/netherlands-http.pac` |
-| Germany | `https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/germany.pac` | `https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/germany-http.pac` |
-| United States | `https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/usa.pac` | `https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/usa-http.pac` |
-| United Kingdom | `https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/uk.pac` | `https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/uk-http.pac` |
+```text
+https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/turkey.pac
+https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/india.pac
+https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/poland.pac
+https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/netherlands.pac
+https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/germany.pac
+https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/usa.pac
+https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/uk.pac
+```
 
-> These URLs point directly to files in GitHub and do not require GitHub Pages.
+### Combined SOCKS PAC
+
+```text
+https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/turkey-socks.pac
+https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/india-socks.pac
+https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/poland-socks.pac
+https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/netherlands-socks.pac
+https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/germany-socks.pac
+https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/usa-socks.pac
+https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/uk-socks.pac
+```
+
+### Separate protocol lists
+
+Each country also publishes four plain-text lists:
+
+```text
+proxies/<country>-http.txt
+proxies/<country>-https.txt
+proxies/<country>-socks4.txt
+proxies/<country>-socks5.txt
+```
+
+Example:
+
+```text
+https://raw.githubusercontent.com/defffis/country-proxy-pac/main/proxies/turkey-http.txt
+https://raw.githubusercontent.com/defffis/country-proxy-pac/main/proxies/turkey-https.txt
+https://raw.githubusercontent.com/defffis/country-proxy-pac/main/proxies/turkey-socks4.txt
+https://raw.githubusercontent.com/defffis/country-proxy-pac/main/proxies/turkey-socks5.txt
+```
+
+## SOCKS4/SOCKS5 in PAC
+
+Standard PAC uses the directive:
+
+```javascript
+SOCKS 1.2.3.4:1080
+```
+
+There is **no separate standard `SOCKS4` or `SOCKS5` PAC directive**. Therefore the project generates one combined `*-socks.pac` containing verified SOCKS4 and SOCKS5 endpoints.
+
+The exact protocol is preserved in the separate `*-socks4.txt` and `*-socks5.txt` files.
+
+If a particular PAC client interprets `SOCKS` as SOCKS5 only, or does not support SOCKS PAC, use the corresponding text list or native client configuration instead.
 
 ## How it works
 
-1. GitHub Actions runs the update automatically every 30 minutes or manually.
-2. The updater downloads proxies from multiple public sources.
-3. Proxies are normalized and deduplicated.
-4. IPv4 addresses and ports are validated.
-5. A fast TCP pre-check removes unreachable candidates.
-6. Remaining candidates are tested using HTTP/HTTPS/SOCKS4/SOCKS5.
-7. The external IP is determined through HTTPS endpoints.
-8. The external IP is checked using GeoIP.
-9. Working proxies are grouped by exit country.
-10. PAC files are generated for HTTP/HTTPS proxies.
-11. Results and statistics are saved under `data/`.
-12. GitHub Actions commits updated data automatically.
-
-## Why the exit IP is checked
-
-The country of the proxy server itself does not necessarily match the country of its actual internet exit. The project therefore determines the external IP through the proxy and performs GeoIP detection on that IP.
-
-Conceptually:
-
 ```text
-Proxy IP:PORT
-      ↓
-  HTTPS request
-      ↓
-  External IP
-      ↓
-     GeoIP
-      ↓
- Country code
-      ↓
+Public proxy sources
+        ↓
+  Normalize + deduplicate
+        ↓
+      IPv4:PORT
+        ↓
+     TCP pre-check
+        ↓
+ HTTP / HTTPS / SOCKS4 / SOCKS5
+        ↓
+    External IP check
+        ↓
+       GeoIP
+        ↓
+  Actual exit country
+        ↓
  ┌────┬────┬────┬────┬────┬────┬────┐
  │ TR │ IN │ PL │ NL │ DE │ US │ GB │
  └────┴────┴────┴────┴────┴────┴────┘
+        ↓
+   Country datasets
+        ↓
+ PAC + protocol-specific lists
 ```
 
-## Project structure
+The country is determined from the **external IP obtained through the proxy**, not from the proxy server's own IP.
+
+## Published formats
+
+For every country:
 
 ```text
-.
-├── .github/
-│   └── workflows/
-│       └── update.yml
-├── data/
-│   ├── proxies.json
-│   └── stats.json
-├── pac/
-│   ├── turkey.pac
-│   ├── turkey-http.pac
-│   ├── india.pac
-│   ├── india-http.pac
-│   ├── poland.pac
-│   ├── poland-http.pac
-│   ├── netherlands.pac
-│   ├── netherlands-http.pac
-│   ├── germany.pac
-│   ├── germany-http.pac
-│   ├── usa.pac
-│   ├── usa-http.pac
-│   ├── uk.pac
-│   └── uk-http.pac
-├── src/
-│   └── update.py
-├── index.html
-├── requirements.txt
-└── README.md
+pac/<country>.pac          # HTTP/HTTPS PAC
+pac/<country>-http.pac     # HTTP/HTTPS PAC, explicit name
+pac/<country>-socks.pac    # combined SOCKS4 + SOCKS5 PAC
+
+proxies/<country>-http.txt
+proxies/<country>-https.txt
+proxies/<country>-socks4.txt
+proxies/<country>-socks5.txt
 ```
 
-## `proxies.json` format
+Extended information is also stored in `data/<country>.json`, including proxy type, exit IP, country, city, and latency.
 
-Each detected proxy contains information similar to:
+## Proxy validation
 
-```json
-{
-  "proxy": "1.2.3.4:8080",
-  "type": "http",
-  "ip": "1.2.3.4",
-  "country": "TR",
-  "city": "Istanbul",
-  "latency_ms": 850
-}
-```
+Candidates pass several stages:
 
-`data/proxies.json` contains proxies that passed the current run. `data/stats.json` contains validation statistics and country-level results.
+1. IPv4:PORT format validation.
+2. TCP pre-check.
+3. Connection through the declared protocol.
+4. External IP detection through multiple HTTPS endpoints.
+5. Real HTTPS probe.
+6. GeoIP lookup of the external IP.
+7. Filtering to target countries.
+8. Sorting by measured latency.
 
-## PAC files
-
-PAC files use the standard JavaScript format:
-
-```javascript
-function FindProxyForURL(url, host) {
-    return "PROXY 1.2.3.4:8080; PROXY 5.6.7.8:3128; DIRECT";
-}
-```
-
-Only HTTP/HTTPS proxies are included in PAC files because SOCKS4/SOCKS5 use a different proxy scheme.
-
-Proxies are ordered by measured HTTPS latency. `DIRECT` is added as a fallback after the proxy list.
+HTTP/HTTPS PAC files use the best HTTP/HTTPS endpoints. SOCKS4 and SOCKS5 are published separately and also combined into a SOCKS PAC.
 
 ## Automatic updates
 
-The workflow is located at:
+GitHub Actions runs the updater every 30 minutes and also supports manual `workflow_dispatch` runs.
+
+Workflow:
 
 ```text
 .github/workflows/update.yml
@@ -333,33 +367,51 @@ Schedule:
 17 and 47 minutes of every hour
 ```
 
-It can also be started manually through **GitHub Actions → Update Country Proxy PACs → Run workflow**.
+Successful runs automatically commit updated data to the repository.
+
+## Project structure
+
+```text
+.
+├── .github/workflows/update.yml
+├── data/
+│   ├── proxies.json
+│   ├── stats.json
+│   └── <country>.json
+├── pac/
+│   ├── <country>.pac
+│   ├── <country>-http.pac
+│   └── <country>-socks.pac
+├── proxies/
+│   ├── <country>-http.txt
+│   ├── <country>-https.txt
+│   ├── <country>-socks4.txt
+│   └── <country>-socks5.txt
+├── src/update.py
+├── index.html
+├── requirements.txt
+└── README.md
+```
 
 ## Local usage
 
-Python 3.12+ is required.
+Python 3.12+ is required:
 
 ```bash
 pip install -r requirements.txt
 python src/update.py
 ```
 
-Generated files are written to:
-
-```text
-data/
-pac/
-```
+Generated files are written to `data/`, `pac/`, and `proxies/`.
 
 ## Limitations
 
-- Public proxy sources may change or become unavailable.
-- Public proxies are often unstable and may have high latency.
-- Being listed does not imply that a proxy is secure or anonymous.
-- GeoIP databases can contain errors or become outdated.
+- Public proxy lists are unstable and constantly changing.
 - The number of working proxies varies significantly by country.
-- SOCKS proxies are tested for analysis but are not included in standard HTTP PAC files.
+- GeoIP databases may contain errors or become outdated.
+- Being listed does not imply security or anonymity.
+- SOCKS PAC uses the standard `SOCKS` directive, so separate SOCKS4/SOCKS5 semantics are not guaranteed by every client.
 
 ## Usage
 
-This project is intended for network testing, development, automation, and other legitimate use cases where selecting proxies by exit country is required.
+This project is intended for network testing, development, automation, and other legitimate use cases where proxies need to be selected by exit country.
