@@ -1,13 +1,13 @@
 [
   {
     "status": "ok",
-    "proxy": "185.238.238.49:58080",
-    "type": "http",
-    "ip": "185.238.236.99",
+    "proxy": "193.243.154.146:4145",
+    "type": "socks4",
+    "ip": "193.243.154.146",
     "country_code": "PL",
     "country": "Poland",
-    "city": "Strzelin",
-    "latency_ms": 5374,
+    "city": "Rzeszow",
+    "latency_ms": 5636,
     "ip_check": "https://api64.ipify.org?format=json",
     "https_check": "https://www.google.com/generate_204"
   }
