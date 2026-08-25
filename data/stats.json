@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-08-25T05:48:58Z",
+  "updated_at": "2026-08-25T06:19:30Z",
   "sources": 6,
   "candidates": 4000,
-  "tcp_live_candidates": 2154,
-  "working_turkey_proxies": 3,
-  "pac_http_proxies": 3,
+  "tcp_live_candidates": 2110,
+  "working_turkey_proxies": 2,
+  "pac_http_proxies": 2,
   "max_workers": 80,
   "https_validation": true,
   "ip_check_endpoints": 4,
@@ -12,19 +12,19 @@
   "geoip": "ipwho.is",
   "selection": "lowest HTTPS latency",
   "diagnostics": {
-    "http_tested": 957,
-    "https_proxy_tested": 983,
-    "socks4_tested": 126,
-    "socks5_tested": 88,
-    "external_ip_found": 149,
-    "external_ip_failed": 2005,
-    "https_ok": 127,
-    "https_failed": 22,
-    "geoip_ok": 127,
+    "http_tested": 942,
+    "https_proxy_tested": 950,
+    "socks4_tested": 131,
+    "socks5_tested": 87,
+    "external_ip_found": 167,
+    "external_ip_failed": 1943,
+    "https_ok": 137,
+    "https_failed": 30,
+    "geoip_ok": 137,
     "geoip_failed": 0,
     "request_failed": 0,
-    "turkey": 3,
-    "turkey_http_https": 3
+    "turkey": 2,
+    "turkey_http_https": 2
   },
   "source_stats": {
     "http:https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt": {
@@ -36,20 +36,20 @@
       "valid": 2220
     },
     "http:https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/http/data.txt": {
-      "found": 623,
-      "valid": 623
+      "found": 636,
+      "valid": 636
     },
     "https:https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/https/data.txt": {
-      "found": 1178,
-      "valid": 1178
+      "found": 1173,
+      "valid": 1173
     },
     "socks4:https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/socks4/data.txt": {
-      "found": 252,
-      "valid": 252
+      "found": 319,
+      "valid": 319
     },
     "socks5:https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/socks5/data.txt": {
-      "found": 172,
-      "valid": 172
+      "found": 195,
+      "valid": 195
     }
   }
 }
