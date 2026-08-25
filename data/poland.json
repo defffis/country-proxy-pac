@@ -7,7 +7,7 @@
     "country_code": "PL",
     "country": "Poland",
     "city": "Gdansk",
-    "latency_ms": 1898,
+    "latency_ms": 2173,
     "ip_check": "https://api.ipify.org?format=json",
     "https_check": "https://www.google.com/generate_204"
   }
