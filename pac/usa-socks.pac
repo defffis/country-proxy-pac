@@ -2,5 +2,5 @@
 // SOCKS PAC for Usa: SOCKS4 and SOCKS5 endpoints.
 // PAC has no standard SOCKS4/SOCKS5 selector; SOCKS entries are intentionally combined.
 function FindProxyForURL(url, host) {
-    return "SOCKS 43.165.126.68:10808; SOCKS 65.21.252.66:10808; SOCKS 193.25.215.182:22222; DIRECT";
+    return "SOCKS 173.224.219.64:1080; SOCKS 45.76.164.255:1085; DIRECT";
 }
