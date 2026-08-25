@@ -42,13 +42,17 @@ jobs:
             python -m json.tool "data/${country}.json" > /dev/null
             test -s "pac/${country}.pac"
             test -s "pac/${country}-http.pac"
+            test -s "pac/${country}-socks.pac"
+            for protocol in http https socks4 socks5; do
+              test -f "proxies/${country}-${protocol}.txt"
+            done
           done
 
       - name: Commit changes
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data pac index.html
+          git add data pac proxies index.html
           if git diff --cached --quiet; then
             echo 'No changes.'
           else
