@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-08-25T03:14:10Z",
+  "updated_at": "2026-08-25T04:01:04Z",
   "sources": 6,
   "candidates": 4000,
-  "tcp_live_candidates": 2108,
-  "working_turkey_proxies": 4,
-  "pac_http_proxies": 4,
+  "tcp_live_candidates": 2159,
+  "working_turkey_proxies": 2,
+  "pac_http_proxies": 2,
   "max_workers": 80,
   "https_validation": true,
   "ip_check_endpoints": 4,
@@ -12,44 +12,44 @@
   "geoip": "ipwho.is",
   "selection": "lowest HTTPS latency",
   "diagnostics": {
-    "http_tested": 1125,
-    "https_proxy_tested": 828,
-    "socks4_tested": 107,
-    "socks5_tested": 48,
-    "external_ip_found": 148,
-    "external_ip_failed": 1960,
-    "https_ok": 111,
+    "http_tested": 946,
+    "https_proxy_tested": 972,
+    "socks4_tested": 148,
+    "socks5_tested": 93,
+    "external_ip_found": 171,
+    "external_ip_failed": 1988,
+    "https_ok": 134,
     "https_failed": 37,
-    "geoip_ok": 111,
+    "geoip_ok": 134,
     "geoip_failed": 0,
     "request_failed": 0,
-    "turkey": 4,
-    "turkey_http_https": 4
+    "turkey": 2,
+    "turkey_http_https": 2
   },
   "source_stats": {
     "http:https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt": {
-      "found": 522,
-      "valid": 522
+      "found": 516,
+      "valid": 516
     },
     "http:https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt": {
-      "found": 2973,
-      "valid": 2971
+      "found": 2222,
+      "valid": 2220
     },
     "http:https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/http/data.txt": {
-      "found": 712,
-      "valid": 712
+      "found": 614,
+      "valid": 614
     },
     "https:https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/https/data.txt": {
-      "found": 1171,
-      "valid": 1171
+      "found": 1186,
+      "valid": 1186
     },
     "socks4:https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/socks4/data.txt": {
-      "found": 200,
-      "valid": 200
+      "found": 297,
+      "valid": 297
     },
     "socks5:https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/socks5/data.txt": {
-      "found": 108,
-      "valid": 108
+      "found": 195,
+      "valid": 195
     }
   }
 }
