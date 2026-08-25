@@ -1,35 +1,13 @@
 [
   {
     "status": "ok",
-    "proxy": "95.3.69.222:8080",
+    "proxy": "2.188.254.235:1314",
     "type": "http",
-    "ip": "95.3.69.222",
-    "country": "TR",
-    "city": "Ankara",
-    "latency_ms": 5215,
-    "ip_check": "https://api.ipify.org?format=json",
-    "https_check": "https://www.cloudflare.com/cdn-cgi/trace"
-  },
-  {
-    "status": "ok",
-    "proxy": "95.13.86.86:8080",
-    "type": "http",
-    "ip": "95.13.86.86",
-    "country": "TR",
-    "city": "Luleburgaz",
-    "latency_ms": 8401,
-    "ip_check": "https://api.ipify.org?format=json",
-    "https_check": "https://www.cloudflare.com/cdn-cgi/trace"
-  },
-  {
-    "status": "ok",
-    "proxy": "88.248.105.150:1953",
-    "type": "http",
-    "ip": "88.248.105.150",
+    "ip": "155.103.69.127",
     "country": "TR",
     "city": "Istanbul",
-    "latency_ms": 15547,
-    "ip_check": "https://icanhazip.com/",
+    "latency_ms": 7027,
+    "ip_check": "https://api.ipify.org?format=json",
     "https_check": "https://www.google.com/generate_204"
   }
 ]
