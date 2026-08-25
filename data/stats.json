@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-25T22:46:04Z",
+  "updated_at": "2026-08-25T23:05:54Z",
   "target_countries": {
     "TR": "turkey",
     "IN": "india",
@@ -11,8 +11,8 @@
   },
   "sources": 6,
   "candidates": 4000,
-  "tcp_live_candidates": 2203,
-  "working_target_country_proxies": 40,
+  "tcp_live_candidates": 2129,
+  "working_target_country_proxies": 43,
   "max_workers": 80,
   "max_pac_proxies_per_country": 40,
   "max_list_proxies_per_country": 100,
@@ -22,15 +22,15 @@
   "geoip": "ipwho.is",
   "selection": "lowest HTTPS latency per country",
   "diagnostics": {
-    "http_tested": 1131,
-    "https_proxy_tested": 906,
-    "socks4_tested": 123,
-    "socks5_tested": 43,
-    "external_ip_found": 143,
-    "external_ip_failed": 2060,
-    "https_ok": 117,
-    "https_failed": 26,
-    "geoip_ok": 117,
+    "http_tested": 1074,
+    "https_proxy_tested": 840,
+    "socks4_tested": 140,
+    "socks5_tested": 75,
+    "external_ip_found": 157,
+    "external_ip_failed": 1972,
+    "https_ok": 122,
+    "https_failed": 35,
+    "geoip_ok": 122,
     "geoip_failed": 0,
     "request_failed": 0
   },
@@ -45,19 +45,19 @@
       "socks5": 0,
       "pac_http_https": 2,
       "socks_pac": 0,
-      "best_latency_ms": 2841
+      "best_latency_ms": 5030
     },
     "IN": {
       "name": "india",
       "country": "India",
-      "working": 6,
-      "http": 6,
+      "working": 5,
+      "http": 4,
       "https": 0,
       "socks4": 0,
-      "socks5": 0,
-      "pac_http_https": 6,
-      "socks_pac": 0,
-      "best_latency_ms": 2911
+      "socks5": 1,
+      "pac_http_https": 4,
+      "socks_pac": 1,
+      "best_latency_ms": 2796
     },
     "PL": {
       "name": "poland",
@@ -74,50 +74,50 @@
     "NL": {
       "name": "netherlands",
       "country": "Netherlands",
-      "working": 5,
+      "working": 9,
       "http": 3,
       "https": 0,
-      "socks4": 0,
-      "socks5": 2,
+      "socks4": 1,
+      "socks5": 5,
       "pac_http_https": 3,
-      "socks_pac": 2,
-      "best_latency_ms": 1214
+      "socks_pac": 6,
+      "best_latency_ms": 1830
     },
     "DE": {
       "name": "germany",
       "country": "Germany",
-      "working": 7,
-      "http": 6,
+      "working": 6,
+      "http": 5,
       "https": 0,
       "socks4": 0,
       "socks5": 1,
-      "pac_http_https": 6,
+      "pac_http_https": 5,
       "socks_pac": 1,
-      "best_latency_ms": 1274
+      "best_latency_ms": 1706
     },
     "US": {
       "name": "usa",
       "country": "United States",
-      "working": 18,
-      "http": 16,
+      "working": 15,
+      "http": 10,
       "https": 0,
       "socks4": 0,
-      "socks5": 2,
-      "pac_http_https": 16,
-      "socks_pac": 2,
-      "best_latency_ms": 197
+      "socks5": 5,
+      "pac_http_https": 10,
+      "socks_pac": 5,
+      "best_latency_ms": 697
     },
     "GB": {
       "name": "uk",
       "country": "United Kingdom",
-      "working": 2,
-      "http": 2,
+      "working": 6,
+      "http": 5,
       "https": 0,
       "socks4": 0,
-      "socks5": 0,
-      "pac_http_https": 2,
-      "socks_pac": 0,
-      "best_latency_ms": 1139
+      "socks5": 1,
+      "pac_http_https": 5,
+      "socks_pac": 1,
+      "best_latency_ms": 1770
     }
   },
   "source_stats": {
@@ -130,20 +130,20 @@
       "valid": 2707
     },
     "http:https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/http/data.txt": {
-      "found": 632,
-      "valid": 632
+      "found": 697,
+      "valid": 697
     },
     "https:https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/https/data.txt": {
-      "found": 1111,
-      "valid": 1111
+      "found": 1094,
+      "valid": 1094
     },
     "socks4:https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/socks4/data.txt": {
-      "found": 194,
-      "valid": 194
+      "found": 340,
+      "valid": 340
     },
     "socks5:https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/socks5/data.txt": {
-      "found": 85,
-      "valid": 85
+      "found": 199,
+      "valid": 199
     }
   },
   "publication": {
