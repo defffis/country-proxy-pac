@@ -22,23 +22,19 @@
 
 ## Готовые PAC URL
 
-После публикации репозитория через GitHub Pages файлы доступны по схеме:
+PAC-файлы можно подключать напрямую через `raw.githubusercontent.com`:
 
-```text
-https://defffis.github.io/turkey-proxy-pac/pac/<country>.pac
-```
+| Страна | PAC | HTTP PAC |
+|---|---|---|
+| Турция | `https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/turkey.pac` | `https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/turkey-http.pac` |
+| Индия | `https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/india.pac` | `https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/india-http.pac` |
+| Польша | `https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/poland.pac` | `https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/poland-http.pac` |
+| Нидерланды | `https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/netherlands.pac` | `https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/netherlands-http.pac` |
+| Германия | `https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/germany.pac` | `https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/germany-http.pac` |
+| США | `https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/usa.pac` | `https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/usa-http.pac` |
+| Великобритания | `https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/uk.pac` | `https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/uk-http.pac` |
 
-Примеры:
-
-```text
-https://defffis.github.io/turkey-proxy-pac/pac/turkey.pac
-https://defffis.github.io/turkey-proxy-pac/pac/india.pac
-https://defffis.github.io/turkey-proxy-pac/pac/poland.pac
-https://defffis.github.io/turkey-proxy-pac/pac/netherlands.pac
-https://defffis.github.io/turkey-proxy-pac/pac/germany.pac
-https://defffis.github.io/turkey-proxy-pac/pac/usa.pac
-https://defffis.github.io/turkey-proxy-pac/pac/uk.pac
-```
+> URL выше указывают непосредственно на файлы в GitHub и не требуют GitHub Pages.
 
 ## Как это работает
 
@@ -209,23 +205,19 @@ A `*-http.pac` variant is also generated for each country.
 
 ## Ready-to-use PAC URLs
 
-After enabling GitHub Pages, the files are available using:
+PAC files can be loaded directly from `raw.githubusercontent.com`:
 
-```text
-https://defffis.github.io/turkey-proxy-pac/pac/<country>.pac
-```
+| Country | PAC | HTTP PAC |
+|---|---|---|
+| Turkey | `https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/turkey.pac` | `https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/turkey-http.pac` |
+| India | `https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/india.pac` | `https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/india-http.pac` |
+| Poland | `https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/poland.pac` | `https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/poland-http.pac` |
+| Netherlands | `https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/netherlands.pac` | `https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/netherlands-http.pac` |
+| Germany | `https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/germany.pac` | `https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/germany-http.pac` |
+| United States | `https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/usa.pac` | `https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/usa-http.pac` |
+| United Kingdom | `https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/uk.pac` | `https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/uk-http.pac` |
 
-Examples:
-
-```text
-https://defffis.github.io/turkey-proxy-pac/pac/turkey.pac
-https://defffis.github.io/turkey-proxy-pac/pac/india.pac
-https://defffis.github.io/turkey-proxy-pac/pac/poland.pac
-https://defffis.github.io/turkey-proxy-pac/pac/netherlands.pac
-https://defffis.github.io/turkey-proxy-pac/pac/germany.pac
-https://defffis.github.io/turkey-proxy-pac/pac/usa.pac
-https://defffis.github.io/turkey-proxy-pac/pac/uk.pac
-```
+> These URLs point directly to files in GitHub and do not require GitHub Pages.
 
 ## How it works
 
