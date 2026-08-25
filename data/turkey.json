@@ -7,20 +7,20 @@
     "country_code": "TR",
     "country": "Türkiye",
     "city": "Ankara",
-    "latency_ms": 5162,
+    "latency_ms": 4607,
     "ip_check": "https://api64.ipify.org?format=json",
     "https_check": "https://www.google.com/generate_204"
   },
   {
     "status": "ok",
-    "proxy": "85.104.3.232:3310",
-    "type": "http",
-    "ip": "85.104.3.232",
+    "proxy": "88.247.31.164:4153",
+    "type": "socks4",
+    "ip": "88.247.31.164",
     "country_code": "TR",
     "country": "Türkiye",
-    "city": "Yakutiye",
-    "latency_ms": 5534,
+    "city": "Ankara",
+    "latency_ms": 6846,
     "ip_check": "https://api.ipify.org?format=json",
-    "https_check": "https://www.google.com/generate_204"
+    "https_check": "https://example.com/"
   }
 ]
