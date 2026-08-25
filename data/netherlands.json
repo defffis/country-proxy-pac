@@ -7,21 +7,9 @@
     "country_code": "NL",
     "country": "Netherlands",
     "city": "Amsterdam",
-    "latency_ms": 1217,
+    "latency_ms": 1133,
     "ip_check": "https://api.ipify.org?format=json",
     "https_check": "https://www.google.com/generate_204"
-  },
-  {
-    "status": "ok",
-    "proxy": "204.76.203.9:8080",
-    "type": "http",
-    "ip": "204.76.203.9",
-    "country_code": "NL",
-    "country": "Netherlands",
-    "city": "Kerkrade",
-    "latency_ms": 1446,
-    "ip_check": "https://api.ipify.org?format=json",
-    "https_check": "https://www.cloudflare.com/cdn-cgi/trace"
   },
   {
     "status": "ok",
@@ -31,20 +19,32 @@
     "country_code": "NL",
     "country": "Netherlands",
     "city": "Kerkrade",
-    "latency_ms": 1540,
+    "latency_ms": 1557,
     "ip_check": "https://api.ipify.org?format=json",
     "https_check": "https://www.cloudflare.com/cdn-cgi/trace"
   },
   {
     "status": "ok",
-    "proxy": "5.129.228.92:443",
-    "type": "http",
-    "ip": "104.28.219.140",
+    "proxy": "37.18.73.60:5566",
+    "type": "socks5",
+    "ip": "192.42.116.103",
     "country_code": "NL",
     "country": "Netherlands",
     "city": "Amsterdam",
-    "latency_ms": 1688,
+    "latency_ms": 4008,
     "ip_check": "https://api.ipify.org?format=json",
+    "https_check": "https://www.google.com/generate_204"
+  },
+  {
+    "status": "ok",
+    "proxy": "5.129.228.92:443",
+    "type": "http",
+    "ip": "2a09:bac5:4e27:26fa::3e2:30",
+    "country_code": "NL",
+    "country": "Netherlands",
+    "city": "Amsterdam",
+    "latency_ms": 4061,
+    "ip_check": "https://api64.ipify.org?format=json",
     "https_check": "https://www.google.com/generate_204"
   }
 ]
