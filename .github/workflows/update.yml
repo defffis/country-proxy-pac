@@ -1,4 +1,4 @@
-name: Update Turkey Proxy PAC
+name: Update Country Proxy PACs
 
 on:
   schedule:
@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: turkey-proxy-pac-update
+  group: country-proxy-pac-update
   cancel-in-progress: true
 
 jobs:
@@ -31,15 +31,18 @@ jobs:
       - name: Install dependencies
         run: python -m pip install -r requirements.txt
 
-      - name: Update proxy data and PAC
+      - name: Update proxy data and PAC files
         run: python src/update.py
 
       - name: Validate generated files
         run: |
-          python -m json.tool data/proxies.json > /dev/null
           python -m json.tool data/stats.json > /dev/null
-          test -s pac/turkey.pac
-          test -s pac/turkey-http.pac
+          python -m json.tool data/proxies.json > /dev/null
+          for country in turkey india poland netherlands germany usa uk; do
+            python -m json.tool "data/${country}.json" > /dev/null
+            test -s "pac/${country}.pac"
+            test -s "pac/${country}-http.pac"
+          done
 
       - name: Commit changes
         run: |
@@ -49,6 +52,6 @@ jobs:
           if git diff --cached --quiet; then
             echo 'No changes.'
           else
-            git commit -m 'chore: update Turkey proxies'
+            git commit -m 'chore: update country proxy lists'
             git push
           fi
