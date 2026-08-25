@@ -1,30 +1,88 @@
 {
-  "updated_at": "2026-08-25T09:21:51Z",
+  "updated_at": "2026-08-25T09:29:05Z",
+  "target_countries": {
+    "TR": "turkey",
+    "IN": "india",
+    "PL": "poland",
+    "NL": "netherlands",
+    "DE": "germany",
+    "US": "usa",
+    "GB": "uk"
+  },
   "sources": 6,
   "candidates": 4000,
-  "tcp_live_candidates": 2155,
-  "working_turkey_proxies": 1,
-  "pac_http_proxies": 1,
+  "tcp_live_candidates": 2122,
+  "working_target_country_proxies": 36,
   "max_workers": 80,
+  "max_pac_proxies_per_country": 40,
   "https_validation": true,
   "ip_check_endpoints": 4,
   "https_test_endpoints": 3,
   "geoip": "ipwho.is",
-  "selection": "lowest HTTPS latency",
+  "selection": "lowest HTTPS latency per country",
   "diagnostics": {
-    "http_tested": 1009,
-    "https_proxy_tested": 924,
-    "socks4_tested": 144,
-    "socks5_tested": 78,
-    "external_ip_found": 129,
-    "external_ip_failed": 2026,
-    "https_ok": 102,
-    "https_failed": 27,
-    "geoip_ok": 102,
+    "http_tested": 986,
+    "https_proxy_tested": 923,
+    "socks4_tested": 142,
+    "socks5_tested": 71,
+    "external_ip_found": 136,
+    "external_ip_failed": 1986,
+    "https_ok": 108,
+    "https_failed": 28,
+    "geoip_ok": 108,
     "geoip_failed": 0,
-    "request_failed": 0,
-    "turkey": 1,
-    "turkey_http_https": 1
+    "request_failed": 0
+  },
+  "countries": {
+    "TR": {
+      "name": "turkey",
+      "country": "Türkiye",
+      "working": 2,
+      "pac_http_https": 2,
+      "best_latency_ms": 5510
+    },
+    "IN": {
+      "name": "india",
+      "country": "India",
+      "working": 4,
+      "pac_http_https": 3,
+      "best_latency_ms": 2916
+    },
+    "PL": {
+      "name": "poland",
+      "country": null,
+      "working": 0,
+      "pac_http_https": 0,
+      "best_latency_ms": null
+    },
+    "NL": {
+      "name": "netherlands",
+      "country": "Netherlands",
+      "working": 8,
+      "pac_http_https": 4,
+      "best_latency_ms": 1718
+    },
+    "DE": {
+      "name": "germany",
+      "country": "Germany",
+      "working": 4,
+      "pac_http_https": 2,
+      "best_latency_ms": 1828
+    },
+    "US": {
+      "name": "usa",
+      "country": "United States",
+      "working": 16,
+      "pac_http_https": 10,
+      "best_latency_ms": 446
+    },
+    "GB": {
+      "name": "uk",
+      "country": "United Kingdom",
+      "working": 2,
+      "pac_http_https": 2,
+      "best_latency_ms": 1739
+    }
   },
   "source_stats": {
     "http:https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt": {
