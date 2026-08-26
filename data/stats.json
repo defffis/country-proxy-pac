@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-26T09:58:54Z",
+  "updated_at": "2026-08-26T10:53:21Z",
   "target_countries": {
     "TR": "turkey",
     "IN": "india",
@@ -11,8 +11,8 @@
   },
   "sources": 6,
   "candidates": 4000,
-  "tcp_live_candidates": 2273,
-  "working_target_country_proxies": 60,
+  "tcp_live_candidates": 2256,
+  "working_target_country_proxies": 47,
   "max_workers": 80,
   "max_pac_proxies_per_country": 40,
   "max_list_proxies_per_country": 100,
@@ -22,15 +22,15 @@
   "geoip": "ipwho.is",
   "selection": "lowest HTTPS latency per country",
   "diagnostics": {
-    "http_tested": 1142,
-    "https_proxy_tested": 899,
-    "socks4_tested": 136,
-    "socks5_tested": 96,
-    "external_ip_found": 191,
-    "external_ip_failed": 2082,
-    "https_ok": 138,
-    "https_failed": 53,
-    "geoip_ok": 138,
+    "http_tested": 1098,
+    "https_proxy_tested": 932,
+    "socks4_tested": 155,
+    "socks5_tested": 71,
+    "external_ip_found": 173,
+    "external_ip_failed": 2083,
+    "https_ok": 126,
+    "https_failed": 47,
+    "geoip_ok": 126,
     "geoip_failed": 0,
     "request_failed": 0
   },
@@ -38,112 +38,112 @@
     "TR": {
       "name": "turkey",
       "country": "Türkiye",
-      "working": 1,
-      "http": 1,
+      "working": 3,
+      "http": 2,
       "https": 0,
-      "socks4": 0,
+      "socks4": 1,
       "socks5": 0,
-      "pac_http_https": 1,
-      "socks_pac": 0,
-      "best_latency_ms": 1774
+      "pac_http_https": 2,
+      "socks_pac": 1,
+      "best_latency_ms": 4943
     },
     "IN": {
       "name": "india",
       "country": "India",
-      "working": 6,
-      "http": 5,
+      "working": 7,
+      "http": 6,
       "https": 0,
       "socks4": 0,
       "socks5": 1,
-      "pac_http_https": 5,
+      "pac_http_https": 6,
       "socks_pac": 1,
-      "best_latency_ms": 2760
+      "best_latency_ms": 2851
     },
     "PL": {
       "name": "poland",
-      "country": "Poland",
-      "working": 2,
+      "country": null,
+      "working": 0,
       "http": 0,
       "https": 0,
-      "socks4": 2,
+      "socks4": 0,
       "socks5": 0,
       "pac_http_https": 0,
-      "socks_pac": 2,
+      "socks_pac": 0,
       "best_latency_ms": null
     },
     "NL": {
       "name": "netherlands",
       "country": "Netherlands",
-      "working": 13,
-      "http": 7,
+      "working": 11,
+      "http": 6,
       "https": 0,
-      "socks4": 0,
-      "socks5": 6,
-      "pac_http_https": 7,
-      "socks_pac": 6,
-      "best_latency_ms": 1168
+      "socks4": 1,
+      "socks5": 4,
+      "pac_http_https": 6,
+      "socks_pac": 5,
+      "best_latency_ms": 1512
     },
     "DE": {
       "name": "germany",
       "country": "Germany",
-      "working": 9,
+      "working": 7,
       "http": 6,
       "https": 0,
       "socks4": 0,
-      "socks5": 3,
+      "socks5": 1,
       "pac_http_https": 6,
-      "socks_pac": 3,
-      "best_latency_ms": 1278
+      "socks_pac": 1,
+      "best_latency_ms": 1668
     },
     "US": {
       "name": "usa",
       "country": "United States",
-      "working": 26,
-      "http": 18,
+      "working": 15,
+      "http": 14,
       "https": 0,
-      "socks4": 2,
-      "socks5": 6,
-      "pac_http_https": 18,
-      "socks_pac": 8,
-      "best_latency_ms": 191
+      "socks4": 1,
+      "socks5": 0,
+      "pac_http_https": 14,
+      "socks_pac": 1,
+      "best_latency_ms": 640
     },
     "GB": {
       "name": "uk",
       "country": "United Kingdom",
-      "working": 3,
+      "working": 4,
       "http": 3,
       "https": 0,
       "socks4": 0,
-      "socks5": 0,
+      "socks5": 1,
       "pac_http_https": 3,
-      "socks_pac": 0,
-      "best_latency_ms": 1217
+      "socks_pac": 1,
+      "best_latency_ms": 1498
     }
   },
   "source_stats": {
     "http:https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt": {
-      "found": 427,
-      "valid": 427
+      "found": 434,
+      "valid": 434
     },
     "http:https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt": {
       "found": 2092,
       "valid": 2090
     },
     "http:https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/http/data.txt": {
-      "found": 661,
-      "valid": 661
+      "found": 712,
+      "valid": 712
     },
     "https:https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/https/data.txt": {
-      "found": 1040,
-      "valid": 1040
+      "found": 1054,
+      "valid": 1054
     },
     "socks4:https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/socks4/data.txt": {
-      "found": 295,
-      "valid": 295
+      "found": 271,
+      "valid": 271
     },
     "socks5:https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/socks5/data.txt": {
-      "found": 199,
-      "valid": 199
+      "found": 142,
+      "valid": 142
     }
   },
   "publication": {
