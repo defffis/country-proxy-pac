@@ -27,40 +27,41 @@ TARGET_COUNTRIES = {
     "GB": "uk",
 }
 
-# 20 independent protocol/source entries. Several repositories publish
-# separate lists per protocol, so each list is treated as a source.
+# 20 audited protocol/source entries.
+# Sources are public lists; every entry is still validated by this project
+# before publication, because source availability does not imply proxy availability.
 SOURCES = [
-    # monosans/proxy-list
+    # monosans/proxy-list — active and updated on 2026-08-26
     ("http", "https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt"),
     ("socks4", "https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/socks4.txt"),
     ("socks5", "https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/socks5.txt"),
 
-    # TheSpeedX/PROXY-List
+    # TheSpeedX — HTTP lives in PROXY-List; SOCKS lists live in SOCKS-List
     ("http", "https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt"),
-    ("socks4", "https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks4.txt"),
-    ("socks5", "https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks5.txt"),
+    ("socks4", "https://raw.githubusercontent.com/TheSpeedX/SOCKS-List/master/socks4.txt"),
+    ("socks5", "https://raw.githubusercontent.com/TheSpeedX/SOCKS-List/master/socks5.txt"),
 
-    # proxifly/free-proxy-list
+    # proxifly/free-proxy-list — refreshed frequently
     ("http", "https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/http/data.txt"),
     ("https", "https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/https/data.txt"),
     ("socks4", "https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/socks4/data.txt"),
     ("socks5", "https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/socks5/data.txt"),
 
-    # vakhov/fresh-proxy-list
-    ("http", "https://raw.githubusercontent.com/vakhov/fresh-proxy-list/master/http.txt"),
-    ("https", "https://raw.githubusercontent.com/vakhov/fresh-proxy-list/master/https.txt"),
-    ("socks4", "https://raw.githubusercontent.com/vakhov/fresh-proxy-list/master/socks4.txt"),
-    ("socks5", "https://raw.githubusercontent.com/vakhov/fresh-proxy-list/master/socks5.txt"),
-
-    # zloi-user/hideip.me
+    # zloi-user/hideip.me — active lists with country annotations
     ("http", "https://raw.githubusercontent.com/zloi-user/hideip.me/main/http.txt"),
     ("https", "https://raw.githubusercontent.com/zloi-user/hideip.me/main/https.txt"),
     ("socks4", "https://raw.githubusercontent.com/zloi-user/hideip.me/main/socks4.txt"),
     ("socks5", "https://raw.githubusercontent.com/zloi-user/hideip.me/main/socks5.txt"),
 
-    # Additional HTTPS/SOCKS4 sources
+    # roosterkid/openproxylist — active raw protocol lists
     ("https", "https://raw.githubusercontent.com/roosterkid/openproxylist/main/HTTPS_RAW.txt"),
     ("socks4", "https://raw.githubusercontent.com/roosterkid/openproxylist/main/SOCKS4_RAW.txt"),
+
+    # ProxyScrape/free-proxy-list — official mirror, refreshed frequently
+    ("http", "https://raw.githubusercontent.com/ProxyScrape/free-proxy-list/main/proxies/protocols/http/data.txt"),
+    ("https", "https://raw.githubusercontent.com/ProxyScrape/free-proxy-list/main/proxies/protocols/https/data.txt"),
+    ("socks4", "https://raw.githubusercontent.com/ProxyScrape/free-proxy-list/main/proxies/protocols/socks4/data.txt"),
+    ("socks5", "https://raw.githubusercontent.com/ProxyScrape/free-proxy-list/main/proxies/protocols/socks5/data.txt"),
 ]
 
 SOURCE_TIMEOUT = 20
@@ -70,7 +71,7 @@ MAX_CANDIDATES = 20000
 MAX_WORKERS = 100
 MAX_PAC_PROXIES_PER_COUNTRY = 40
 MAX_LIST_PROXIES_PER_COUNTRY = 100
-USER_AGENT = "country-proxy-pac/7.0"
+USER_AGENT = "country-proxy-pac/7.1"
 
 IP_CHECK_URLS = [
     "https://api.ipify.org?format=json",
@@ -258,7 +259,6 @@ def main() -> None:
             source_stats[key] = {"found": 0, "valid": 0, "error": str(exc)}
             print(f"SOURCE FAILED {proxy_type} {source}: {exc}")
 
-    # Sort for deterministic runs, then apply the global processing cap.
     candidates_list = sorted(candidates, key=lambda item: (item[0], item[1]))[:MAX_CANDIDATES]
     print(f"Sources configured: {len(SOURCES)}")
     print(f"Candidates after validation/deduplication: {len(candidates_list)} (limit {MAX_CANDIDATES})")
