@@ -1,14 +1,14 @@
 [
   {
     "status": "ok",
-    "proxy": "185.238.238.141:58080",
-    "type": "http",
-    "ip": "185.238.236.99",
+    "proxy": "5.75.133.113:10811",
+    "type": "socks5",
+    "ip": "45.134.212.39",
     "country_code": "PL",
     "country": "Poland",
-    "city": "Strzelin",
-    "latency_ms": 13080,
-    "ip_check": "https://icanhazip.com/",
-    "https_check": "https://www.cloudflare.com/cdn-cgi/trace"
+    "city": "Warsaw",
+    "latency_ms": 4834,
+    "ip_check": "https://api.ipify.org?format=json",
+    "https_check": "https://www.google.com/generate_204"
   }
 ]
