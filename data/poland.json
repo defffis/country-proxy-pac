@@ -7,8 +7,8 @@
     "country_code": "PL",
     "country": "Poland",
     "city": "Warsaw",
-    "latency_ms": 10094,
-    "ip_check": "https://api64.ipify.org?format=json",
+    "latency_ms": 3890,
+    "ip_check": "https://api.ipify.org?format=json",
     "https_check": "https://www.google.com/generate_204"
   }
 ]
