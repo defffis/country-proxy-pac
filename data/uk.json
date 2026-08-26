@@ -1,37 +1,25 @@
 [
   {
     "status": "ok",
-    "proxy": "172.236.0.167:3128",
-    "type": "http",
-    "ip": "172.236.0.167",
-    "country_code": "GB",
-    "country": "United Kingdom",
-    "city": "London",
-    "latency_ms": 2015,
-    "ip_check": "https://api.ipify.org?format=json",
-    "https_check": "https://www.google.com/generate_204"
-  },
-  {
-    "status": "ok",
     "proxy": "134.209.29.120:3128",
     "type": "http",
     "ip": "134.209.29.120",
     "country_code": "GB",
     "country": "United Kingdom",
     "city": "London",
-    "latency_ms": 2090,
+    "latency_ms": 1233,
     "ip_check": "https://api.ipify.org?format=json",
     "https_check": "https://www.google.com/generate_204"
   },
   {
     "status": "ok",
-    "proxy": "81.19.210.10:80",
+    "proxy": "82.102.11.164:3460",
     "type": "http",
-    "ip": "81.19.210.10",
+    "ip": "82.102.11.164",
     "country_code": "GB",
     "country": "United Kingdom",
-    "city": "London",
-    "latency_ms": 2293,
+    "city": "Gosport",
+    "latency_ms": 2327,
     "ip_check": "https://api.ipify.org?format=json",
     "https_check": "https://www.google.com/generate_204"
   }
