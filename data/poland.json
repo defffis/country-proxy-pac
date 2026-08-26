@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "status": "ok",
+    "proxy": "83.168.101.27:5678",
+    "type": "socks4",
+    "ip": "83.168.101.27",
+    "country_code": "PL",
+    "country": "Poland",
+    "city": "Radom",
+    "latency_ms": 5030,
+    "ip_check": "https://api.ipify.org?format=json",
+    "https_check": "https://www.cloudflare.com/cdn-cgi/trace"
+  }
+]
