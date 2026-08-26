@@ -7,8 +7,8 @@
     "country_code": "TR",
     "country": "Türkiye",
     "city": "Ankara",
-    "latency_ms": 5374,
-    "ip_check": "https://api64.ipify.org?format=json",
+    "latency_ms": 9308,
+    "ip_check": "https://icanhazip.com/",
     "https_check": "https://www.google.com/generate_204"
   }
 ]
