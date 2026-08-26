@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "status": "ok",
+    "proxy": "185.238.238.141:58080",
+    "type": "http",
+    "ip": "185.238.236.99",
+    "country_code": "PL",
+    "country": "Poland",
+    "city": "Strzelin",
+    "latency_ms": 13080,
+    "ip_check": "https://icanhazip.com/",
+    "https_check": "https://www.cloudflare.com/cdn-cgi/trace"
+  }
+]
