@@ -27,23 +27,50 @@ TARGET_COUNTRIES = {
     "GB": "uk",
 }
 
+# 20 independent protocol/source entries. Several repositories publish
+# separate lists per protocol, so each list is treated as a source.
 SOURCES = [
+    # monosans/proxy-list
     ("http", "https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt"),
+    ("socks4", "https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/socks4.txt"),
+    ("socks5", "https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/socks5.txt"),
+
+    # TheSpeedX/PROXY-List
     ("http", "https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt"),
+    ("socks4", "https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks4.txt"),
+    ("socks5", "https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks5.txt"),
+
+    # proxifly/free-proxy-list
     ("http", "https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/http/data.txt"),
     ("https", "https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/https/data.txt"),
     ("socks4", "https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/socks4/data.txt"),
     ("socks5", "https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/socks5/data.txt"),
+
+    # vakhov/fresh-proxy-list
+    ("http", "https://raw.githubusercontent.com/vakhov/fresh-proxy-list/master/http.txt"),
+    ("https", "https://raw.githubusercontent.com/vakhov/fresh-proxy-list/master/https.txt"),
+    ("socks4", "https://raw.githubusercontent.com/vakhov/fresh-proxy-list/master/socks4.txt"),
+    ("socks5", "https://raw.githubusercontent.com/vakhov/fresh-proxy-list/master/socks5.txt"),
+
+    # zloi-user/hideip.me
+    ("http", "https://raw.githubusercontent.com/zloi-user/hideip.me/main/http.txt"),
+    ("https", "https://raw.githubusercontent.com/zloi-user/hideip.me/main/https.txt"),
+    ("socks4", "https://raw.githubusercontent.com/zloi-user/hideip.me/main/socks4.txt"),
+    ("socks5", "https://raw.githubusercontent.com/zloi-user/hideip.me/main/socks5.txt"),
+
+    # Additional HTTPS/SOCKS4 sources
+    ("https", "https://raw.githubusercontent.com/roosterkid/openproxylist/main/HTTPS_RAW.txt"),
+    ("socks4", "https://raw.githubusercontent.com/roosterkid/openproxylist/main/SOCKS4_RAW.txt"),
 ]
 
 SOURCE_TIMEOUT = 20
 CONNECT_TIMEOUT = 2
 READ_TIMEOUT = 5
-MAX_CANDIDATES = 4000
-MAX_WORKERS = 80
+MAX_CANDIDATES = 20000
+MAX_WORKERS = 100
 MAX_PAC_PROXIES_PER_COUNTRY = 40
 MAX_LIST_PROXIES_PER_COUNTRY = 100
-USER_AGENT = "country-proxy-pac/6.0"
+USER_AGENT = "country-proxy-pac/7.0"
 
 IP_CHECK_URLS = [
     "https://api.ipify.org?format=json",
@@ -231,8 +258,10 @@ def main() -> None:
             source_stats[key] = {"found": 0, "valid": 0, "error": str(exc)}
             print(f"SOURCE FAILED {proxy_type} {source}: {exc}")
 
-    candidates_list = list(candidates)[:MAX_CANDIDATES]
-    print(f"Candidates after validation: {len(candidates_list)}")
+    # Sort for deterministic runs, then apply the global processing cap.
+    candidates_list = sorted(candidates, key=lambda item: (item[0], item[1]))[:MAX_CANDIDATES]
+    print(f"Sources configured: {len(SOURCES)}")
+    print(f"Candidates after validation/deduplication: {len(candidates_list)} (limit {MAX_CANDIDATES})")
 
     with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
         tcp_results = list(executor.map(tcp_precheck, candidates_list))
@@ -332,6 +361,7 @@ def main() -> None:
         "target_countries": TARGET_COUNTRIES,
         "sources": len(SOURCES),
         "candidates": len(candidates_list),
+        "candidate_limit": MAX_CANDIDATES,
         "tcp_live_candidates": len(live_candidates),
         "working_target_country_proxies": sum(len(items) for items in by_country.values()),
         "max_workers": MAX_WORKERS,
