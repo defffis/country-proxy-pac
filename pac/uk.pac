@@ -1,5 +1,5 @@
 // Auto-generated. Do not edit manually.
 // Verified Uk HTTP/HTTPS proxies with HTTPS support.
 function FindProxyForURL(url, host) {
-    return "PROXY 91.231.186.236:43; DIRECT";
+    return "PROXY 134.209.29.120:3128; DIRECT";
 }

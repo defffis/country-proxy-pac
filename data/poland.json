@@ -1,14 +1,1 @@
-[
-  {
-    "status": "ok",
-    "proxy": "5.75.133.113:10811",
-    "type": "socks5",
-    "ip": "45.134.212.39",
-    "country_code": "PL",
-    "country": "Poland",
-    "city": "Warsaw",
-    "latency_ms": 3890,
-    "ip_check": "https://api.ipify.org?format=json",
-    "https_check": "https://www.google.com/generate_204"
-  }
-]
+[]
