@@ -7,19 +7,7 @@
     "country_code": "IN",
     "country": "India",
     "city": "Mumbai",
-    "latency_ms": 2321,
-    "ip_check": "https://api.ipify.org?format=json",
-    "https_check": "https://www.google.com/generate_204"
-  },
-  {
-    "status": "ok",
-    "proxy": "117.236.124.166:3128",
-    "type": "http",
-    "ip": "117.236.124.166",
-    "country_code": "IN",
-    "country": "India",
-    "city": "Chandigarh",
-    "latency_ms": 2455,
+    "latency_ms": 2391,
     "ip_check": "https://api.ipify.org?format=json",
     "https_check": "https://www.google.com/generate_204"
   },
@@ -31,7 +19,19 @@
     "country_code": "IN",
     "country": "India",
     "city": "Bengaluru",
-    "latency_ms": 2476,
+    "latency_ms": 2563,
+    "ip_check": "https://api.ipify.org?format=json",
+    "https_check": "https://www.google.com/generate_204"
+  },
+  {
+    "status": "ok",
+    "proxy": "164.52.214.97:8080",
+    "type": "http",
+    "ip": "164.52.214.97",
+    "country_code": "IN",
+    "country": "India",
+    "city": "Greater Noida",
+    "latency_ms": 2699,
     "ip_check": "https://api.ipify.org?format=json",
     "https_check": "https://www.google.com/generate_204"
   },
@@ -43,7 +43,19 @@
     "country_code": "IN",
     "country": "India",
     "city": "Delhi",
-    "latency_ms": 2969,
+    "latency_ms": 3029,
+    "ip_check": "https://api.ipify.org?format=json",
+    "https_check": "https://www.google.com/generate_204"
+  },
+  {
+    "status": "ok",
+    "proxy": "117.236.124.166:3128",
+    "type": "http",
+    "ip": "117.236.124.166",
+    "country_code": "IN",
+    "country": "India",
+    "city": "Chandigarh",
+    "latency_ms": 3052,
     "ip_check": "https://api.ipify.org?format=json",
     "https_check": "https://www.google.com/generate_204"
   }
