@@ -1,14 +1,1 @@
-[
-  {
-    "status": "ok",
-    "proxy": "91.223.52.141:5678",
-    "type": "socks4",
-    "ip": "91.223.52.254",
-    "country_code": "PL",
-    "country": "Poland",
-    "city": "Debe Wielkie",
-    "latency_ms": 5404,
-    "ip_check": "https://api.ipify.org?format=json",
-    "https_check": "https://www.cloudflare.com/cdn-cgi/trace"
-  }
-]
+[]
