@@ -2,5 +2,5 @@
 // SOCKS PAC for Germany: SOCKS4 and SOCKS5 endpoints.
 // PAC has no standard SOCKS4/SOCKS5 selector; SOCKS entries are intentionally combined.
 function FindProxyForURL(url, host) {
-    return "SOCKS 45.144.54.40:1080; SOCKS 150.241.91.238:7777; SOCKS 45.61.129.165:9050; SOCKS 167.86.79.35:1080; DIRECT";
+    return "SOCKS 94.184.11.199:4040; SOCKS 91.216.217.201:10808; SOCKS 80.191.243.212:1080; SOCKS 45.144.54.40:1080; SOCKS 167.86.79.35:1080; SOCKS 78.109.200.168:9910; DIRECT";
 }
