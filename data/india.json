@@ -1,37 +1,13 @@
 [
   {
     "status": "ok",
-    "proxy": "172.105.53.25:8881",
-    "type": "http",
-    "ip": "172.105.53.25",
-    "country_code": "IN",
-    "country": "India",
-    "city": "Mumbai",
-    "latency_ms": 2361,
-    "ip_check": "https://api.ipify.org?format=json",
-    "https_check": "https://www.google.com/generate_204"
-  },
-  {
-    "status": "ok",
-    "proxy": "45.74.31.30:10633",
-    "type": "socks5",
-    "ip": "66.116.251.167",
-    "country_code": "IN",
-    "country": "India",
-    "city": "Mumbai",
-    "latency_ms": 2433,
-    "ip_check": "https://api.ipify.org?format=json",
-    "https_check": "https://www.google.com/generate_204"
-  },
-  {
-    "status": "ok",
     "proxy": "117.236.124.166:3128",
     "type": "http",
     "ip": "117.236.124.166",
     "country_code": "IN",
     "country": "India",
     "city": "Chandigarh",
-    "latency_ms": 2451,
+    "latency_ms": 2392,
     "ip_check": "https://api.ipify.org?format=json",
     "https_check": "https://www.google.com/generate_204"
   },
@@ -43,19 +19,31 @@
     "country_code": "IN",
     "country": "India",
     "city": "Bengaluru",
-    "latency_ms": 2531,
+    "latency_ms": 2520,
     "ip_check": "https://api.ipify.org?format=json",
     "https_check": "https://www.google.com/generate_204"
   },
   {
     "status": "ok",
-    "proxy": "168.144.68.176:3129",
+    "proxy": "172.105.53.25:8881",
     "type": "http",
-    "ip": "168.144.68.176",
+    "ip": "172.105.53.25",
     "country_code": "IN",
     "country": "India",
-    "city": "Bengaluru",
-    "latency_ms": 2553,
+    "city": "Mumbai",
+    "latency_ms": 2544,
+    "ip_check": "https://api.ipify.org?format=json",
+    "https_check": "https://www.google.com/generate_204"
+  },
+  {
+    "status": "ok",
+    "proxy": "164.52.196.127:8080",
+    "type": "http",
+    "ip": "164.52.196.127",
+    "country_code": "IN",
+    "country": "India",
+    "city": "Greater Noida",
+    "latency_ms": 2625,
     "ip_check": "https://api.ipify.org?format=json",
     "https_check": "https://www.google.com/generate_204"
   },
@@ -67,7 +55,43 @@
     "country_code": "IN",
     "country": "India",
     "city": "Greater Noida",
-    "latency_ms": 2689,
+    "latency_ms": 2632,
+    "ip_check": "https://api.ipify.org?format=json",
+    "https_check": "https://www.google.com/generate_204"
+  },
+  {
+    "status": "ok",
+    "proxy": "151.185.59.41:8080",
+    "type": "http",
+    "ip": "151.185.59.41",
+    "country_code": "IN",
+    "country": "India",
+    "city": "Dadri",
+    "latency_ms": 2870,
+    "ip_check": "https://api.ipify.org?format=json",
+    "https_check": "https://www.google.com/generate_204"
+  },
+  {
+    "status": "ok",
+    "proxy": "151.185.41.195:8080",
+    "type": "http",
+    "ip": "151.185.41.195",
+    "country_code": "IN",
+    "country": "India",
+    "city": "Dadri",
+    "latency_ms": 3203,
+    "ip_check": "https://api.ipify.org?format=json",
+    "https_check": "https://www.google.com/generate_204"
+  },
+  {
+    "status": "ok",
+    "proxy": "117.198.221.34:4153",
+    "type": "socks4",
+    "ip": "103.173.171.178",
+    "country_code": "IN",
+    "country": "India",
+    "city": "Kalaburagi",
+    "latency_ms": 4347,
     "ip_check": "https://api.ipify.org?format=json",
     "https_check": "https://www.google.com/generate_204"
   },
@@ -79,9 +103,9 @@
     "country_code": "IN",
     "country": "India",
     "city": "Dadri",
-    "latency_ms": 2921,
-    "ip_check": "https://api.ipify.org?format=json",
-    "https_check": "https://www.google.com/generate_204"
+    "latency_ms": 4915,
+    "ip_check": "https://api64.ipify.org?format=json",
+    "https_check": "https://www.cloudflare.com/cdn-cgi/trace"
   },
   {
     "status": "ok",
@@ -91,43 +115,7 @@
     "country_code": "IN",
     "country": "India",
     "city": "Delhi",
-    "latency_ms": 2938,
-    "ip_check": "https://api.ipify.org?format=json",
-    "https_check": "https://www.google.com/generate_204"
-  },
-  {
-    "status": "ok",
-    "proxy": "45.74.31.42:7509",
-    "type": "socks5",
-    "ip": "66.116.251.167",
-    "country_code": "IN",
-    "country": "India",
-    "city": "Mumbai",
-    "latency_ms": 4694,
-    "ip_check": "https://api.ipify.org?format=json",
-    "https_check": "https://www.google.com/generate_204"
-  },
-  {
-    "status": "ok",
-    "proxy": "144.24.111.128:1088",
-    "type": "socks5",
-    "ip": "144.24.111.128",
-    "country_code": "IN",
-    "country": "India",
-    "city": "Mumbai",
-    "latency_ms": 5603,
-    "ip_check": "https://api.ipify.org?format=json",
-    "https_check": "https://www.google.com/generate_204"
-  },
-  {
-    "status": "ok",
-    "proxy": "45.74.31.42:4857",
-    "type": "socks5",
-    "ip": "103.101.58.128",
-    "country_code": "IN",
-    "country": "India",
-    "city": "Mumbai",
-    "latency_ms": 6718,
+    "latency_ms": 6289,
     "ip_check": "https://api.ipify.org?format=json",
     "https_check": "https://www.google.com/generate_204"
   }
