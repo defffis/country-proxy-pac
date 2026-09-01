@@ -7,8 +7,8 @@
     "country_code": "PL",
     "country": "Poland",
     "city": "Rzeszow",
-    "latency_ms": 2367,
-    "ip_check": "https://api.ipify.org?format=json",
+    "latency_ms": 7807,
+    "ip_check": "https://icanhazip.com/",
     "https_check": "https://www.google.com/generate_204"
   }
 ]
