@@ -1,14 +1,14 @@
 [
   {
     "status": "ok",
-    "proxy": "185.14.149.33:4145",
+    "proxy": "185.32.4.110:4153",
     "type": "socks4",
-    "ip": "185.14.148.66",
+    "ip": "185.32.4.110",
     "country_code": "PL",
     "country": "Poland",
-    "city": "Zielona Gora",
-    "latency_ms": 11654,
-    "ip_check": "https://icanhazip.com/",
-    "https_check": "https://www.cloudflare.com/cdn-cgi/trace"
+    "city": "Chociwel",
+    "latency_ms": 2525,
+    "ip_check": "https://api.ipify.org?format=json",
+    "https_check": "https://www.google.com/generate_204"
   }
 ]
