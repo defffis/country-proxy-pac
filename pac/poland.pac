@@ -1,5 +1,5 @@
 // Auto-generated. Do not edit manually.
 // Verified Poland HTTP/HTTPS proxies with HTTPS support.
 function FindProxyForURL(url, host) {
-    return "PROXY 185.238.238.49:58080; PROXY 185.238.238.137:58080; PROXY 185.238.238.113:58080; DIRECT";
+    return "PROXY 88.156.178.59:1122; DIRECT";
 }
