@@ -7,8 +7,20 @@
     "country_code": "TR",
     "country": "Türkiye",
     "city": "Ankara",
-    "latency_ms": 1966,
+    "latency_ms": 2686,
     "ip_check": "https://api.ipify.org?format=json",
+    "https_check": "https://www.google.com/generate_204"
+  },
+  {
+    "status": "ok",
+    "proxy": "176.88.191.150:1080",
+    "type": "socks4",
+    "ip": "176.88.191.150",
+    "country_code": "TR",
+    "country": "Türkiye",
+    "city": "Istanbul",
+    "latency_ms": 8260,
+    "ip_check": "https://icanhazip.com/",
     "https_check": "https://www.google.com/generate_204"
   }
 ]
