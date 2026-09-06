@@ -7,45 +7,57 @@
     "country_code": "GB",
     "country": "United Kingdom",
     "city": "London",
-    "latency_ms": 1090,
+    "latency_ms": 1511,
     "ip_check": "https://api.ipify.org?format=json",
     "https_check": "https://www.google.com/generate_204"
   },
   {
     "status": "ok",
-    "proxy": "141.147.109.224:1080",
-    "type": "socks5",
-    "ip": "141.147.109.224",
+    "proxy": "176.124.147.86:10808",
+    "type": "socks4",
+    "ip": "82.26.193.98",
     "country_code": "GB",
     "country": "United Kingdom",
-    "city": "Slough",
-    "latency_ms": 1810,
+    "city": "London",
+    "latency_ms": 1781,
     "ip_check": "https://api.ipify.org?format=json",
     "https_check": "https://www.google.com/generate_204"
   },
   {
     "status": "ok",
-    "proxy": "213.165.38.49:1080",
+    "proxy": "176.124.147.86:10808",
     "type": "socks5",
-    "ip": "2a12:5940:20e1::2",
+    "ip": "82.26.193.98",
     "country_code": "GB",
     "country": "United Kingdom",
     "city": "London",
-    "latency_ms": 2093,
-    "ip_check": "https://api64.ipify.org?format=json",
+    "latency_ms": 2094,
+    "ip_check": "https://api.ipify.org?format=json",
     "https_check": "https://www.google.com/generate_204"
   },
   {
     "status": "ok",
-    "proxy": "83.147.216.208:1080",
+    "proxy": "144.126.197.184:1088",
     "type": "socks5",
-    "ip": "2a0b:4140:515b::2",
+    "ip": "144.126.197.184",
     "country_code": "GB",
     "country": "United Kingdom",
     "city": "London",
-    "latency_ms": 4921,
-    "ip_check": "https://api64.ipify.org?format=json",
+    "latency_ms": 2495,
+    "ip_check": "https://api.ipify.org?format=json",
     "https_check": "https://www.google.com/generate_204"
+  },
+  {
+    "status": "ok",
+    "proxy": "49.13.22.249:10808",
+    "type": "socks5",
+    "ip": "213.248.112.34",
+    "country_code": "GB",
+    "country": "United Kingdom",
+    "city": "London",
+    "latency_ms": 6098,
+    "ip_check": "https://api.ipify.org?format=json",
+    "https_check": "https://www.cloudflare.com/cdn-cgi/trace"
   },
   {
     "status": "ok",
@@ -55,8 +67,8 @@
     "country_code": "GB",
     "country": "United Kingdom",
     "city": "London",
-    "latency_ms": 10637,
+    "latency_ms": 6098,
     "ip_check": "https://ifconfig.me/ip",
-    "https_check": "https://example.com/"
+    "https_check": "https://www.google.com/generate_204"
   }
 ]
