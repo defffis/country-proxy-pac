@@ -7,7 +7,7 @@
     "country_code": "TR",
     "country": "Türkiye",
     "city": "Yakutiye",
-    "latency_ms": 4847,
+    "latency_ms": 4572,
     "ip_check": "https://api.ipify.org?format=json",
     "https_check": "https://www.google.com/generate_204"
   },
@@ -19,20 +19,20 @@
     "country_code": "TR",
     "country": "Türkiye",
     "city": "Ankara",
-    "latency_ms": 6452,
+    "latency_ms": 6765,
     "ip_check": "https://api64.ipify.org?format=json",
     "https_check": "https://www.google.com/generate_204"
   },
   {
     "status": "ok",
-    "proxy": "65.109.219.215:9102",
-    "type": "socks5",
-    "ip": "203.202.232.160",
+    "proxy": "176.88.191.150:1080",
+    "type": "socks4",
+    "ip": "176.88.191.150",
     "country_code": "TR",
     "country": "Türkiye",
     "city": "Istanbul",
-    "latency_ms": 11337,
-    "ip_check": "https://api.ipify.org?format=json",
-    "https_check": "https://www.google.com/generate_204"
+    "latency_ms": 12456,
+    "ip_check": "https://api64.ipify.org?format=json",
+    "https_check": "https://www.cloudflare.com/cdn-cgi/trace"
   }
 ]
