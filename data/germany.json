@@ -7,20 +7,20 @@
     "country_code": "DE",
     "country": "Germany",
     "city": "Frankfurt am Main",
-    "latency_ms": 1712,
+    "latency_ms": 1417,
     "ip_check": "https://api.ipify.org?format=json",
     "https_check": "https://www.google.com/generate_204"
   },
   {
     "status": "ok",
-    "proxy": "2.27.63.250:8888",
-    "type": "http",
-    "ip": "2.27.63.250",
+    "proxy": "31.220.40.59:5080",
+    "type": "socks4",
+    "ip": "31.220.40.59",
     "country_code": "DE",
     "country": "Germany",
-    "city": "Frankfurt am Main",
-    "latency_ms": 2139,
-    "ip_check": "https://icanhazip.com/",
+    "city": "Berlin",
+    "latency_ms": 1500,
+    "ip_check": "https://api64.ipify.org?format=json",
     "https_check": "https://www.google.com/generate_204"
   },
   {
@@ -31,32 +31,20 @@
     "country_code": "DE",
     "country": "Germany",
     "city": "Frankfurt am Main",
-    "latency_ms": 2422,
+    "latency_ms": 1530,
     "ip_check": "https://api.ipify.org?format=json",
     "https_check": "https://www.google.com/generate_204"
   },
   {
     "status": "ok",
-    "proxy": "2.27.63.250:8118",
-    "type": "http",
-    "ip": "2.27.63.250",
+    "proxy": "94.233.216.175:1080",
+    "type": "socks4",
+    "ip": "144.31.120.255",
     "country_code": "DE",
     "country": "Germany",
     "city": "Frankfurt am Main",
-    "latency_ms": 2433,
-    "ip_check": "https://api64.ipify.org?format=json",
-    "https_check": "https://www.google.com/generate_204"
-  },
-  {
-    "status": "ok",
-    "proxy": "45.13.225.169:8080",
-    "type": "http",
-    "ip": "2a0e:97c0:3e3:88c::1",
-    "country_code": "DE",
-    "country": "Germany",
-    "city": "Frankfurt am Main",
-    "latency_ms": 2560,
-    "ip_check": "https://ifconfig.me/ip",
+    "latency_ms": 4549,
+    "ip_check": "https://api.ipify.org?format=json",
     "https_check": "https://www.google.com/generate_204"
   },
   {
@@ -67,8 +55,8 @@
     "country_code": "DE",
     "country": "Germany",
     "city": "Nuremberg",
-    "latency_ms": 7096,
-    "ip_check": "https://api64.ipify.org?format=json",
+    "latency_ms": 5341,
+    "ip_check": "https://api.ipify.org?format=json",
     "https_check": "https://www.cloudflare.com/cdn-cgi/trace"
   },
   {
@@ -79,44 +67,8 @@
     "country_code": "DE",
     "country": "Germany",
     "city": "Nuremberg",
-    "latency_ms": 9109,
-    "ip_check": "https://api64.ipify.org?format=json",
+    "latency_ms": 9585,
+    "ip_check": "https://ifconfig.me/ip",
     "https_check": "https://www.google.com/generate_204"
-  },
-  {
-    "status": "ok",
-    "proxy": "152.53.183.107:8081",
-    "type": "socks5",
-    "ip": "152.53.183.107",
-    "country_code": "DE",
-    "country": "Germany",
-    "city": "Nuremberg",
-    "latency_ms": 13151,
-    "ip_check": "https://api.ipify.org?format=json",
-    "https_check": "https://example.com/"
-  },
-  {
-    "status": "ok",
-    "proxy": "152.53.183.107:8081",
-    "type": "socks4",
-    "ip": "152.53.183.107",
-    "country_code": "DE",
-    "country": "Germany",
-    "city": "Nuremberg",
-    "latency_ms": 13654,
-    "ip_check": "https://icanhazip.com/",
-    "https_check": "https://www.google.com/generate_204"
-  },
-  {
-    "status": "ok",
-    "proxy": "150.241.70.126:1080",
-    "type": "socks5",
-    "ip": "150.241.70.126",
-    "country_code": "DE",
-    "country": "Germany",
-    "city": "Frankfurt am Main",
-    "latency_ms": 14099,
-    "ip_check": "https://api64.ipify.org?format=json",
-    "https_check": "https://example.com/"
   }
 ]
