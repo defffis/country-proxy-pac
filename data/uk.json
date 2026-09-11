@@ -7,19 +7,7 @@
     "country_code": "GB",
     "country": "United Kingdom",
     "city": "London",
-    "latency_ms": 1089,
-    "ip_check": "https://api.ipify.org?format=json",
-    "https_check": "https://www.google.com/generate_204"
-  },
-  {
-    "status": "ok",
-    "proxy": "81.158.71.182:8888",
-    "type": "http",
-    "ip": "138.199.30.30",
-    "country_code": "GB",
-    "country": "United Kingdom",
-    "city": "London",
-    "latency_ms": 1730,
+    "latency_ms": 1276,
     "ip_check": "https://api.ipify.org?format=json",
     "https_check": "https://www.google.com/generate_204"
   },
@@ -31,9 +19,21 @@
     "country_code": "GB",
     "country": "United Kingdom",
     "city": "London",
-    "latency_ms": 5084,
+    "latency_ms": 2150,
     "ip_check": "https://api.ipify.org?format=json",
-    "https_check": "https://www.cloudflare.com/cdn-cgi/trace"
+    "https_check": "https://www.google.com/generate_204"
+  },
+  {
+    "status": "ok",
+    "proxy": "83.147.216.208:1080",
+    "type": "socks5",
+    "ip": "2a0b:4140:515b::2",
+    "country_code": "GB",
+    "country": "United Kingdom",
+    "city": "London",
+    "latency_ms": 4226,
+    "ip_check": "https://api64.ipify.org?format=json",
+    "https_check": "https://www.google.com/generate_204"
   },
   {
     "status": "ok",
@@ -43,32 +43,32 @@
     "country_code": "GB",
     "country": "United Kingdom",
     "city": "London",
-    "latency_ms": 5260,
+    "latency_ms": 5731,
     "ip_check": "https://api.ipify.org?format=json",
     "https_check": "https://www.google.com/generate_204"
   },
   {
     "status": "ok",
-    "proxy": "51.68.199.41:8118",
-    "type": "http",
-    "ip": "187.40.252.97",
+    "proxy": "45.74.31.30:26566",
+    "type": "socks5",
+    "ip": "167.71.132.111",
     "country_code": "GB",
     "country": "United Kingdom",
     "city": "London",
-    "latency_ms": 6851,
-    "ip_check": "https://icanhazip.com/",
+    "latency_ms": 10371,
+    "ip_check": "https://ifconfig.me/ip",
     "https_check": "https://www.cloudflare.com/cdn-cgi/trace"
   },
   {
     "status": "ok",
-    "proxy": "45.74.31.42:13251",
-    "type": "socks5",
-    "ip": "217.154.51.5",
+    "proxy": "81.158.71.182:8888",
+    "type": "http",
+    "ip": "138.199.30.30",
     "country_code": "GB",
     "country": "United Kingdom",
     "city": "London",
-    "latency_ms": 9757,
-    "ip_check": "https://ifconfig.me/ip",
-    "https_check": "https://www.cloudflare.com/cdn-cgi/trace"
+    "latency_ms": 16318,
+    "ip_check": "https://api64.ipify.org?format=json",
+    "https_check": "https://example.com/"
   }
 ]

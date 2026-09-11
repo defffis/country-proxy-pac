@@ -1,38 +1,14 @@
 [
   {
     "status": "ok",
-    "proxy": "91.150.189.122:60647",
-    "type": "socks4",
-    "ip": "91.150.189.122",
+    "proxy": "185.238.238.49:58080",
+    "type": "http",
+    "ip": "185.238.236.99",
     "country_code": "PL",
     "country": "Poland",
-    "city": "Rzeszow",
-    "latency_ms": 6790,
-    "ip_check": "https://icanhazip.com/",
-    "https_check": "https://www.google.com/generate_204"
-  },
-  {
-    "status": "ok",
-    "proxy": "94.40.127.166:4145",
-    "type": "socks4",
-    "ip": "37.128.107.102",
-    "country_code": "PL",
-    "country": "Poland",
-    "city": "Czestochowa",
-    "latency_ms": 8233,
-    "ip_check": "https://icanhazip.com/",
-    "https_check": "https://www.google.com/generate_204"
-  },
-  {
-    "status": "ok",
-    "proxy": "207.244.69.164:50005",
-    "type": "socks5",
-    "ip": "45.138.16.189",
-    "country_code": "PL",
-    "country": "Poland",
-    "city": "Warsaw",
-    "latency_ms": 12190,
-    "ip_check": "https://api.ipify.org?format=json",
+    "city": "Strzelin",
+    "latency_ms": 9061,
+    "ip_check": "https://api64.ipify.org?format=json",
     "https_check": "https://example.com/"
   }
 ]
