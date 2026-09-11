@@ -1,14 +1,26 @@
 [
   {
     "status": "ok",
-    "proxy": "91.150.189.122:60647",
+    "proxy": "212.126.5.246:42344",
     "type": "socks4",
-    "ip": "91.150.189.122",
+    "ip": "212.126.5.242",
     "country_code": "PL",
     "country": "Poland",
-    "city": "Rzeszow",
-    "latency_ms": 8682,
-    "ip_check": "https://icanhazip.com/",
-    "https_check": "https://www.google.com/generate_204"
+    "city": "Poznan",
+    "latency_ms": 6339,
+    "ip_check": "https://api.ipify.org?format=json",
+    "https_check": "https://example.com/"
+  },
+  {
+    "status": "ok",
+    "proxy": "185.14.149.33:4145",
+    "type": "socks4",
+    "ip": "185.14.148.66",
+    "country_code": "PL",
+    "country": "Poland",
+    "city": "Zielona Gora",
+    "latency_ms": 8442,
+    "ip_check": "https://api64.ipify.org?format=json",
+    "https_check": "https://example.com/"
   }
 ]
