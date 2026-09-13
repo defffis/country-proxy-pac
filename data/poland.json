@@ -1,14 +1,1 @@
-[
-  {
-    "status": "ok",
-    "proxy": "46.151.113.10:5678",
-    "type": "socks4",
-    "ip": "46.151.113.10",
-    "country_code": "PL",
-    "country": "Poland",
-    "city": "Lipsko",
-    "latency_ms": 4074,
-    "ip_check": "https://icanhazip.com/",
-    "https_check": "https://www.google.com/generate_204"
-  }
-]
+[]
