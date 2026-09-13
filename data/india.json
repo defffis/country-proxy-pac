@@ -7,7 +7,7 @@
     "country_code": "IN",
     "country": "India",
     "city": "Chandigarh",
-    "latency_ms": 2681,
+    "latency_ms": 2765,
     "ip_check": "https://api.ipify.org?format=json",
     "https_check": "https://www.google.com/generate_204"
   },
@@ -19,7 +19,7 @@
     "country_code": "IN",
     "country": "India",
     "city": "Mumbai",
-    "latency_ms": 2749,
+    "latency_ms": 2834,
     "ip_check": "https://api.ipify.org?format=json",
     "https_check": "https://www.google.com/generate_204"
   },
@@ -31,45 +31,45 @@
     "country_code": "IN",
     "country": "India",
     "city": "Bengaluru",
-    "latency_ms": 2773,
+    "latency_ms": 2851,
     "ip_check": "https://api.ipify.org?format=json",
     "https_check": "https://www.google.com/generate_204"
   },
   {
     "status": "ok",
-    "proxy": "103.80.168.9:1080",
+    "proxy": "103.38.183.18:1088",
     "type": "socks4",
-    "ip": "103.80.168.9",
-    "country_code": "IN",
-    "country": "India",
-    "city": "Vada",
-    "latency_ms": 3110,
-    "ip_check": "https://api.ipify.org?format=json",
-    "https_check": "https://www.google.com/generate_204"
-  },
-  {
-    "status": "ok",
-    "proxy": "103.66.72.163:1080",
-    "type": "socks4",
-    "ip": "103.66.72.163",
-    "country_code": "IN",
-    "country": "India",
-    "city": "Biswan",
-    "latency_ms": 3733,
-    "ip_check": "https://api.ipify.org?format=json",
-    "https_check": "https://www.google.com/generate_204"
-  },
-  {
-    "status": "ok",
-    "proxy": "122.15.255.229:60606",
-    "type": "socks4",
-    "ip": "122.15.255.229",
+    "ip": "103.38.183.18",
     "country_code": "IN",
     "country": "India",
     "city": "Delhi",
-    "latency_ms": 5312,
+    "latency_ms": 4174,
     "ip_check": "https://api.ipify.org?format=json",
+    "https_check": "https://www.google.com/generate_204"
+  },
+  {
+    "status": "ok",
+    "proxy": "103.162.196.117:5678",
+    "type": "socks4",
+    "ip": "103.162.196.117",
+    "country_code": "IN",
+    "country": "India",
+    "city": "Fyzabad",
+    "latency_ms": 7710,
+    "ip_check": "https://api64.ipify.org?format=json",
     "https_check": "https://www.cloudflare.com/cdn-cgi/trace"
+  },
+  {
+    "status": "ok",
+    "proxy": "45.74.31.41:4153",
+    "type": "socks5",
+    "ip": "66.116.199.98",
+    "country_code": "IN",
+    "country": "India",
+    "city": "Mumbai",
+    "latency_ms": 8841,
+    "ip_check": "https://api64.ipify.org?format=json",
+    "https_check": "https://www.google.com/generate_204"
   },
   {
     "status": "ok",
@@ -79,68 +79,20 @@
     "country_code": "IN",
     "country": "India",
     "city": "Delhi",
-    "latency_ms": 7181,
+    "latency_ms": 12074,
     "ip_check": "https://api.ipify.org?format=json",
-    "https_check": "https://www.google.com/generate_204"
+    "https_check": "https://example.com/"
   },
   {
     "status": "ok",
-    "proxy": "45.74.31.30:30368",
-    "type": "socks5",
-    "ip": "168.144.30.105",
-    "country_code": "IN",
-    "country": "India",
-    "city": "Bengaluru",
-    "latency_ms": 7573,
-    "ip_check": "https://api.ipify.org?format=json",
-    "https_check": "https://www.google.com/generate_204"
-  },
-  {
-    "status": "ok",
-    "proxy": "103.37.82.134:39873",
+    "proxy": "103.66.74.61:1080",
     "type": "socks4",
-    "ip": "103.37.82.134",
+    "ip": "103.66.74.61",
     "country_code": "IN",
     "country": "India",
-    "city": "Dehradun",
-    "latency_ms": 7728,
-    "ip_check": "https://ifconfig.me/ip",
-    "https_check": "https://www.google.com/generate_204"
-  },
-  {
-    "status": "ok",
-    "proxy": "103.83.28.216:5678",
-    "type": "socks4",
-    "ip": "103.83.28.216",
-    "country_code": "IN",
-    "country": "India",
-    "city": "Anekal",
-    "latency_ms": 8196,
+    "city": "Delhi",
+    "latency_ms": 13127,
     "ip_check": "https://icanhazip.com/",
-    "https_check": "https://www.google.com/generate_204"
-  },
-  {
-    "status": "ok",
-    "proxy": "45.74.31.30:11270",
-    "type": "socks5",
-    "ip": "64.227.168.172",
-    "country_code": "IN",
-    "country": "India",
-    "city": "Bengaluru",
-    "latency_ms": 10488,
-    "ip_check": "https://ifconfig.me/ip",
-    "https_check": "https://www.google.com/generate_204"
-  },
-  {
-    "status": "ok",
-    "proxy": "111.92.88.27:3128",
-    "type": "http",
-    "ip": "111.92.88.27",
-    "country_code": "IN",
-    "country": "India",
-    "city": "Irinjalakuda",
-    "latency_ms": 10678,
-    "ip_check": "https://ifconfig.me/ip",
-    "https_check": "https://www.google.com/generate_204"
+    "https_check": "https://example.com/"
   }
 ]
