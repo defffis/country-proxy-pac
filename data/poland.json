@@ -1,13 +1,25 @@
 [
   {
     "status": "ok",
-    "proxy": "185.147.69.48:1080",
+    "proxy": "185.32.4.110:4153",
     "type": "socks4",
-    "ip": "185.147.69.48",
+    "ip": "185.32.4.110",
     "country_code": "PL",
     "country": "Poland",
-    "city": "Rewal",
-    "latency_ms": 3175,
+    "city": "Chociwel",
+    "latency_ms": 4380,
+    "ip_check": "https://api64.ipify.org?format=json",
+    "https_check": "https://www.google.com/generate_204"
+  },
+  {
+    "status": "ok",
+    "proxy": "185.32.4.65:4153",
+    "type": "socks4",
+    "ip": "185.32.4.102",
+    "country_code": "PL",
+    "country": "Poland",
+    "city": "Chociwel",
+    "latency_ms": 6333,
     "ip_check": "https://api.ipify.org?format=json",
     "https_check": "https://example.com/"
   }
