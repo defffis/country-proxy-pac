@@ -2,5 +2,5 @@
 // SOCKS PAC for India: SOCKS4 and SOCKS5 endpoints.
 // PAC has no standard SOCKS4/SOCKS5 selector; SOCKS entries are intentionally combined.
 function FindProxyForURL(url, host) {
-    return "SOCKS 144.24.111.128:1088; SOCKS 122.15.255.229:60606; SOCKS 45.74.31.30:15895; DIRECT";
+    return "SOCKS 144.24.111.128:1088; SOCKS 103.66.72.163:1080; SOCKS 202.179.83.169:51951; SOCKS 103.143.214.77:5678; DIRECT";
 }

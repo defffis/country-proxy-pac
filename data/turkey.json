@@ -7,7 +7,7 @@
     "country_code": "TR",
     "country": "Türkiye",
     "city": "Yakutiye",
-    "latency_ms": 5623,
+    "latency_ms": 5553,
     "ip_check": "https://api.ipify.org?format=json",
     "https_check": "https://www.google.com/generate_204"
   },
@@ -19,7 +19,7 @@
     "country_code": "TR",
     "country": "Türkiye",
     "city": "Ankara",
-    "latency_ms": 5753,
+    "latency_ms": 9628,
     "ip_check": "https://api64.ipify.org?format=json",
     "https_check": "https://www.google.com/generate_204"
   }
