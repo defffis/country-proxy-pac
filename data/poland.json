@@ -1,14 +1,14 @@
 [
   {
     "status": "ok",
-    "proxy": "31.42.2.113:5678",
+    "proxy": "185.32.4.126:4153",
     "type": "socks4",
-    "ip": "31.42.1.124",
+    "ip": "185.32.4.126",
     "country_code": "PL",
     "country": "Poland",
-    "city": "Czestochowa",
-    "latency_ms": 1577,
+    "city": "Chociwel",
+    "latency_ms": 4568,
     "ip_check": "https://api.ipify.org?format=json",
-    "https_check": "https://www.google.com/generate_204"
+    "https_check": "https://www.cloudflare.com/cdn-cgi/trace"
   }
 ]

@@ -2,5 +2,5 @@
 // SOCKS PAC for Uk: SOCKS4 and SOCKS5 endpoints.
 // PAC has no standard SOCKS4/SOCKS5 selector; SOCKS entries are intentionally combined.
 function FindProxyForURL(url, host) {
-    return "SOCKS 45.74.31.30:13633; SOCKS 144.126.197.184:1088; SOCKS 45.74.31.42:15051; SOCKS 45.74.31.42:14303; SOCKS 45.74.31.40:12853; DIRECT";
+    return "SOCKS 57.129.134.10:8086; SOCKS 66.59.197.61:3128; SOCKS 83.147.216.208:1080; DIRECT";
 }
