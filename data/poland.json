@@ -1,26 +1,14 @@
 [
   {
     "status": "ok",
-    "proxy": "31.42.6.125:5678",
+    "proxy": "31.42.2.113:5678",
     "type": "socks4",
-    "ip": "31.42.6.125",
+    "ip": "31.42.1.124",
     "country_code": "PL",
     "country": "Poland",
-    "city": "Radomsko",
-    "latency_ms": 1213,
+    "city": "Czestochowa",
+    "latency_ms": 1577,
     "ip_check": "https://api.ipify.org?format=json",
-    "https_check": "https://www.google.com/generate_204"
-  },
-  {
-    "status": "ok",
-    "proxy": "77.65.50.118:34159",
-    "type": "socks4",
-    "ip": "77.65.50.118",
-    "country_code": "PL",
-    "country": "Poland",
-    "city": "Poznan",
-    "latency_ms": 8960,
-    "ip_check": "https://ifconfig.me/ip",
     "https_check": "https://www.google.com/generate_204"
   }
 ]
