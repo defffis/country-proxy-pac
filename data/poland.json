@@ -1,14 +1,14 @@
 [
   {
     "status": "ok",
-    "proxy": "77.65.50.118:34159",
+    "proxy": "31.42.6.125:5678",
     "type": "socks4",
-    "ip": "77.65.50.118",
+    "ip": "31.42.6.125",
     "country_code": "PL",
     "country": "Poland",
-    "city": "Poznan",
-    "latency_ms": 9956,
-    "ip_check": "https://icanhazip.com/",
-    "https_check": "https://www.google.com/generate_204"
+    "city": "Czestochowa",
+    "latency_ms": 3199,
+    "ip_check": "https://api.ipify.org?format=json",
+    "https_check": "https://www.cloudflare.com/cdn-cgi/trace"
   }
 ]
