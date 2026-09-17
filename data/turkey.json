@@ -7,8 +7,20 @@
     "country_code": "TR",
     "country": "Türkiye",
     "city": "Izmir",
-    "latency_ms": 1933,
+    "latency_ms": 2386,
     "ip_check": "https://api.ipify.org?format=json",
     "https_check": "https://www.google.com/generate_204"
+  },
+  {
+    "status": "ok",
+    "proxy": "147.45.66.116:1082",
+    "type": "socks4",
+    "ip": "147.45.66.116",
+    "country_code": "TR",
+    "country": "Türkiye",
+    "city": "Istanbul",
+    "latency_ms": 8866,
+    "ip_check": "https://ifconfig.me/ip",
+    "https_check": "https://www.cloudflare.com/cdn-cgi/trace"
   }
 ]

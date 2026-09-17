@@ -1,26 +1,38 @@
 [
   {
     "status": "ok",
-    "proxy": "31.42.2.113:5678",
+    "proxy": "31.42.6.125:5678",
     "type": "socks4",
-    "ip": "31.42.1.124",
+    "ip": "31.42.6.125",
     "country_code": "PL",
     "country": "Poland",
     "city": "Czestochowa",
-    "latency_ms": 1296,
+    "latency_ms": 2661,
     "ip_check": "https://api.ipify.org?format=json",
     "https_check": "https://www.google.com/generate_204"
   },
   {
     "status": "ok",
-    "proxy": "46.151.113.10:5678",
+    "proxy": "185.32.4.110:4153",
     "type": "socks4",
-    "ip": "46.151.113.10",
+    "ip": "185.32.4.110",
+    "country_code": "PL",
+    "country": "Poland",
+    "city": "Chociwel",
+    "latency_ms": 3800,
+    "ip_check": "https://api64.ipify.org?format=json",
+    "https_check": "https://www.google.com/generate_204"
+  },
+  {
+    "status": "ok",
+    "proxy": "46.151.118.108:5678",
+    "type": "socks4",
+    "ip": "46.151.118.108",
     "country_code": "PL",
     "country": "Poland",
     "city": "Lipsko",
-    "latency_ms": 5540,
-    "ip_check": "https://ifconfig.me/ip",
-    "https_check": "https://example.com/"
+    "latency_ms": 9889,
+    "ip_check": "https://api64.ipify.org?format=json",
+    "https_check": "https://www.google.com/generate_204"
   }
 ]
