@@ -2,5 +2,5 @@
 // SOCKS PAC for Poland: SOCKS4 and SOCKS5 endpoints.
 // PAC has no standard SOCKS4/SOCKS5 selector; SOCKS entries are intentionally combined.
 function FindProxyForURL(url, host) {
-    return "SOCKS 91.211.100.35:44744; DIRECT";
+    return "SOCKS 31.42.2.113:5678; SOCKS 46.151.113.10:5678; DIRECT";
 }
