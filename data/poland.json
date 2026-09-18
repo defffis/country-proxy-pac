@@ -1,26 +1,38 @@
 [
   {
     "status": "ok",
-    "proxy": "45.159.239.128:1080",
-    "type": "socks5",
-    "ip": "45.159.239.128",
+    "proxy": "91.211.100.35:44744",
+    "type": "socks4",
+    "ip": "91.211.100.35",
     "country_code": "PL",
     "country": "Poland",
-    "city": "Lubin",
-    "latency_ms": 8061,
+    "city": "Warsaw",
+    "latency_ms": 1779,
     "ip_check": "https://api.ipify.org?format=json",
     "https_check": "https://www.google.com/generate_204"
   },
   {
     "status": "ok",
-    "proxy": "91.150.189.122:60647",
+    "proxy": "31.42.6.125:5678",
     "type": "socks4",
-    "ip": "91.150.189.122",
+    "ip": "31.42.6.125",
     "country_code": "PL",
     "country": "Poland",
-    "city": "Rzeszow",
-    "latency_ms": 10332,
+    "city": "Czestochowa",
+    "latency_ms": 2597,
     "ip_check": "https://api64.ipify.org?format=json",
-    "https_check": "https://example.com/"
+    "https_check": "https://www.google.com/generate_204"
+  },
+  {
+    "status": "ok",
+    "proxy": "185.32.4.65:4153",
+    "type": "socks4",
+    "ip": "185.32.4.102",
+    "country_code": "PL",
+    "country": "Poland",
+    "city": "Chociwel",
+    "latency_ms": 5495,
+    "ip_check": "https://api64.ipify.org?format=json",
+    "https_check": "https://www.google.com/generate_204"
   }
 ]
