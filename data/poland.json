@@ -1,15 +1,51 @@
 [
   {
     "status": "ok",
+    "proxy": "46.151.113.10:5678",
+    "type": "socks4",
+    "ip": "46.151.113.10",
+    "country_code": "PL",
+    "country": "Poland",
+    "city": "Lipsko",
+    "latency_ms": 2392,
+    "ip_check": "https://api64.ipify.org?format=json",
+    "https_check": "https://www.cloudflare.com/cdn-cgi/trace"
+  },
+  {
+    "status": "ok",
+    "proxy": "31.42.6.125:5678",
+    "type": "socks4",
+    "ip": "31.42.6.125",
+    "country_code": "PL",
+    "country": "Poland",
+    "city": "Czestochowa",
+    "latency_ms": 2572,
+    "ip_check": "https://api.ipify.org?format=json",
+    "https_check": "https://example.com/"
+  },
+  {
+    "status": "ok",
     "proxy": "194.88.150.90:1080",
     "type": "socks5",
     "ip": "194.88.150.90",
     "country_code": "PL",
     "country": "Poland",
     "city": "Warsaw",
-    "latency_ms": 4178,
+    "latency_ms": 3811,
     "ip_check": "https://api.ipify.org?format=json",
     "https_check": "https://www.google.com/generate_204"
+  },
+  {
+    "status": "ok",
+    "proxy": "185.32.4.126:4153",
+    "type": "socks4",
+    "ip": "185.32.4.126",
+    "country_code": "PL",
+    "country": "Poland",
+    "city": "Chociwel",
+    "latency_ms": 4124,
+    "ip_check": "https://api64.ipify.org?format=json",
+    "https_check": "https://www.cloudflare.com/cdn-cgi/trace"
   },
   {
     "status": "ok",
@@ -19,20 +55,20 @@
     "country_code": "PL",
     "country": "Poland",
     "city": "Poznan",
-    "latency_ms": 4284,
-    "ip_check": "https://api64.ipify.org?format=json",
-    "https_check": "https://www.google.com/generate_204"
+    "latency_ms": 7713,
+    "ip_check": "https://icanhazip.com/",
+    "https_check": "https://example.com/"
   },
   {
     "status": "ok",
-    "proxy": "37.128.107.102:4145",
+    "proxy": "91.150.189.122:60647",
     "type": "socks4",
-    "ip": "37.128.107.102",
+    "ip": "91.150.189.122",
     "country_code": "PL",
     "country": "Poland",
-    "city": "Warsaw",
-    "latency_ms": 6045,
-    "ip_check": "https://api64.ipify.org?format=json",
-    "https_check": "https://www.google.com/generate_204"
+    "city": "Rzeszow",
+    "latency_ms": 9061,
+    "ip_check": "https://icanhazip.com/",
+    "https_check": "https://www.cloudflare.com/cdn-cgi/trace"
   }
 ]
