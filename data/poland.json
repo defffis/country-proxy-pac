@@ -7,7 +7,7 @@
     "country_code": "PL",
     "country": "Poland",
     "city": "Warsaw",
-    "latency_ms": 2976,
+    "latency_ms": 4178,
     "ip_check": "https://api.ipify.org?format=json",
     "https_check": "https://www.google.com/generate_204"
   },
@@ -19,8 +19,20 @@
     "country_code": "PL",
     "country": "Poland",
     "city": "Poznan",
-    "latency_ms": 7137,
-    "ip_check": "https://icanhazip.com/",
+    "latency_ms": 4284,
+    "ip_check": "https://api64.ipify.org?format=json",
+    "https_check": "https://www.google.com/generate_204"
+  },
+  {
+    "status": "ok",
+    "proxy": "37.128.107.102:4145",
+    "type": "socks4",
+    "ip": "37.128.107.102",
+    "country_code": "PL",
+    "country": "Poland",
+    "city": "Warsaw",
+    "latency_ms": 6045,
+    "ip_check": "https://api64.ipify.org?format=json",
     "https_check": "https://www.google.com/generate_204"
   }
 ]
