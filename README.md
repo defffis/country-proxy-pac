@@ -9,7 +9,7 @@
 <!-- AUTO-STATS:START -->
 ## Текущая статистика
 
-> Последнее обновление: **2026-09-19T00:49:30Z**
+> Последнее обновление: **2026-09-19T05:15:33Z**
 
 ### Общая статистика сбора
 
@@ -17,17 +17,17 @@
 |---|---:|
 | Источников | 20 |
 | Кандидатов обработано | 20 000 |
-| TCP-live кандидатов | 7 026 |
-| HTTP проверено | 2 120 |
+| TCP-live кандидатов | 7 125 |
+| HTTP проверено | 2 728 |
 | HTTPS proxy проверено | 1 235 |
-| SOCKS4 проверено | 1 280 |
-| SOCKS5 проверено | 2 391 |
-| Найден внешний IP | 731 |
-| Успешный HTTPS probe | 538 |
-| Успешный GeoIP | 538 |
-| Рабочих proxy по целевым странам | 170 |
-| HTTP/HTTPS endpoints для PAC | 65 |
-| SOCKS endpoints для PAC | 105 |
+| SOCKS4 проверено | 943 |
+| SOCKS5 проверено | 2 219 |
+| Найден внешний IP | 989 |
+| Успешный HTTPS probe | 745 |
+| Успешный GeoIP | 745 |
+| Рабочих proxy по целевым странам | 311 |
+| HTTP/HTTPS endpoints для PAC | 53 |
+| SOCKS endpoints для PAC | 194 |
 | Максимум кандидатов | 20 000 |
 | Параллельных workers | 100 |
 
@@ -35,56 +35,56 @@
 
 | Страна | Working | HTTP | HTTPS | SOCKS4 | SOCKS5 | PAC HTTP/HTTPS | PAC SOCKS | Best latency |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| 🇹🇷 Турция (`TR`) | 7 | 2 | 0 | 4 | 1 | 2 | 5 | 2 451 ms |
-| 🇮🇳 Индия (`IN`) | 20 | 12 | 0 | 5 | 3 | 12 | 8 | 2 700 ms |
-| 🇵🇱 Польша (`PL`) | 5 | 1 | 0 | 4 | 0 | 1 | 4 | 2 891 ms |
-| 🇳🇱 Нидерланды (`NL`) | 24 | 6 | 0 | 5 | 13 | 6 | 18 | 1 706 ms |
-| 🇩🇪 Германия (`DE`) | 29 | 9 | 0 | 7 | 13 | 9 | 20 | 1 803 ms |
-| 🇺🇸 США (`US`) | 81 | 32 | 0 | 6 | 43 | 32 | 49 | 332 ms |
-| 🇬🇧 Великобритания (`GB`) | 4 | 2 | 1 | 0 | 1 | 3 | 1 | 1 728 ms |
+| 🇹🇷 Турция (`TR`) | 3 | 1 | 0 | 2 | 0 | 1 | 2 | 2 038 ms |
+| 🇮🇳 Индия (`IN`) | 27 | 17 | 0 | 6 | 4 | 17 | 10 | 2 662 ms |
+| 🇵🇱 Польша (`PL`) | 3 | 0 | 0 | 2 | 1 | 0 | 3 | — |
+| 🇳🇱 Нидерланды (`NL`) | 59 | 3 | 0 | 7 | 49 | 3 | 56 | 1 390 ms |
+| 🇩🇪 Германия (`DE`) | 29 | 7 | 0 | 4 | 18 | 7 | 22 | 1 527 ms |
+| 🇺🇸 США (`US`) | 187 | 23 | 0 | 8 | 156 | 23 | 100 | 519 ms |
+| 🇬🇧 Великобритания (`GB`) | 3 | 1 | 1 | 0 | 1 | 2 | 1 | 1 366 ms |
 
 ### PAC files
 
 | PAC | Рабочих endpoints | Ссылка |
 |---|---:|---|
-| `turkey.pac` | 2 | [`turkey.pac`](https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/turkey.pac) |
-| `turkey-socks.pac` | 5 | [`turkey-socks.pac`](https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/turkey-socks.pac) |
-| `india.pac` | 12 | [`india.pac`](https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/india.pac) |
-| `india-socks.pac` | 8 | [`india-socks.pac`](https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/india-socks.pac) |
-| `poland.pac` | 1 | [`poland.pac`](https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/poland.pac) |
-| `poland-socks.pac` | 4 | [`poland-socks.pac`](https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/poland-socks.pac) |
-| `netherlands.pac` | 6 | [`netherlands.pac`](https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/netherlands.pac) |
-| `netherlands-socks.pac` | 18 | [`netherlands-socks.pac`](https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/netherlands-socks.pac) |
-| `germany.pac` | 9 | [`germany.pac`](https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/germany.pac) |
-| `germany-socks.pac` | 20 | [`germany-socks.pac`](https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/germany-socks.pac) |
-| `usa.pac` | 32 | [`usa.pac`](https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/usa.pac) |
-| `usa-socks.pac` | 49 | [`usa-socks.pac`](https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/usa-socks.pac) |
-| `uk.pac` | 3 | [`uk.pac`](https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/uk.pac) |
+| `turkey.pac` | 1 | [`turkey.pac`](https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/turkey.pac) |
+| `turkey-socks.pac` | 2 | [`turkey-socks.pac`](https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/turkey-socks.pac) |
+| `india.pac` | 17 | [`india.pac`](https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/india.pac) |
+| `india-socks.pac` | 10 | [`india-socks.pac`](https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/india-socks.pac) |
+| `poland.pac` | 0 | [`poland.pac`](https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/poland.pac) |
+| `poland-socks.pac` | 3 | [`poland-socks.pac`](https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/poland-socks.pac) |
+| `netherlands.pac` | 3 | [`netherlands.pac`](https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/netherlands.pac) |
+| `netherlands-socks.pac` | 56 | [`netherlands-socks.pac`](https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/netherlands-socks.pac) |
+| `germany.pac` | 7 | [`germany.pac`](https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/germany.pac) |
+| `germany-socks.pac` | 22 | [`germany-socks.pac`](https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/germany-socks.pac) |
+| `usa.pac` | 23 | [`usa.pac`](https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/usa.pac) |
+| `usa-socks.pac` | 100 | [`usa-socks.pac`](https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/usa-socks.pac) |
+| `uk.pac` | 2 | [`uk.pac`](https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/uk.pac) |
 | `uk-socks.pac` | 1 | [`uk-socks.pac`](https://raw.githubusercontent.com/defffis/country-proxy-pac/main/pac/uk-socks.pac) |
 
 <details>
 <summary>English statistics</summary>
 
-> Last update: **2026-09-19T00:49:30Z**
+> Last update: **2026-09-19T05:15:33Z**
 
 | Metric | Value |
 |---|---:|
 | Sources | 20 |
 | Candidates processed | 20 000 |
-| TCP-live candidates | 7 026 |
-| Working target-country proxies | 170 |
-| HTTP/HTTPS PAC endpoints | 65 |
-| SOCKS PAC endpoints | 105 |
+| TCP-live candidates | 7 125 |
+| Working target-country proxies | 311 |
+| HTTP/HTTPS PAC endpoints | 53 |
+| SOCKS PAC endpoints | 194 |
 
 | Country | Working | HTTP | HTTPS | SOCKS4 | SOCKS5 | PAC HTTP/HTTPS | PAC SOCKS | Best latency |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| 🇹🇷 Turkey (`TR`) | 7 | 2 | 0 | 4 | 1 | 2 | 5 | 2 451 ms |
-| 🇮🇳 India (`IN`) | 20 | 12 | 0 | 5 | 3 | 12 | 8 | 2 700 ms |
-| 🇵🇱 Poland (`PL`) | 5 | 1 | 0 | 4 | 0 | 1 | 4 | 2 891 ms |
-| 🇳🇱 Netherlands (`NL`) | 24 | 6 | 0 | 5 | 13 | 6 | 18 | 1 706 ms |
-| 🇩🇪 Germany (`DE`) | 29 | 9 | 0 | 7 | 13 | 9 | 20 | 1 803 ms |
-| 🇺🇸 United States (`US`) | 81 | 32 | 0 | 6 | 43 | 32 | 49 | 332 ms |
-| 🇬🇧 United Kingdom (`GB`) | 4 | 2 | 1 | 0 | 1 | 3 | 1 | 1 728 ms |
+| 🇹🇷 Turkey (`TR`) | 3 | 1 | 0 | 2 | 0 | 1 | 2 | 2 038 ms |
+| 🇮🇳 India (`IN`) | 27 | 17 | 0 | 6 | 4 | 17 | 10 | 2 662 ms |
+| 🇵🇱 Poland (`PL`) | 3 | 0 | 0 | 2 | 1 | 0 | 3 | — |
+| 🇳🇱 Netherlands (`NL`) | 59 | 3 | 0 | 7 | 49 | 3 | 56 | 1 390 ms |
+| 🇩🇪 Germany (`DE`) | 29 | 7 | 0 | 4 | 18 | 7 | 22 | 1 527 ms |
+| 🇺🇸 United States (`US`) | 187 | 23 | 0 | 8 | 156 | 23 | 100 | 519 ms |
+| 🇬🇧 United Kingdom (`GB`) | 3 | 1 | 1 | 0 | 1 | 2 | 1 | 1 366 ms |
 
 </details>
 <!-- AUTO-STATS:END -->
