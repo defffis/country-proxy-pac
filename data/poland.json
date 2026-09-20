@@ -1,27 +1,27 @@
 [
   {
     "status": "ok",
+    "proxy": "91.211.100.35:44744",
+    "type": "socks4",
+    "ip": "91.211.100.35",
+    "country_code": "PL",
+    "country": "Poland",
+    "city": "Warsaw",
+    "latency_ms": 1690,
+    "ip_check": "https://api.ipify.org?format=json",
+    "https_check": "https://www.google.com/generate_204"
+  },
+  {
+    "status": "ok",
     "proxy": "185.32.4.126:4153",
     "type": "socks4",
     "ip": "185.32.4.126",
     "country_code": "PL",
     "country": "Poland",
     "city": "Chociwel",
-    "latency_ms": 1259,
-    "ip_check": "https://api.ipify.org?format=json",
+    "latency_ms": 4038,
+    "ip_check": "https://api64.ipify.org?format=json",
     "https_check": "https://www.google.com/generate_204"
-  },
-  {
-    "status": "ok",
-    "proxy": "31.42.6.125:5678",
-    "type": "socks4",
-    "ip": "31.42.6.125",
-    "country_code": "PL",
-    "country": "Poland",
-    "city": "Czestochowa",
-    "latency_ms": 2445,
-    "ip_check": "https://ifconfig.me/ip",
-    "https_check": "https://www.cloudflare.com/cdn-cgi/trace"
   },
   {
     "status": "ok",
@@ -31,7 +31,7 @@
     "country_code": "PL",
     "country": "Poland",
     "city": "Warsaw",
-    "latency_ms": 2576,
+    "latency_ms": 5803,
     "ip_check": "https://api.ipify.org?format=json",
     "https_check": "https://www.google.com/generate_204"
   },
@@ -43,32 +43,8 @@
     "country_code": "PL",
     "country": "Poland",
     "city": "Warsaw",
-    "latency_ms": 3690,
+    "latency_ms": 6134,
     "ip_check": "https://api.ipify.org?format=json",
     "https_check": "https://www.google.com/generate_204"
-  },
-  {
-    "status": "ok",
-    "proxy": "185.147.69.48:1080",
-    "type": "socks4",
-    "ip": "185.147.69.48",
-    "country_code": "PL",
-    "country": "Poland",
-    "city": "Rewal",
-    "latency_ms": 5486,
-    "ip_check": "https://api64.ipify.org?format=json",
-    "https_check": "https://www.cloudflare.com/cdn-cgi/trace"
-  },
-  {
-    "status": "ok",
-    "proxy": "46.151.113.10:5678",
-    "type": "socks4",
-    "ip": "46.151.113.10",
-    "country_code": "PL",
-    "country": "Poland",
-    "city": "Lipsko",
-    "latency_ms": 8049,
-    "ip_check": "https://api64.ipify.org?format=json",
-    "https_check": "https://example.com/"
   }
 ]
