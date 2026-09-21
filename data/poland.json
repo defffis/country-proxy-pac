@@ -1,37 +1,13 @@
 [
   {
     "status": "ok",
-    "proxy": "151.243.196.252:1080",
-    "type": "socks5",
-    "ip": "151.243.196.252",
-    "country_code": "PL",
-    "country": "Poland",
-    "city": "Warsaw",
-    "latency_ms": 2853,
-    "ip_check": "https://api.ipify.org?format=json",
-    "https_check": "https://www.google.com/generate_204"
-  },
-  {
-    "status": "ok",
-    "proxy": "57.128.249.250:9052",
-    "type": "socks4",
-    "ip": "82.25.56.147",
-    "country_code": "PL",
-    "country": "Poland",
-    "city": "Chojnice",
-    "latency_ms": 3103,
-    "ip_check": "https://api.ipify.org?format=json",
-    "https_check": "https://www.google.com/generate_204"
-  },
-  {
-    "status": "ok",
     "proxy": "104.245.245.218:1080",
     "type": "socks5",
     "ip": "104.245.245.218",
     "country_code": "PL",
     "country": "Poland",
     "city": "Warsaw",
-    "latency_ms": 3159,
+    "latency_ms": 2118,
     "ip_check": "https://api.ipify.org?format=json",
     "https_check": "https://www.google.com/generate_204"
   },
@@ -43,8 +19,32 @@
     "country_code": "PL",
     "country": "Poland",
     "city": "Poznan",
-    "latency_ms": 4160,
-    "ip_check": "https://ifconfig.me/ip",
+    "latency_ms": 2254,
+    "ip_check": "https://api.ipify.org?format=json",
+    "https_check": "https://www.google.com/generate_204"
+  },
+  {
+    "status": "ok",
+    "proxy": "88.220.133.87:4153",
+    "type": "socks4",
+    "ip": "88.220.133.87",
+    "country_code": "PL",
+    "country": "Poland",
+    "city": "Jaroslaw",
+    "latency_ms": 2454,
+    "ip_check": "https://api.ipify.org?format=json",
+    "https_check": "https://www.google.com/generate_204"
+  },
+  {
+    "status": "ok",
+    "proxy": "151.243.196.252:1080",
+    "type": "socks5",
+    "ip": "151.243.196.252",
+    "country_code": "PL",
+    "country": "Poland",
+    "city": "Warsaw",
+    "latency_ms": 3465,
+    "ip_check": "https://api.ipify.org?format=json",
     "https_check": "https://www.google.com/generate_204"
   },
   {
@@ -55,8 +55,32 @@
     "country_code": "PL",
     "country": "Poland",
     "city": "Warsaw",
-    "latency_ms": 8244,
+    "latency_ms": 5376,
     "ip_check": "https://api.ipify.org?format=json",
+    "https_check": "https://www.google.com/generate_204"
+  },
+  {
+    "status": "ok",
+    "proxy": "91.150.189.122:60647",
+    "type": "socks4",
+    "ip": "91.150.189.122",
+    "country_code": "PL",
+    "country": "Poland",
+    "city": "Rzeszow",
+    "latency_ms": 6309,
+    "ip_check": "https://api.ipify.org?format=json",
+    "https_check": "https://example.com/"
+  },
+  {
+    "status": "ok",
+    "proxy": "185.147.69.48:1080",
+    "type": "socks4",
+    "ip": "185.147.69.48",
+    "country_code": "PL",
+    "country": "Poland",
+    "city": "Rewal",
+    "latency_ms": 9273,
+    "ip_check": "https://icanhazip.com/",
     "https_check": "https://www.cloudflare.com/cdn-cgi/trace"
   }
 ]
