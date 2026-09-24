@@ -7,44 +7,20 @@
     "country_code": "PL",
     "country": "Poland",
     "city": "Warsaw",
-    "latency_ms": 1816,
+    "latency_ms": 1276,
     "ip_check": "https://api.ipify.org?format=json",
     "https_check": "https://www.google.com/generate_204"
   },
   {
     "status": "ok",
-    "proxy": "185.238.238.169:58080",
-    "type": "http",
-    "ip": "185.238.236.99",
-    "country_code": "PL",
-    "country": "Poland",
-    "city": "Strzelin",
-    "latency_ms": 2304,
-    "ip_check": "https://api.ipify.org?format=json",
-    "https_check": "https://www.google.com/generate_204"
-  },
-  {
-    "status": "ok",
-    "proxy": "185.79.243.153:38431",
+    "proxy": "46.151.113.10:5678",
     "type": "socks4",
-    "ip": "185.79.243.153",
+    "ip": "46.151.113.10",
     "country_code": "PL",
     "country": "Poland",
-    "city": "Myszkow",
-    "latency_ms": 2661,
+    "city": "Lipsko",
+    "latency_ms": 3119,
     "ip_check": "https://api64.ipify.org?format=json",
     "https_check": "https://www.google.com/generate_204"
-  },
-  {
-    "status": "ok",
-    "proxy": "46.171.28.162:59311",
-    "type": "socks4",
-    "ip": "46.171.28.162",
-    "country_code": "PL",
-    "country": "Poland",
-    "city": "Skierniewice",
-    "latency_ms": 7462,
-    "ip_check": "https://api64.ipify.org?format=json",
-    "https_check": "https://www.cloudflare.com/cdn-cgi/trace"
   }
 ]

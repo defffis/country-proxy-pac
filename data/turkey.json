@@ -7,19 +7,7 @@
     "country_code": "TR",
     "country": "Türkiye",
     "city": "Izmir",
-    "latency_ms": 2315,
-    "ip_check": "https://api.ipify.org?format=json",
-    "https_check": "https://www.google.com/generate_204"
-  },
-  {
-    "status": "ok",
-    "proxy": "212.175.50.78:8085",
-    "type": "http",
-    "ip": "212.175.50.78",
-    "country_code": "TR",
-    "country": "Türkiye",
-    "city": "Haliliye",
-    "latency_ms": 3092,
+    "latency_ms": 1787,
     "ip_check": "https://api.ipify.org?format=json",
     "https_check": "https://www.google.com/generate_204"
   },
@@ -31,20 +19,20 @@
     "country_code": "TR",
     "country": "Türkiye",
     "city": "Osmangazi",
-    "latency_ms": 4470,
-    "ip_check": "https://ifconfig.me/ip",
-    "https_check": "https://www.cloudflare.com/cdn-cgi/trace"
+    "latency_ms": 2716,
+    "ip_check": "https://api.ipify.org?format=json",
+    "https_check": "https://example.com/"
   },
   {
     "status": "ok",
-    "proxy": "81.90.158.110:3128",
-    "type": "http",
-    "ip": "213.142.134.51",
+    "proxy": "85.105.194.113:4153",
+    "type": "socks4",
+    "ip": "85.105.194.113",
     "country_code": "TR",
     "country": "Türkiye",
-    "city": "Istanbul",
-    "latency_ms": 6963,
-    "ip_check": "https://api.ipify.org?format=json",
-    "https_check": "https://example.com/"
+    "city": "Izmir",
+    "latency_ms": 10002,
+    "ip_check": "https://icanhazip.com/",
+    "https_check": "https://www.google.com/generate_204"
   }
 ]
