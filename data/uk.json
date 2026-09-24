@@ -7,19 +7,7 @@
     "country_code": "GB",
     "country": "United Kingdom",
     "city": "London",
-    "latency_ms": 1229,
-    "ip_check": "https://api.ipify.org?format=json",
-    "https_check": "https://www.google.com/generate_204"
-  },
-  {
-    "status": "ok",
-    "proxy": "185.87.255.54:1080",
-    "type": "socks5",
-    "ip": "185.87.255.54",
-    "country_code": "GB",
-    "country": "United Kingdom",
-    "city": "London",
-    "latency_ms": 1403,
+    "latency_ms": 1094,
     "ip_check": "https://api.ipify.org?format=json",
     "https_check": "https://www.google.com/generate_204"
   },
@@ -31,19 +19,19 @@
     "country_code": "GB",
     "country": "United Kingdom",
     "city": "London",
-    "latency_ms": 1533,
+    "latency_ms": 1209,
     "ip_check": "https://api.ipify.org?format=json",
     "https_check": "https://www.google.com/generate_204"
   },
   {
     "status": "ok",
-    "proxy": "157.90.113.23:9052",
+    "proxy": "185.87.255.54:1080",
     "type": "socks5",
-    "ip": "31.58.214.208",
+    "ip": "185.87.255.54",
     "country_code": "GB",
     "country": "United Kingdom",
-    "city": "Maidenhead",
-    "latency_ms": 1583,
+    "city": "London",
+    "latency_ms": 1258,
     "ip_check": "https://api.ipify.org?format=json",
     "https_check": "https://www.google.com/generate_204"
   },
@@ -55,20 +43,20 @@
     "country_code": "GB",
     "country": "United Kingdom",
     "city": "London",
-    "latency_ms": 4697,
+    "latency_ms": 6766,
     "ip_check": "https://api.ipify.org?format=json",
     "https_check": "https://www.google.com/generate_204"
   },
   {
     "status": "ok",
-    "proxy": "111.119.162.248:11012",
-    "type": "socks5",
-    "ip": "198.244.142.16",
+    "proxy": "31.148.99.133:4000",
+    "type": "http",
+    "ip": "31.148.99.133",
     "country_code": "GB",
     "country": "United Kingdom",
     "city": "London",
-    "latency_ms": 12329,
-    "ip_check": "https://ifconfig.me/ip",
-    "https_check": "https://www.google.com/generate_204"
+    "latency_ms": 9483,
+    "ip_check": "https://api64.ipify.org?format=json",
+    "https_check": "https://example.com/"
   }
 ]
