@@ -1,13 +1,25 @@
 [
   {
     "status": "ok",
-    "proxy": "85.104.3.232:3310",
+    "proxy": "85.105.160.32:9090",
     "type": "http",
-    "ip": "85.104.3.232",
+    "ip": "85.105.160.32",
     "country_code": "TR",
     "country": "Türkiye",
-    "city": "Yakutiye",
-    "latency_ms": 4322,
+    "city": "Basiskele",
+    "latency_ms": 1742,
+    "ip_check": "https://api.ipify.org?format=json",
+    "https_check": "https://www.google.com/generate_204"
+  },
+  {
+    "status": "ok",
+    "proxy": "193.164.5.59:11080",
+    "type": "socks5",
+    "ip": "193.164.5.59",
+    "country_code": "TR",
+    "country": "Türkiye",
+    "city": "Osmangazi",
+    "latency_ms": 1793,
     "ip_check": "https://api.ipify.org?format=json",
     "https_check": "https://www.google.com/generate_204"
   },
@@ -19,9 +31,21 @@
     "country_code": "TR",
     "country": "Türkiye",
     "city": "Ankara",
-    "latency_ms": 4527,
+    "latency_ms": 2124,
+    "ip_check": "https://icanhazip.com/",
+    "https_check": "https://www.google.com/generate_204"
+  },
+  {
+    "status": "ok",
+    "proxy": "81.90.158.110:3128",
+    "type": "http",
+    "ip": "213.142.134.51",
+    "country_code": "TR",
+    "country": "Türkiye",
+    "city": "Istanbul",
+    "latency_ms": 3007,
     "ip_check": "https://api.ipify.org?format=json",
-    "https_check": "https://www.cloudflare.com/cdn-cgi/trace"
+    "https_check": "https://www.google.com/generate_204"
   },
   {
     "status": "ok",
@@ -31,8 +55,32 @@
     "country_code": "TR",
     "country": "Türkiye",
     "city": "Izmir",
-    "latency_ms": 5695,
+    "latency_ms": 4817,
     "ip_check": "https://api64.ipify.org?format=json",
     "https_check": "https://www.google.com/generate_204"
+  },
+  {
+    "status": "ok",
+    "proxy": "85.104.3.232:3310",
+    "type": "http",
+    "ip": "85.104.3.232",
+    "country_code": "TR",
+    "country": "Türkiye",
+    "city": "Yakutiye",
+    "latency_ms": 12010,
+    "ip_check": "https://icanhazip.com/",
+    "https_check": "https://www.google.com/generate_204"
+  },
+  {
+    "status": "ok",
+    "proxy": "191.44.71.163:8080",
+    "type": "http",
+    "ip": "201.4.65.68",
+    "country_code": "TR",
+    "country": "Türkiye",
+    "city": "Adana",
+    "latency_ms": 15074,
+    "ip_check": "https://icanhazip.com/",
+    "https_check": "https://example.com/"
   }
 ]

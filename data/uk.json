@@ -7,7 +7,7 @@
     "country_code": "GB",
     "country": "United Kingdom",
     "city": "London",
-    "latency_ms": 1094,
+    "latency_ms": 1052,
     "ip_check": "https://api.ipify.org?format=json",
     "https_check": "https://www.google.com/generate_204"
   },
@@ -19,7 +19,7 @@
     "country_code": "GB",
     "country": "United Kingdom",
     "city": "London",
-    "latency_ms": 1209,
+    "latency_ms": 1074,
     "ip_check": "https://api.ipify.org?format=json",
     "https_check": "https://www.google.com/generate_204"
   },
@@ -31,8 +31,32 @@
     "country_code": "GB",
     "country": "United Kingdom",
     "city": "London",
-    "latency_ms": 1258,
+    "latency_ms": 1110,
     "ip_check": "https://api.ipify.org?format=json",
+    "https_check": "https://www.google.com/generate_204"
+  },
+  {
+    "status": "ok",
+    "proxy": "45.135.36.59:18080",
+    "type": "http",
+    "ip": "104.28.192.58",
+    "country_code": "GB",
+    "country": "United Kingdom",
+    "city": "London",
+    "latency_ms": 1159,
+    "ip_check": "https://api.ipify.org?format=json",
+    "https_check": "https://www.google.com/generate_204"
+  },
+  {
+    "status": "ok",
+    "proxy": "138.124.125.198:3128",
+    "type": "http",
+    "ip": "138.124.125.198",
+    "country_code": "GB",
+    "country": "United Kingdom",
+    "city": "Coventry",
+    "latency_ms": 1707,
+    "ip_check": "https://ifconfig.me/ip",
     "https_check": "https://www.google.com/generate_204"
   },
   {
@@ -43,20 +67,8 @@
     "country_code": "GB",
     "country": "United Kingdom",
     "city": "London",
-    "latency_ms": 6766,
+    "latency_ms": 6077,
     "ip_check": "https://api.ipify.org?format=json",
     "https_check": "https://www.google.com/generate_204"
-  },
-  {
-    "status": "ok",
-    "proxy": "31.148.99.133:4000",
-    "type": "http",
-    "ip": "31.148.99.133",
-    "country_code": "GB",
-    "country": "United Kingdom",
-    "city": "London",
-    "latency_ms": 9483,
-    "ip_check": "https://api64.ipify.org?format=json",
-    "https_check": "https://example.com/"
   }
 ]
