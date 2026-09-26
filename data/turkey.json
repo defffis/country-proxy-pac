@@ -7,7 +7,7 @@
     "country_code": "TR",
     "country": "Türkiye",
     "city": "Izmir",
-    "latency_ms": 2327,
+    "latency_ms": 2104,
     "ip_check": "https://api.ipify.org?format=json",
     "https_check": "https://www.google.com/generate_204"
   }
