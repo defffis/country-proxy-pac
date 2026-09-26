@@ -1,13 +1,25 @@
 [
   {
     "status": "ok",
-    "proxy": "77.65.50.118:34159",
+    "proxy": "185.79.243.153:38431",
     "type": "socks4",
-    "ip": "77.65.50.118",
+    "ip": "185.79.243.153",
     "country_code": "PL",
     "country": "Poland",
-    "city": "Poznan",
-    "latency_ms": 1715,
+    "city": "Myszkow",
+    "latency_ms": 1627,
+    "ip_check": "https://api.ipify.org?format=json",
+    "https_check": "https://www.google.com/generate_204"
+  },
+  {
+    "status": "ok",
+    "proxy": "185.32.4.65:4153",
+    "type": "socks4",
+    "ip": "185.32.4.102",
+    "country_code": "PL",
+    "country": "Poland",
+    "city": "Chociwel",
+    "latency_ms": 2647,
     "ip_check": "https://api.ipify.org?format=json",
     "https_check": "https://www.google.com/generate_204"
   },
@@ -19,44 +31,20 @@
     "country_code": "PL",
     "country": "Poland",
     "city": "Rzeszow",
-    "latency_ms": 2542,
+    "latency_ms": 2917,
     "ip_check": "https://api.ipify.org?format=json",
     "https_check": "https://www.google.com/generate_204"
   },
   {
     "status": "ok",
-    "proxy": "31.42.6.125:5678",
+    "proxy": "88.220.133.87:4153",
     "type": "socks4",
-    "ip": "31.42.6.125",
+    "ip": "88.220.133.87",
     "country_code": "PL",
     "country": "Poland",
-    "city": "Czestochowa",
-    "latency_ms": 3012,
-    "ip_check": "https://api.ipify.org?format=json",
-    "https_check": "https://www.cloudflare.com/cdn-cgi/trace"
-  },
-  {
-    "status": "ok",
-    "proxy": "185.32.4.126:4153",
-    "type": "socks4",
-    "ip": "185.32.4.126",
-    "country_code": "PL",
-    "country": "Poland",
-    "city": "Chociwel",
-    "latency_ms": 3607,
-    "ip_check": "https://api.ipify.org?format=json",
-    "https_check": "https://www.cloudflare.com/cdn-cgi/trace"
-  },
-  {
-    "status": "ok",
-    "proxy": "91.211.100.35:44744",
-    "type": "socks4",
-    "ip": "91.211.100.35",
-    "country_code": "PL",
-    "country": "Poland",
-    "city": "Warsaw",
-    "latency_ms": 7790,
-    "ip_check": "https://icanhazip.com/",
+    "city": "Jaroslaw",
+    "latency_ms": 8481,
+    "ip_check": "https://ifconfig.me/ip",
     "https_check": "https://www.google.com/generate_204"
   }
 ]
