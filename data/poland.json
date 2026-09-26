@@ -1,37 +1,13 @@
 [
   {
     "status": "ok",
-    "proxy": "45.74.31.23:4316",
-    "type": "socks5",
-    "ip": "57.128.229.28",
-    "country_code": "PL",
-    "country": "Poland",
-    "city": "Warsaw",
-    "latency_ms": 1596,
-    "ip_check": "https://api.ipify.org?format=json",
-    "https_check": "https://www.google.com/generate_204"
-  },
-  {
-    "status": "ok",
     "proxy": "91.150.189.122:1080",
     "type": "socks4",
     "ip": "91.150.189.122",
     "country_code": "PL",
     "country": "Poland",
     "city": "Rzeszow",
-    "latency_ms": 1999,
-    "ip_check": "https://api.ipify.org?format=json",
-    "https_check": "https://www.google.com/generate_204"
-  },
-  {
-    "status": "ok",
-    "proxy": "185.32.4.126:4153",
-    "type": "socks4",
-    "ip": "185.32.4.126",
-    "country_code": "PL",
-    "country": "Poland",
-    "city": "Chociwel",
-    "latency_ms": 3535,
+    "latency_ms": 1209,
     "ip_check": "https://api.ipify.org?format=json",
     "https_check": "https://www.google.com/generate_204"
   },
@@ -43,9 +19,21 @@
     "country_code": "PL",
     "country": "Poland",
     "city": "Czestochowa",
-    "latency_ms": 5639,
+    "latency_ms": 1225,
     "ip_check": "https://api.ipify.org?format=json",
-    "https_check": "https://www.cloudflare.com/cdn-cgi/trace"
+    "https_check": "https://www.google.com/generate_204"
+  },
+  {
+    "status": "ok",
+    "proxy": "185.32.4.65:4153",
+    "type": "socks4",
+    "ip": "185.32.4.102",
+    "country_code": "PL",
+    "country": "Poland",
+    "city": "Chociwel",
+    "latency_ms": 3291,
+    "ip_check": "https://api.ipify.org?format=json",
+    "https_check": "https://www.google.com/generate_204"
   },
   {
     "status": "ok",
@@ -55,20 +43,20 @@
     "country_code": "PL",
     "country": "Poland",
     "city": "Lipsko",
-    "latency_ms": 5948,
-    "ip_check": "https://ifconfig.me/ip",
+    "latency_ms": 3789,
+    "ip_check": "https://api.ipify.org?format=json",
     "https_check": "https://www.google.com/generate_204"
   },
   {
     "status": "ok",
-    "proxy": "185.147.69.48:1080",
+    "proxy": "77.65.50.118:34159",
     "type": "socks4",
-    "ip": "185.147.69.48",
+    "ip": "77.65.50.118",
     "country_code": "PL",
     "country": "Poland",
-    "city": "Rewal",
-    "latency_ms": 8672,
+    "city": "Poznan",
+    "latency_ms": 9128,
     "ip_check": "https://icanhazip.com/",
-    "https_check": "https://www.cloudflare.com/cdn-cgi/trace"
+    "https_check": "https://www.google.com/generate_204"
   }
 ]
