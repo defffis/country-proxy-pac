@@ -1,27 +1,39 @@
 [
   {
     "status": "ok",
-    "proxy": "191.44.125.13:8080",
-    "type": "http",
-    "ip": "191.44.125.13",
+    "proxy": "176.235.182.90:1080",
+    "type": "socks4",
+    "ip": "176.235.182.90",
     "country_code": "TR",
     "country": "Türkiye",
-    "city": "Kilis",
-    "latency_ms": 2260,
+    "city": "Istanbul",
+    "latency_ms": 3127,
     "ip_check": "https://api.ipify.org?format=json",
     "https_check": "https://www.google.com/generate_204"
   },
   {
     "status": "ok",
-    "proxy": "88.245.138.87:1080",
-    "type": "socks4",
-    "ip": "88.245.138.87",
+    "proxy": "193.164.5.59:11080",
+    "type": "socks5",
+    "ip": "193.164.5.59",
     "country_code": "TR",
     "country": "Türkiye",
-    "city": "Yalova",
-    "latency_ms": 3902,
+    "city": "Osmangazi",
+    "latency_ms": 3965,
+    "ip_check": "https://api64.ipify.org?format=json",
+    "https_check": "https://www.cloudflare.com/cdn-cgi/trace"
+  },
+  {
+    "status": "ok",
+    "proxy": "92.249.62.117:8080",
+    "type": "http",
+    "ip": "92.249.62.117",
+    "country_code": "TR",
+    "country": "Türkiye",
+    "city": "Istanbul",
+    "latency_ms": 4709,
     "ip_check": "https://api.ipify.org?format=json",
-    "https_check": "https://example.com/"
+    "https_check": "https://www.google.com/generate_204"
   },
   {
     "status": "ok",
@@ -31,8 +43,32 @@
     "country_code": "TR",
     "country": "Türkiye",
     "city": "Izmir",
-    "latency_ms": 5261,
+    "latency_ms": 5245,
     "ip_check": "https://api64.ipify.org?format=json",
+    "https_check": "https://www.google.com/generate_204"
+  },
+  {
+    "status": "ok",
+    "proxy": "88.247.31.164:4153",
+    "type": "socks4",
+    "ip": "88.247.31.164",
+    "country_code": "TR",
+    "country": "Türkiye",
+    "city": "Ankara",
+    "latency_ms": 6859,
+    "ip_check": "https://icanhazip.com/",
+    "https_check": "https://example.com/"
+  },
+  {
+    "status": "ok",
+    "proxy": "88.245.138.87:1080",
+    "type": "socks4",
+    "ip": "88.245.138.87",
+    "country_code": "TR",
+    "country": "Türkiye",
+    "city": "Yalova",
+    "latency_ms": 8681,
+    "ip_check": "https://icanhazip.com/",
     "https_check": "https://www.google.com/generate_204"
   }
 ]
