@@ -1,13 +1,13 @@
 [
   {
     "status": "ok",
-    "proxy": "31.42.6.125:5678",
+    "proxy": "77.65.50.118:34159",
     "type": "socks4",
-    "ip": "31.42.6.125",
+    "ip": "77.65.50.118",
     "country_code": "PL",
     "country": "Poland",
-    "city": "Czestochowa",
-    "latency_ms": 1587,
+    "city": "Poznan",
+    "latency_ms": 1715,
     "ip_check": "https://api.ipify.org?format=json",
     "https_check": "https://www.google.com/generate_204"
   },
@@ -19,32 +19,44 @@
     "country_code": "PL",
     "country": "Poland",
     "city": "Rzeszow",
-    "latency_ms": 1655,
+    "latency_ms": 2542,
     "ip_check": "https://api.ipify.org?format=json",
     "https_check": "https://www.google.com/generate_204"
   },
   {
     "status": "ok",
-    "proxy": "46.151.118.120:5678",
+    "proxy": "31.42.6.125:5678",
     "type": "socks4",
-    "ip": "46.151.118.120",
+    "ip": "31.42.6.125",
     "country_code": "PL",
     "country": "Poland",
-    "city": "Lipsko",
-    "latency_ms": 1848,
+    "city": "Czestochowa",
+    "latency_ms": 3012,
     "ip_check": "https://api.ipify.org?format=json",
-    "https_check": "https://www.google.com/generate_204"
+    "https_check": "https://www.cloudflare.com/cdn-cgi/trace"
   },
   {
     "status": "ok",
-    "proxy": "195.14.113.24:1080",
-    "type": "socks5",
-    "ip": "195.14.113.24",
+    "proxy": "185.32.4.126:4153",
+    "type": "socks4",
+    "ip": "185.32.4.126",
     "country_code": "PL",
     "country": "Poland",
-    "city": "Lubin",
-    "latency_ms": 8484,
+    "city": "Chociwel",
+    "latency_ms": 3607,
     "ip_check": "https://api.ipify.org?format=json",
+    "https_check": "https://www.cloudflare.com/cdn-cgi/trace"
+  },
+  {
+    "status": "ok",
+    "proxy": "91.211.100.35:44744",
+    "type": "socks4",
+    "ip": "91.211.100.35",
+    "country_code": "PL",
+    "country": "Poland",
+    "city": "Warsaw",
+    "latency_ms": 7790,
+    "ip_check": "https://icanhazip.com/",
     "https_check": "https://www.google.com/generate_204"
   }
 ]
