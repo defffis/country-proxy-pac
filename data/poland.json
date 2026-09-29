@@ -1,26 +1,14 @@
 [
   {
     "status": "ok",
-    "proxy": "31.42.6.125:5678",
-    "type": "socks4",
-    "ip": "31.42.6.125",
+    "proxy": "185.238.238.165:58080",
+    "type": "http",
+    "ip": "185.238.236.99",
     "country_code": "PL",
     "country": "Poland",
-    "city": "Czestochowa",
-    "latency_ms": 3314,
-    "ip_check": "https://api64.ipify.org?format=json",
-    "https_check": "https://www.cloudflare.com/cdn-cgi/trace"
-  },
-  {
-    "status": "ok",
-    "proxy": "77.65.50.118:34159",
-    "type": "socks4",
-    "ip": "77.65.50.118",
-    "country_code": "PL",
-    "country": "Poland",
-    "city": "Poznan",
-    "latency_ms": 4932,
-    "ip_check": "https://api64.ipify.org?format=json",
-    "https_check": "https://www.cloudflare.com/cdn-cgi/trace"
+    "city": "Strzelin",
+    "latency_ms": 7047,
+    "ip_check": "https://ifconfig.me/ip",
+    "https_check": "https://www.google.com/generate_204"
   }
 ]
