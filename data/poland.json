@@ -1,15 +1,39 @@
 [
   {
     "status": "ok",
+    "proxy": "185.32.4.102:4153",
+    "type": "socks4",
+    "ip": "185.32.4.102",
+    "country_code": "PL",
+    "country": "Poland",
+    "city": "Chociwel",
+    "latency_ms": 1639,
+    "ip_check": "https://api.ipify.org?format=json",
+    "https_check": "https://www.google.com/generate_204"
+  },
+  {
+    "status": "ok",
+    "proxy": "185.32.4.110:4153",
+    "type": "socks4",
+    "ip": "185.32.4.110",
+    "country_code": "PL",
+    "country": "Poland",
+    "city": "Chociwel",
+    "latency_ms": 1682,
+    "ip_check": "https://api.ipify.org?format=json",
+    "https_check": "https://www.google.com/generate_204"
+  },
+  {
+    "status": "ok",
     "proxy": "77.65.50.118:34159",
     "type": "socks4",
     "ip": "77.65.50.118",
     "country_code": "PL",
     "country": "Poland",
     "city": "Poznan",
-    "latency_ms": 5460,
-    "ip_check": "https://ifconfig.me/ip",
-    "https_check": "https://www.google.com/generate_204"
+    "latency_ms": 4109,
+    "ip_check": "https://api.ipify.org?format=json",
+    "https_check": "https://www.cloudflare.com/cdn-cgi/trace"
   },
   {
     "status": "ok",
@@ -19,8 +43,8 @@
     "country_code": "PL",
     "country": "Poland",
     "city": "Rzeszow",
-    "latency_ms": 7595,
-    "ip_check": "https://ifconfig.me/ip",
+    "latency_ms": 4321,
+    "ip_check": "https://api64.ipify.org?format=json",
     "https_check": "https://www.google.com/generate_204"
   }
 ]
