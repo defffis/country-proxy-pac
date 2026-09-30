@@ -1,14 +1,50 @@
 [
   {
     "status": "ok",
-    "proxy": "185.238.238.165:58080",
+    "proxy": "89.36.160.2:3128",
+    "type": "http",
+    "ip": "89.36.160.2",
+    "country_code": "PL",
+    "country": "Poland",
+    "city": "Warsaw",
+    "latency_ms": 1696,
+    "ip_check": "https://api.ipify.org?format=json",
+    "https_check": "https://www.google.com/generate_204"
+  },
+  {
+    "status": "ok",
+    "proxy": "91.150.189.122:1080",
+    "type": "socks4",
+    "ip": "91.150.189.122",
+    "country_code": "PL",
+    "country": "Poland",
+    "city": "Rzeszow",
+    "latency_ms": 5157,
+    "ip_check": "https://api64.ipify.org?format=json",
+    "https_check": "https://www.google.com/generate_204"
+  },
+  {
+    "status": "ok",
+    "proxy": "77.65.50.118:34159",
+    "type": "socks4",
+    "ip": "77.65.50.118",
+    "country_code": "PL",
+    "country": "Poland",
+    "city": "Poznan",
+    "latency_ms": 5666,
+    "ip_check": "https://api.ipify.org?format=json",
+    "https_check": "https://example.com/"
+  },
+  {
+    "status": "ok",
+    "proxy": "185.238.236.226:58080",
     "type": "http",
     "ip": "185.238.236.99",
     "country_code": "PL",
     "country": "Poland",
     "city": "Strzelin",
-    "latency_ms": 7047,
-    "ip_check": "https://ifconfig.me/ip",
-    "https_check": "https://www.google.com/generate_204"
+    "latency_ms": 8157,
+    "ip_check": "https://api64.ipify.org?format=json",
+    "https_check": "https://example.com/"
   }
 ]
