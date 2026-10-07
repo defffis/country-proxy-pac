@@ -1,14 +1,14 @@
 [
   {
     "status": "ok",
-    "proxy": "77.65.50.118:34159",
+    "proxy": "46.151.118.108:5678",
     "type": "socks4",
-    "ip": "77.65.50.118",
+    "ip": "46.151.118.108",
     "country_code": "PL",
     "country": "Poland",
-    "city": "Poznan",
-    "latency_ms": 7415,
-    "ip_check": "https://icanhazip.com/",
+    "city": "Lipsko",
+    "latency_ms": 6742,
+    "ip_check": "https://api64.ipify.org?format=json",
     "https_check": "https://www.google.com/generate_204"
   }
 ]
