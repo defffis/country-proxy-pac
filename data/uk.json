@@ -7,7 +7,7 @@
     "country_code": "GB",
     "country": "United Kingdom",
     "city": "London",
-    "latency_ms": 979,
+    "latency_ms": 1473,
     "ip_check": "https://api.ipify.org?format=json",
     "https_check": "https://www.google.com/generate_204"
   },
@@ -19,7 +19,7 @@
     "country_code": "GB",
     "country": "United Kingdom",
     "city": "London",
-    "latency_ms": 1156,
+    "latency_ms": 1704,
     "ip_check": "https://api.ipify.org?format=json",
     "https_check": "https://www.google.com/generate_204"
   },
@@ -31,8 +31,8 @@
     "country_code": "GB",
     "country": "United Kingdom",
     "city": "London",
-    "latency_ms": 4385,
-    "ip_check": "https://api64.ipify.org?format=json",
-    "https_check": "https://www.google.com/generate_204"
+    "latency_ms": 6656,
+    "ip_check": "https://api.ipify.org?format=json",
+    "https_check": "https://example.com/"
   }
 ]
