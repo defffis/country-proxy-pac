@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-09T23:43:35Z",
+  "updated_at": "2026-10-10T02:55:45Z",
   "target_countries": {
     "TR": "turkey",
     "IN": "india",
@@ -12,8 +12,8 @@
   "sources": 20,
   "candidates": 20000,
   "candidate_limit": 20000,
-  "tcp_live_candidates": 6394,
-  "working_target_country_proxies": 157,
+  "tcp_live_candidates": 5404,
+  "working_target_country_proxies": 114,
   "max_workers": 100,
   "max_pac_proxies_per_country": 40,
   "max_list_proxies_per_country": 100,
@@ -23,15 +23,15 @@
   "geoip": "ipwho.is",
   "selection": "lowest HTTPS latency per country",
   "diagnostics": {
-    "http_tested": 2705,
-    "https_proxy_tested": 1138,
-    "socks4_tested": 1419,
-    "socks5_tested": 1132,
-    "external_ip_found": 736,
-    "external_ip_failed": 5658,
-    "https_ok": 541,
-    "https_failed": 195,
-    "geoip_ok": 541,
+    "http_tested": 1920,
+    "https_proxy_tested": 1069,
+    "socks4_tested": 1294,
+    "socks5_tested": 1121,
+    "external_ip_found": 616,
+    "external_ip_failed": 4788,
+    "https_ok": 434,
+    "https_failed": 182,
+    "geoip_ok": 434,
     "geoip_failed": 0,
     "request_failed": 0
   },
@@ -39,100 +39,100 @@
     "TR": {
       "name": "turkey",
       "country": "Türkiye",
-      "working": 11,
-      "http": 7,
+      "working": 9,
+      "http": 5,
       "https": 0,
       "socks4": 2,
       "socks5": 2,
-      "pac_http_https": 7,
+      "pac_http_https": 5,
       "socks_pac": 4,
-      "best_latency_ms": 2300
+      "best_latency_ms": 2489
     },
     "IN": {
       "name": "india",
       "country": "India",
-      "working": 35,
-      "http": 21,
+      "working": 10,
+      "http": 3,
       "https": 0,
-      "socks4": 11,
-      "socks5": 3,
-      "pac_http_https": 21,
-      "socks_pac": 14,
-      "best_latency_ms": 2817
+      "socks4": 3,
+      "socks5": 4,
+      "pac_http_https": 3,
+      "socks_pac": 7,
+      "best_latency_ms": 2838
     },
     "PL": {
       "name": "poland",
       "country": "Poland",
-      "working": 3,
+      "working": 4,
       "http": 0,
       "https": 0,
-      "socks4": 2,
-      "socks5": 1,
+      "socks4": 4,
+      "socks5": 0,
       "pac_http_https": 0,
-      "socks_pac": 3,
+      "socks_pac": 4,
       "best_latency_ms": null
     },
     "NL": {
       "name": "netherlands",
       "country": "Netherlands",
-      "working": 21,
-      "http": 13,
+      "working": 11,
+      "http": 3,
       "https": 0,
-      "socks4": 2,
-      "socks5": 6,
-      "pac_http_https": 13,
+      "socks4": 1,
+      "socks5": 7,
+      "pac_http_https": 3,
       "socks_pac": 8,
-      "best_latency_ms": 2085
+      "best_latency_ms": 5337
     },
     "DE": {
       "name": "germany",
       "country": "Germany",
-      "working": 15,
-      "http": 6,
+      "working": 12,
+      "http": 2,
       "https": 0,
-      "socks4": 2,
+      "socks4": 3,
       "socks5": 7,
-      "pac_http_https": 6,
-      "socks_pac": 9,
-      "best_latency_ms": 1629
+      "pac_http_https": 2,
+      "socks_pac": 10,
+      "best_latency_ms": 1849
     },
     "US": {
       "name": "usa",
       "country": "United States",
-      "working": 69,
-      "http": 32,
+      "working": 61,
+      "http": 21,
       "https": 0,
       "socks4": 15,
-      "socks5": 22,
-      "pac_http_https": 32,
-      "socks_pac": 37,
-      "best_latency_ms": 353
+      "socks5": 25,
+      "pac_http_https": 21,
+      "socks_pac": 40,
+      "best_latency_ms": 294
     },
     "GB": {
       "name": "uk",
       "country": "United Kingdom",
-      "working": 3,
-      "http": 1,
+      "working": 7,
+      "http": 2,
       "https": 0,
-      "socks4": 0,
+      "socks4": 3,
       "socks5": 2,
-      "pac_http_https": 1,
-      "socks_pac": 2,
-      "best_latency_ms": 1704
+      "pac_http_https": 2,
+      "socks_pac": 5,
+      "best_latency_ms": 1631
     }
   },
   "source_stats": {
     "http:https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt": {
-      "found": 202,
-      "valid": 202
+      "found": 199,
+      "valid": 199
     },
     "socks4:https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/socks4.txt": {
-      "found": 147,
-      "valid": 147
+      "found": 125,
+      "valid": 125
     },
     "socks5:https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/socks5.txt": {
-      "found": 692,
-      "valid": 692
+      "found": 448,
+      "valid": 448
     },
     "http:https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt": {
       "found": 2356,
@@ -147,60 +147,60 @@
       "valid": 2435
     },
     "http:https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/http/data.txt": {
-      "found": 5260,
-      "valid": 5259
+      "found": 5415,
+      "valid": 5414
     },
     "https:https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/https/data.txt": {
-      "found": 967,
-      "valid": 967
-    },
-    "socks4:https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/socks4/data.txt": {
-      "found": 594,
-      "valid": 594
-    },
-    "socks5:https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/socks5/data.txt": {
-      "found": 47498,
-      "valid": 47498
-    },
-    "http:https://raw.githubusercontent.com/zloi-user/hideip.me/main/http.txt": {
-      "found": 273,
-      "valid": 273
-    },
-    "https:https://raw.githubusercontent.com/zloi-user/hideip.me/main/https.txt": {
-      "found": 929,
-      "valid": 929
-    },
-    "socks4:https://raw.githubusercontent.com/zloi-user/hideip.me/main/socks4.txt": {
-      "found": 367,
-      "valid": 367
-    },
-    "socks5:https://raw.githubusercontent.com/zloi-user/hideip.me/main/socks5.txt": {
       "found": 939,
       "valid": 939
     },
+    "socks4:https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/socks4/data.txt": {
+      "found": 726,
+      "valid": 726
+    },
+    "socks5:https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/socks5/data.txt": {
+      "found": 47805,
+      "valid": 47805
+    },
+    "http:https://raw.githubusercontent.com/zloi-user/hideip.me/main/http.txt": {
+      "found": 292,
+      "valid": 292
+    },
+    "https:https://raw.githubusercontent.com/zloi-user/hideip.me/main/https.txt": {
+      "found": 947,
+      "valid": 947
+    },
+    "socks4:https://raw.githubusercontent.com/zloi-user/hideip.me/main/socks4.txt": {
+      "found": 248,
+      "valid": 248
+    },
+    "socks5:https://raw.githubusercontent.com/zloi-user/hideip.me/main/socks5.txt": {
+      "found": 373,
+      "valid": 373
+    },
     "https:https://raw.githubusercontent.com/roosterkid/openproxylist/main/HTTPS_RAW.txt": {
-      "found": 105,
-      "valid": 105
+      "found": 109,
+      "valid": 109
     },
     "socks4:https://raw.githubusercontent.com/roosterkid/openproxylist/main/SOCKS4_RAW.txt": {
       "found": 150,
       "valid": 150
     },
     "http:https://raw.githubusercontent.com/ProxyScrape/free-proxy-list/main/proxies/protocols/http/data.txt": {
-      "found": 1102,
-      "valid": 1102
+      "found": 699,
+      "valid": 699
     },
     "https:https://raw.githubusercontent.com/ProxyScrape/free-proxy-list/main/proxies/protocols/https/data.txt": {
-      "found": 358,
-      "valid": 358
+      "found": 167,
+      "valid": 167
     },
     "socks4:https://raw.githubusercontent.com/ProxyScrape/free-proxy-list/main/proxies/protocols/socks4/data.txt": {
-      "found": 273,
-      "valid": 273
+      "found": 274,
+      "valid": 274
     },
     "socks5:https://raw.githubusercontent.com/ProxyScrape/free-proxy-list/main/proxies/protocols/socks5/data.txt": {
-      "found": 2697,
-      "valid": 2697
+      "found": 1486,
+      "valid": 1486
     }
   },
   "publication": {
