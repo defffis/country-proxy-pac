@@ -7,9 +7,21 @@
     "country_code": "TR",
     "country": "Türkiye",
     "city": "Istanbul",
-    "latency_ms": 5234,
+    "latency_ms": 4317,
     "ip_check": "https://api.ipify.org?format=json",
     "https_check": "https://www.google.com/generate_204"
+  },
+  {
+    "status": "ok",
+    "proxy": "149.86.146.205:1080",
+    "type": "socks4",
+    "ip": "149.86.146.205",
+    "country_code": "TR",
+    "country": "Türkiye",
+    "city": "Selcuklu",
+    "latency_ms": 5355,
+    "ip_check": "https://api.ipify.org?format=json",
+    "https_check": "https://www.cloudflare.com/cdn-cgi/trace"
   },
   {
     "status": "ok",
@@ -19,9 +31,33 @@
     "country_code": "TR",
     "country": "Türkiye",
     "city": "Ankara",
-    "latency_ms": 5338,
+    "latency_ms": 7280,
     "ip_check": "https://api64.ipify.org?format=json",
     "https_check": "https://www.google.com/generate_204"
+  },
+  {
+    "status": "ok",
+    "proxy": "176.236.37.132:1080",
+    "type": "socks4",
+    "ip": "176.236.37.132",
+    "country_code": "TR",
+    "country": "Türkiye",
+    "city": "Istanbul",
+    "latency_ms": 7385,
+    "ip_check": "https://api.ipify.org?format=json",
+    "https_check": "https://example.com/"
+  },
+  {
+    "status": "ok",
+    "proxy": "85.105.194.113:4153",
+    "type": "socks4",
+    "ip": "85.105.194.113",
+    "country_code": "TR",
+    "country": "Türkiye",
+    "city": "Izmir",
+    "latency_ms": 7910,
+    "ip_check": "https://api64.ipify.org?format=json",
+    "https_check": "https://www.cloudflare.com/cdn-cgi/trace"
   },
   {
     "status": "ok",
@@ -31,8 +67,8 @@
     "country_code": "TR",
     "country": "Türkiye",
     "city": "Istanbul",
-    "latency_ms": 8130,
+    "latency_ms": 9018,
     "ip_check": "https://api.ipify.org?format=json",
-    "https_check": "https://www.cloudflare.com/cdn-cgi/trace"
+    "https_check": "https://www.google.com/generate_204"
   }
 ]
