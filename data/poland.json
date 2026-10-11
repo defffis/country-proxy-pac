@@ -1,62 +1,14 @@
 [
   {
     "status": "ok",
-    "proxy": "185.79.243.153:38431",
+    "proxy": "185.32.4.110:4153",
     "type": "socks4",
-    "ip": "185.79.243.153",
+    "ip": "185.32.4.110",
     "country_code": "PL",
     "country": "Poland",
-    "city": "Myszkow",
-    "latency_ms": 1626,
+    "city": "Chociwel",
+    "latency_ms": 3578,
     "ip_check": "https://api.ipify.org?format=json",
-    "https_check": "https://www.google.com/generate_204"
-  },
-  {
-    "status": "ok",
-    "proxy": "185.32.4.126:4153",
-    "type": "socks4",
-    "ip": "185.32.4.126",
-    "country_code": "PL",
-    "country": "Poland",
-    "city": "Chociwel",
-    "latency_ms": 1669,
-    "ip_check": "https://api.ipify.org?format=json",
-    "https_check": "https://www.google.com/generate_204"
-  },
-  {
-    "status": "ok",
-    "proxy": "185.147.69.48:1080",
-    "type": "socks4",
-    "ip": "185.147.69.48",
-    "country_code": "PL",
-    "country": "Poland",
-    "city": "Rewal",
-    "latency_ms": 5897,
-    "ip_check": "https://api64.ipify.org?format=json",
-    "https_check": "https://www.cloudflare.com/cdn-cgi/trace"
-  },
-  {
-    "status": "ok",
-    "proxy": "185.32.4.102:4153",
-    "type": "socks4",
-    "ip": "185.32.4.102",
-    "country_code": "PL",
-    "country": "Poland",
-    "city": "Chociwel",
-    "latency_ms": 7424,
-    "ip_check": "https://api64.ipify.org?format=json",
-    "https_check": "https://www.cloudflare.com/cdn-cgi/trace"
-  },
-  {
-    "status": "ok",
-    "proxy": "185.32.4.65:4153",
-    "type": "socks4",
-    "ip": "185.32.4.102",
-    "country_code": "PL",
-    "country": "Poland",
-    "city": "Chociwel",
-    "latency_ms": 8910,
-    "ip_check": "https://ifconfig.me/ip",
     "https_check": "https://www.cloudflare.com/cdn-cgi/trace"
   },
   {
@@ -67,8 +19,8 @@
     "country_code": "PL",
     "country": "Poland",
     "city": "Rzeszow",
-    "latency_ms": 9265,
-    "ip_check": "https://icanhazip.com/",
-    "https_check": "https://www.google.com/generate_204"
+    "latency_ms": 4367,
+    "ip_check": "https://api.ipify.org?format=json",
+    "https_check": "https://www.cloudflare.com/cdn-cgi/trace"
   }
 ]
