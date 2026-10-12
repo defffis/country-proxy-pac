@@ -7,7 +7,19 @@
     "country_code": "TR",
     "country": "Türkiye",
     "city": "Selcuklu",
-    "latency_ms": 1967,
+    "latency_ms": 3179,
+    "ip_check": "https://api64.ipify.org?format=json",
+    "https_check": "https://www.google.com/generate_204"
+  },
+  {
+    "status": "ok",
+    "proxy": "155.103.69.127:1314",
+    "type": "socks4",
+    "ip": "155.103.69.127",
+    "country_code": "TR",
+    "country": "Türkiye",
+    "city": "Istanbul",
+    "latency_ms": 6698,
     "ip_check": "https://api.ipify.org?format=json",
     "https_check": "https://www.google.com/generate_204"
   },
@@ -19,20 +31,8 @@
     "country_code": "TR",
     "country": "Türkiye",
     "city": "Ankara",
-    "latency_ms": 2778,
+    "latency_ms": 9954,
     "ip_check": "https://api.ipify.org?format=json",
-    "https_check": "https://www.google.com/generate_204"
-  },
-  {
-    "status": "ok",
-    "proxy": "155.103.69.127:1314",
-    "type": "socks4",
-    "ip": "155.103.69.127",
-    "country_code": "TR",
-    "country": "Türkiye",
-    "city": "Istanbul",
-    "latency_ms": 13638,
-    "ip_check": "https://api.ipify.org?format=json",
-    "https_check": "https://www.google.com/generate_204"
+    "https_check": "https://example.com/"
   }
 ]
