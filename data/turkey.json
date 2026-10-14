@@ -1,26 +1,14 @@
 [
   {
     "status": "ok",
-    "proxy": "85.105.194.113:4153",
+    "proxy": "88.247.31.164:4153",
     "type": "socks4",
-    "ip": "85.105.194.113",
+    "ip": "88.247.31.164",
     "country_code": "TR",
     "country": "Türkiye",
-    "city": "Izmir",
-    "latency_ms": 7356,
-    "ip_check": "https://ifconfig.me/ip",
-    "https_check": "https://www.cloudflare.com/cdn-cgi/trace"
-  },
-  {
-    "status": "ok",
-    "proxy": "88.245.138.87:1080",
-    "type": "socks4",
-    "ip": "88.245.138.87",
-    "country_code": "TR",
-    "country": "Türkiye",
-    "city": "Yalova",
-    "latency_ms": 8193,
-    "ip_check": "https://ifconfig.me/ip",
+    "city": "Ankara",
+    "latency_ms": 5090,
+    "ip_check": "https://icanhazip.com/",
     "https_check": "https://www.cloudflare.com/cdn-cgi/trace"
   }
 ]
