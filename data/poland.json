@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "status": "ok",
+    "proxy": "212.126.5.246:42344",
+    "type": "socks4",
+    "ip": "212.126.5.242",
+    "country_code": "PL",
+    "country": "Poland",
+    "city": "Poznan",
+    "latency_ms": 9637,
+    "ip_check": "https://icanhazip.com/",
+    "https_check": "https://example.com/"
+  }
+]
