@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "status": "ok",
+    "proxy": "178.216.202.97:1080",
+    "type": "socks4",
+    "ip": "178.216.202.97",
+    "country_code": "PL",
+    "country": "Poland",
+    "city": "Poznan",
+    "latency_ms": 2638,
+    "ip_check": "https://api.ipify.org?format=json",
+    "https_check": "https://www.google.com/generate_204"
+  },
+  {
+    "status": "ok",
+    "proxy": "185.32.4.126:4153",
+    "type": "socks4",
+    "ip": "185.32.4.126",
+    "country_code": "PL",
+    "country": "Poland",
+    "city": "Chociwel",
+    "latency_ms": 6210,
+    "ip_check": "https://api64.ipify.org?format=json",
+    "https_check": "https://www.cloudflare.com/cdn-cgi/trace"
+  }
+]
