@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "status": "ok",
+    "proxy": "185.147.69.48:1080",
+    "type": "socks4",
+    "ip": "185.147.69.48",
+    "country_code": "PL",
+    "country": "Poland",
+    "city": "Rewal",
+    "latency_ms": 3234,
+    "ip_check": "https://api.ipify.org?format=json",
+    "https_check": "https://www.cloudflare.com/cdn-cgi/trace"
+  }
+]
