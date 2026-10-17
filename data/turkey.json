@@ -1,14 +1,1 @@
-[
-  {
-    "status": "ok",
-    "proxy": "85.105.194.113:4153",
-    "type": "socks4",
-    "ip": "85.105.194.113",
-    "country_code": "TR",
-    "country": "Türkiye",
-    "city": "Izmir",
-    "latency_ms": 7920,
-    "ip_check": "https://icanhazip.com/",
-    "https_check": "https://www.google.com/generate_204"
-  }
-]
+[]
