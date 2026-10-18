@@ -1,50 +1,38 @@
 [
   {
     "status": "ok",
-    "proxy": "178.216.202.97:1080",
-    "type": "socks5",
-    "ip": "178.216.202.97",
+    "proxy": "185.32.4.110:4153",
+    "type": "socks4",
+    "ip": "185.32.4.110",
     "country_code": "PL",
     "country": "Poland",
-    "city": "Poznan",
-    "latency_ms": 1475,
+    "city": "Chociwel",
+    "latency_ms": 1346,
     "ip_check": "https://api.ipify.org?format=json",
     "https_check": "https://www.google.com/generate_204"
   },
   {
     "status": "ok",
-    "proxy": "77.65.50.118:34159",
+    "proxy": "195.135.255.239:1083",
     "type": "socks4",
-    "ip": "77.65.50.118",
+    "ip": "146.59.46.9",
     "country_code": "PL",
     "country": "Poland",
-    "city": "Poznan",
-    "latency_ms": 2171,
+    "city": "Warsaw",
+    "latency_ms": 3302,
     "ip_check": "https://api.ipify.org?format=json",
     "https_check": "https://www.google.com/generate_204"
   },
   {
     "status": "ok",
-    "proxy": "46.171.28.162:59311",
+    "proxy": "91.211.100.35:44744",
     "type": "socks4",
-    "ip": "46.171.28.162",
+    "ip": "91.211.100.35",
     "country_code": "PL",
     "country": "Poland",
-    "city": "Skierniewice",
-    "latency_ms": 3816,
-    "ip_check": "https://api64.ipify.org?format=json",
-    "https_check": "https://www.google.com/generate_204"
-  },
-  {
-    "status": "ok",
-    "proxy": "185.14.149.33:4145",
-    "type": "socks4",
-    "ip": "185.14.148.66",
-    "country_code": "PL",
-    "country": "Poland",
-    "city": "Zielona Gora",
-    "latency_ms": 6143,
-    "ip_check": "https://api64.ipify.org?format=json",
-    "https_check": "https://example.com/"
+    "city": "Warsaw",
+    "latency_ms": 5624,
+    "ip_check": "https://api.ipify.org?format=json",
+    "https_check": "https://www.cloudflare.com/cdn-cgi/trace"
   }
 ]
