@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "status": "ok",
+    "proxy": "149.86.146.205:1080",
+    "type": "socks4",
+    "ip": "149.86.146.205",
+    "country_code": "TR",
+    "country": "Türkiye",
+    "city": "Selcuklu",
+    "latency_ms": 2666,
+    "ip_check": "https://api64.ipify.org?format=json",
+    "https_check": "https://www.google.com/generate_204"
+  },
+  {
+    "status": "ok",
+    "proxy": "155.103.69.127:1314",
+    "type": "socks4",
+    "ip": "155.103.69.127",
+    "country_code": "TR",
+    "country": "Türkiye",
+    "city": "Istanbul",
+    "latency_ms": 14428,
+    "ip_check": "https://ifconfig.me/ip",
+    "https_check": "https://www.google.com/generate_204"
+  }
+]
