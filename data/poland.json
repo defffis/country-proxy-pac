@@ -1,14 +1,38 @@
 [
   {
     "status": "ok",
-    "proxy": "31.42.6.125:5678",
+    "proxy": "46.171.28.162:59311",
     "type": "socks4",
-    "ip": "31.42.6.125",
+    "ip": "46.171.28.162",
     "country_code": "PL",
     "country": "Poland",
-    "city": "Czestochowa",
-    "latency_ms": 1600,
+    "city": "Skierniewice",
+    "latency_ms": 3287,
     "ip_check": "https://api.ipify.org?format=json",
+    "https_check": "https://www.google.com/generate_204"
+  },
+  {
+    "status": "ok",
+    "proxy": "82.139.170.187:8080",
+    "type": "http",
+    "ip": "82.139.170.187",
+    "country_code": "PL",
+    "country": "Poland",
+    "city": "Bialystok",
+    "latency_ms": 5421,
+    "ip_check": "https://api.ipify.org?format=json",
+    "https_check": "https://www.cloudflare.com/cdn-cgi/trace"
+  },
+  {
+    "status": "ok",
+    "proxy": "91.150.189.122:1080",
+    "type": "socks4",
+    "ip": "91.150.189.122",
+    "country_code": "PL",
+    "country": "Poland",
+    "city": "Rzeszow",
+    "latency_ms": 6336,
+    "ip_check": "https://api64.ipify.org?format=json",
     "https_check": "https://www.google.com/generate_204"
   }
 ]
