@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "status": "ok",
+    "proxy": "149.86.146.205:1080",
+    "type": "socks4",
+    "ip": "149.86.146.205",
+    "country_code": "TR",
+    "country": "Türkiye",
+    "city": "Selcuklu",
+    "latency_ms": 3327,
+    "ip_check": "https://ifconfig.me/ip",
+    "https_check": "https://www.google.com/generate_204"
+  }
+]
