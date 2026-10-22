@@ -1,5 +1,5 @@
 // Auto-generated. Do not edit manually.
 // Verified Netherlands HTTP/HTTPS proxies with HTTPS support.
 function FindProxyForURL(url, host) {
-    return "PROXY 51.15.20.32:3129; PROXY 80.71.152.211:3128; PROXY 65.109.87.121:18080; PROXY 15.229.149.81:3128; PROXY 194.87.197.21:8080; PROXY 45.114.60.178:3128; DIRECT";
+    return "PROXY 194.87.197.21:8080; PROXY 141.144.206.124:1080; PROXY 47.129.130.0:8087; PROXY 15.232.45.244:24442; DIRECT";
 }

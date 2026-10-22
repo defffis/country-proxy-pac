@@ -1,38 +1,26 @@
 [
   {
     "status": "ok",
+    "proxy": "195.14.27.105:1080",
+    "type": "socks5",
+    "ip": "195.14.27.105",
+    "country_code": "PL",
+    "country": "Poland",
+    "city": "Lubin",
+    "latency_ms": 1500,
+    "ip_check": "https://api.ipify.org?format=json",
+    "https_check": "https://www.google.com/generate_204"
+  },
+  {
+    "status": "ok",
     "proxy": "91.150.189.122:1080",
     "type": "socks4",
     "ip": "91.150.189.122",
     "country_code": "PL",
     "country": "Poland",
     "city": "Rzeszow",
-    "latency_ms": 2316,
-    "ip_check": "https://api.ipify.org?format=json",
-    "https_check": "https://www.google.com/generate_204"
-  },
-  {
-    "status": "ok",
-    "proxy": "185.147.69.48:1080",
-    "type": "socks4",
-    "ip": "185.147.69.48",
-    "country_code": "PL",
-    "country": "Poland",
-    "city": "Rewal",
-    "latency_ms": 2320,
-    "ip_check": "https://api.ipify.org?format=json",
-    "https_check": "https://www.google.com/generate_204"
-  },
-  {
-    "status": "ok",
-    "proxy": "185.140.102.218:5678",
-    "type": "socks4",
-    "ip": "185.140.102.218",
-    "country_code": "PL",
-    "country": "Poland",
-    "city": "Jeziorany",
-    "latency_ms": 2775,
-    "ip_check": "https://api.ipify.org?format=json",
+    "latency_ms": 4760,
+    "ip_check": "https://ifconfig.me/ip",
     "https_check": "https://www.google.com/generate_204"
   },
   {
@@ -43,20 +31,8 @@
     "country_code": "PL",
     "country": "Poland",
     "city": "Grodzisk Wielkopolski",
-    "latency_ms": 3465,
-    "ip_check": "https://icanhazip.com/",
-    "https_check": "https://www.google.com/generate_204"
-  },
-  {
-    "status": "ok",
-    "proxy": "46.171.28.162:59311",
-    "type": "socks4",
-    "ip": "46.171.28.162",
-    "country_code": "PL",
-    "country": "Poland",
-    "city": "Skierniewice",
-    "latency_ms": 5869,
+    "latency_ms": 7724,
     "ip_check": "https://api64.ipify.org?format=json",
-    "https_check": "https://www.google.com/generate_204"
+    "https_check": "https://www.cloudflare.com/cdn-cgi/trace"
   }
 ]
