@@ -1,14 +1,50 @@
 [
   {
     "status": "ok",
-    "proxy": "31.42.6.125:5678",
+    "proxy": "185.14.149.33:4145",
     "type": "socks4",
-    "ip": "31.42.6.125",
+    "ip": "185.14.148.66",
     "country_code": "PL",
     "country": "Poland",
-    "city": "Czestochowa",
-    "latency_ms": 1607,
+    "city": "Zielona Gora",
+    "latency_ms": 1755,
     "ip_check": "https://api.ipify.org?format=json",
     "https_check": "https://www.google.com/generate_204"
+  },
+  {
+    "status": "ok",
+    "proxy": "46.151.118.108:5678",
+    "type": "socks4",
+    "ip": "46.151.118.108",
+    "country_code": "PL",
+    "country": "Poland",
+    "city": "Lipsko",
+    "latency_ms": 2349,
+    "ip_check": "https://api.ipify.org?format=json",
+    "https_check": "https://www.google.com/generate_204"
+  },
+  {
+    "status": "ok",
+    "proxy": "185.140.102.218:5678",
+    "type": "socks4",
+    "ip": "185.140.102.218",
+    "country_code": "PL",
+    "country": "Poland",
+    "city": "Jeziorany",
+    "latency_ms": 4121,
+    "ip_check": "https://api.ipify.org?format=json",
+    "https_check": "https://www.google.com/generate_204"
+  },
+  {
+    "status": "ok",
+    "proxy": "77.65.50.118:34159",
+    "type": "socks4",
+    "ip": "77.65.50.118",
+    "country_code": "PL",
+    "country": "Poland",
+    "city": "Grodzisk Wielkopolski",
+    "latency_ms": 5683,
+    "ip_check": "https://api.ipify.org?format=json",
+    "https_check": "https://example.com/"
   }
 ]
