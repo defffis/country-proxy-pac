@@ -1,1 +1,62 @@
-[]
+[
+  {
+    "status": "ok",
+    "proxy": "201.4.64.153:8080",
+    "type": "http",
+    "ip": "201.4.64.153",
+    "country_code": "TR",
+    "country": "Türkiye",
+    "city": "Kilis",
+    "latency_ms": 2263,
+    "ip_check": "https://api.ipify.org?format=json",
+    "https_check": "https://www.google.com/generate_204"
+  },
+  {
+    "status": "ok",
+    "proxy": "85.105.194.113:4153",
+    "type": "socks4",
+    "ip": "85.105.194.113",
+    "country_code": "TR",
+    "country": "Türkiye",
+    "city": "Izmir",
+    "latency_ms": 3090,
+    "ip_check": "https://api.ipify.org?format=json",
+    "https_check": "https://example.com/"
+  },
+  {
+    "status": "ok",
+    "proxy": "149.86.146.205:1080",
+    "type": "socks4",
+    "ip": "149.86.146.205",
+    "country_code": "TR",
+    "country": "Türkiye",
+    "city": "Selcuklu",
+    "latency_ms": 5004,
+    "ip_check": "https://api64.ipify.org?format=json",
+    "https_check": "https://www.google.com/generate_204"
+  },
+  {
+    "status": "ok",
+    "proxy": "205.234.123.22:8080",
+    "type": "http",
+    "ip": "205.234.123.22",
+    "country_code": "TR",
+    "country": "Türkiye",
+    "city": "Istanbul",
+    "latency_ms": 10217,
+    "ip_check": "https://icanhazip.com/",
+    "https_check": "https://www.google.com/generate_204"
+  },
+  {
+    "status": "ok",
+    "proxy": "89.167.124.218:8888",
+    "type": "http",
+    "ip": "185.123.101.43",
+    "country_code": "TR",
+    "country": "Türkiye",
+    "city": "Istanbul",
+    "latency_ms": 17458,
+    "ip_check": "https://icanhazip.com/",
+    "https_check": "https://www.cloudflare.com/cdn-cgi/trace"
+  }
+]
