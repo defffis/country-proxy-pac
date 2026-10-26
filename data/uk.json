@@ -7,7 +7,7 @@
     "country_code": "GB",
     "country": "United Kingdom",
     "city": "London",
-    "latency_ms": 1301,
+    "latency_ms": 1280,
     "ip_check": "https://api.ipify.org?format=json",
     "https_check": "https://www.google.com/generate_204"
   },
@@ -19,19 +19,7 @@
     "country_code": "GB",
     "country": "United Kingdom",
     "city": "London",
-    "latency_ms": 1365,
-    "ip_check": "https://api.ipify.org?format=json",
-    "https_check": "https://www.google.com/generate_204"
-  },
-  {
-    "status": "ok",
-    "proxy": "193.218.118.128:1080",
-    "type": "socks5",
-    "ip": "82.25.184.203",
-    "country_code": "GB",
-    "country": "United Kingdom",
-    "city": "London",
-    "latency_ms": 2162,
+    "latency_ms": 1331,
     "ip_check": "https://api.ipify.org?format=json",
     "https_check": "https://www.google.com/generate_204"
   },
@@ -43,7 +31,7 @@
     "country_code": "GB",
     "country": "United Kingdom",
     "city": "London",
-    "latency_ms": 2266,
+    "latency_ms": 2379,
     "ip_check": "https://api64.ipify.org?format=json",
     "https_check": "https://www.cloudflare.com/cdn-cgi/trace"
   },
@@ -55,43 +43,7 @@
     "country_code": "GB",
     "country": "United Kingdom",
     "city": "London",
-    "latency_ms": 2769,
-    "ip_check": "https://api.ipify.org?format=json",
-    "https_check": "https://www.google.com/generate_204"
-  },
-  {
-    "status": "ok",
-    "proxy": "149.248.213.249:9000",
-    "type": "socks5",
-    "ip": "79.127.165.77",
-    "country_code": "GB",
-    "country": "United Kingdom",
-    "city": "London",
-    "latency_ms": 2787,
-    "ip_check": "https://icanhazip.com/",
-    "https_check": "https://www.cloudflare.com/cdn-cgi/trace"
-  },
-  {
-    "status": "ok",
-    "proxy": "149.248.194.233:9000",
-    "type": "socks5",
-    "ip": "79.127.165.77",
-    "country_code": "GB",
-    "country": "United Kingdom",
-    "city": "London",
-    "latency_ms": 3426,
-    "ip_check": "https://icanhazip.com/",
-    "https_check": "https://example.com/"
-  },
-  {
-    "status": "ok",
-    "proxy": "141.147.109.224:1080",
-    "type": "socks5",
-    "ip": "141.147.109.224",
-    "country_code": "GB",
-    "country": "United Kingdom",
-    "city": "Slough",
-    "latency_ms": 3597,
+    "latency_ms": 2512,
     "ip_check": "https://api.ipify.org?format=json",
     "https_check": "https://www.google.com/generate_204"
   }
