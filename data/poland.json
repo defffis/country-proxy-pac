@@ -1,13 +1,37 @@
 [
   {
     "status": "ok",
-    "proxy": "185.32.4.102:4153",
+    "proxy": "185.32.4.126:4153",
     "type": "socks4",
-    "ip": "185.32.4.102",
+    "ip": "185.32.4.126",
     "country_code": "PL",
     "country": "Poland",
     "city": "Chociwel",
-    "latency_ms": 1139,
+    "latency_ms": 1514,
+    "ip_check": "https://api.ipify.org?format=json",
+    "https_check": "https://www.google.com/generate_204"
+  },
+  {
+    "status": "ok",
+    "proxy": "185.238.238.165:58080",
+    "type": "http",
+    "ip": "185.238.236.99",
+    "country_code": "PL",
+    "country": "Poland",
+    "city": "Strzelin",
+    "latency_ms": 2898,
+    "ip_check": "https://api.ipify.org?format=json",
+    "https_check": "https://www.google.com/generate_204"
+  },
+  {
+    "status": "ok",
+    "proxy": "91.150.189.122:1080",
+    "type": "socks4",
+    "ip": "91.150.189.122",
+    "country_code": "PL",
+    "country": "Poland",
+    "city": "Rzeszow",
+    "latency_ms": 3359,
     "ip_check": "https://api.ipify.org?format=json",
     "https_check": "https://www.google.com/generate_204"
   },
@@ -19,20 +43,8 @@
     "country_code": "PL",
     "country": "Poland",
     "city": "Grodzisk Wielkopolski",
-    "latency_ms": 5753,
+    "latency_ms": 8580,
     "ip_check": "https://icanhazip.com/",
-    "https_check": "https://www.cloudflare.com/cdn-cgi/trace"
-  },
-  {
-    "status": "ok",
-    "proxy": "185.79.243.153:38431",
-    "type": "socks4",
-    "ip": "185.79.243.153",
-    "country_code": "PL",
-    "country": "Poland",
-    "city": "Myszkow",
-    "latency_ms": 11594,
-    "ip_check": "https://ifconfig.me/ip",
     "https_check": "https://www.cloudflare.com/cdn-cgi/trace"
   }
 ]
