@@ -1,5 +1,5 @@
 // Auto-generated. Do not edit manually.
 // Verified Germany HTTP/HTTPS proxies with HTTPS support.
 function FindProxyForURL(url, host) {
-    return "PROXY 103.237.102.191:11111; PROXY 161.35.70.249:3128; PROXY 79.196.237.59:3128; PROXY 161.35.70.249:80; DIRECT";
+    return "PROXY 103.237.102.191:11111; PROXY 161.35.70.249:3128; PROXY 161.35.70.249:80; PROXY 194.31.175.83:3128; PROXY 5.202.191.225:8080; DIRECT";
 }
