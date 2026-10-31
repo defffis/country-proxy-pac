@@ -1,14 +1,1 @@
-[
-  {
-    "status": "ok",
-    "proxy": "185.32.4.110:4153",
-    "type": "socks4",
-    "ip": "185.32.4.110",
-    "country_code": "PL",
-    "country": "Poland",
-    "city": "Chociwel",
-    "latency_ms": 1569,
-    "ip_check": "https://api.ipify.org?format=json",
-    "https_check": "https://www.google.com/generate_204"
-  }
-]
+[]
