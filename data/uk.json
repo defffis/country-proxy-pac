@@ -1,25 +1,25 @@
 [
   {
     "status": "ok",
-    "proxy": "134.209.29.120:1080",
-    "type": "socks5",
-    "ip": "134.209.29.120",
-    "country_code": "GB",
-    "country": "United Kingdom",
-    "city": "London",
-    "latency_ms": 1710,
-    "ip_check": "https://api.ipify.org?format=json",
-    "https_check": "https://www.google.com/generate_204"
-  },
-  {
-    "status": "ok",
     "proxy": "134.209.29.120:3128",
     "type": "http",
     "ip": "134.209.29.120",
     "country_code": "GB",
     "country": "United Kingdom",
     "city": "London",
-    "latency_ms": 1746,
+    "latency_ms": 1148,
+    "ip_check": "https://api.ipify.org?format=json",
+    "https_check": "https://www.google.com/generate_204"
+  },
+  {
+    "status": "ok",
+    "proxy": "104.194.146.9:80",
+    "type": "http",
+    "ip": "81.19.210.10",
+    "country_code": "GB",
+    "country": "United Kingdom",
+    "city": "London",
+    "latency_ms": 2701,
     "ip_check": "https://api.ipify.org?format=json",
     "https_check": "https://www.google.com/generate_204"
   },
@@ -31,68 +31,8 @@
     "country_code": "GB",
     "country": "United Kingdom",
     "city": "London",
-    "latency_ms": 3006,
-    "ip_check": "https://api.ipify.org?format=json",
-    "https_check": "https://www.google.com/generate_204"
-  },
-  {
-    "status": "ok",
-    "proxy": "2.102.71.177:1080",
-    "type": "socks5",
-    "ip": "2.102.71.177",
-    "country_code": "GB",
-    "country": "United Kingdom",
-    "city": "Newcastle upon Tyne",
-    "latency_ms": 3284,
-    "ip_check": "https://api.ipify.org?format=json",
-    "https_check": "https://www.google.com/generate_204"
-  },
-  {
-    "status": "ok",
-    "proxy": "91.231.186.233:1080",
-    "type": "socks5",
-    "ip": "91.231.186.233",
-    "country_code": "GB",
-    "country": "United Kingdom",
-    "city": "London",
-    "latency_ms": 3533,
-    "ip_check": "https://api.ipify.org?format=json",
-    "https_check": "https://www.google.com/generate_204"
-  },
-  {
-    "status": "ok",
-    "proxy": "157.90.113.23:9052",
-    "type": "socks5",
-    "ip": "81.168.83.136",
-    "country_code": "GB",
-    "country": "United Kingdom",
-    "city": "London",
-    "latency_ms": 4991,
+    "latency_ms": 4584,
     "ip_check": "https://api64.ipify.org?format=json",
-    "https_check": "https://www.google.com/generate_204"
-  },
-  {
-    "status": "ok",
-    "proxy": "81.85.1.221:8086",
-    "type": "http",
-    "ip": "81.85.1.221",
-    "country_code": "GB",
-    "country": "United Kingdom",
-    "city": "London",
-    "latency_ms": 6402,
-    "ip_check": "https://api64.ipify.org?format=json",
-    "https_check": "https://www.cloudflare.com/cdn-cgi/trace"
-  },
-  {
-    "status": "ok",
-    "proxy": "104.194.146.9:80",
-    "type": "http",
-    "ip": "81.19.210.10",
-    "country_code": "GB",
-    "country": "United Kingdom",
-    "city": "London",
-    "latency_ms": 6865,
-    "ip_check": "https://icanhazip.com/",
     "https_check": "https://www.google.com/generate_204"
   }
 ]

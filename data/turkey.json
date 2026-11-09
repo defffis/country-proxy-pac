@@ -1,26 +1,14 @@
 [
   {
     "status": "ok",
-    "proxy": "88.247.31.164:4153",
-    "type": "socks4",
-    "ip": "88.247.31.164",
+    "proxy": "81.90.158.110:3128",
+    "type": "http",
+    "ip": "213.142.134.51",
     "country_code": "TR",
     "country": "Türkiye",
-    "city": "Ankara",
-    "latency_ms": 6240,
+    "city": "Istanbul",
+    "latency_ms": 4180,
     "ip_check": "https://icanhazip.com/",
-    "https_check": "https://www.google.com/generate_204"
-  },
-  {
-    "status": "ok",
-    "proxy": "176.88.191.150:1080",
-    "type": "socks4",
-    "ip": "176.88.191.150",
-    "country_code": "TR",
-    "country": "Türkiye",
-    "city": "Basiskele",
-    "latency_ms": 10662,
-    "ip_check": "https://icanhazip.com/",
-    "https_check": "https://www.google.com/generate_204"
+    "https_check": "https://www.cloudflare.com/cdn-cgi/trace"
   }
 ]
