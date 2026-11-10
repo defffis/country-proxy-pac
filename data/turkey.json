@@ -1,14 +1,74 @@
 [
   {
     "status": "ok",
-    "proxy": "176.236.37.132:1080",
-    "type": "socks4",
-    "ip": "176.236.37.132",
+    "proxy": "163.5.53.209:1080",
+    "type": "socks5",
+    "ip": "2a09:bac5:58c4:2682::3d6:5f",
     "country_code": "TR",
     "country": "Türkiye",
     "city": "Istanbul",
-    "latency_ms": 10475,
+    "latency_ms": 3466,
     "ip_check": "https://ifconfig.me/ip",
+    "https_check": "https://www.cloudflare.com/cdn-cgi/trace"
+  },
+  {
+    "status": "ok",
+    "proxy": "79.98.32.110:1080",
+    "type": "socks4",
+    "ip": "79.98.32.110",
+    "country_code": "TR",
+    "country": "Türkiye",
+    "city": "Adana",
+    "latency_ms": 4482,
+    "ip_check": "https://api64.ipify.org?format=json",
+    "https_check": "https://www.google.com/generate_204"
+  },
+  {
+    "status": "ok",
+    "proxy": "176.235.182.90:1080",
+    "type": "socks4",
+    "ip": "176.235.182.90",
+    "country_code": "TR",
+    "country": "Türkiye",
+    "city": "Istanbul",
+    "latency_ms": 5726,
+    "ip_check": "https://api64.ipify.org?format=json",
+    "https_check": "https://www.cloudflare.com/cdn-cgi/trace"
+  },
+  {
+    "status": "ok",
+    "proxy": "188.132.249.98:8080",
+    "type": "http",
+    "ip": "201.4.69.38",
+    "country_code": "TR",
+    "country": "Türkiye",
+    "city": "Kilis",
+    "latency_ms": 6051,
+    "ip_check": "https://api.ipify.org?format=json",
+    "https_check": "https://www.google.com/generate_204"
+  },
+  {
+    "status": "ok",
+    "proxy": "188.132.222.134:8080",
+    "type": "http",
+    "ip": "188.132.222.134",
+    "country_code": "TR",
+    "country": "Türkiye",
+    "city": "Antakya",
+    "latency_ms": 11909,
+    "ip_check": "https://api64.ipify.org?format=json",
+    "https_check": "https://www.cloudflare.com/cdn-cgi/trace"
+  },
+  {
+    "status": "ok",
+    "proxy": "212.87.198.110:1080",
+    "type": "socks5",
+    "ip": "2a01:f900:159:9::1012",
+    "country_code": "TR",
+    "country": "Türkiye",
+    "city": "Istanbul",
+    "latency_ms": 12284,
+    "ip_check": "https://api64.ipify.org?format=json",
     "https_check": "https://example.com/"
   }
 ]
