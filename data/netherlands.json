@@ -1,51 +1,111 @@
 [
   {
     "status": "ok",
+    "proxy": "45.150.33.253:1081",
+    "type": "socks4",
+    "ip": "45.150.33.253",
+    "country_code": "NL",
+    "country": "Netherlands",
+    "city": "Amsterdam",
+    "latency_ms": 1477,
+    "ip_check": "https://api.ipify.org?format=json",
+    "https_check": "https://www.google.com/generate_204"
+  },
+  {
+    "status": "ok",
+    "proxy": "5.255.117.127:1080",
+    "type": "socks5",
+    "ip": "5.255.117.127",
+    "country_code": "NL",
+    "country": "Netherlands",
+    "city": "Alkmaar",
+    "latency_ms": 1487,
+    "ip_check": "https://api.ipify.org?format=json",
+    "https_check": "https://www.google.com/generate_204"
+  },
+  {
+    "status": "ok",
+    "proxy": "45.61.129.165:9050",
+    "type": "socks4",
+    "ip": "192.42.116.56",
+    "country_code": "NL",
+    "country": "Netherlands",
+    "city": "Amsterdam",
+    "latency_ms": 2084,
+    "ip_check": "https://api.ipify.org?format=json",
+    "https_check": "https://www.google.com/generate_204"
+  },
+  {
+    "status": "ok",
+    "proxy": "45.61.129.165:9050",
+    "type": "socks5",
+    "ip": "192.42.116.65",
+    "country_code": "NL",
+    "country": "Netherlands",
+    "city": "Amsterdam",
+    "latency_ms": 2569,
+    "ip_check": "https://api.ipify.org?format=json",
+    "https_check": "https://www.google.com/generate_204"
+  },
+  {
+    "status": "ok",
+    "proxy": "37.18.73.60:5566",
+    "type": "socks4",
+    "ip": "192.42.116.66",
+    "country_code": "NL",
+    "country": "Netherlands",
+    "city": "Amsterdam",
+    "latency_ms": 2943,
+    "ip_check": "https://api.ipify.org?format=json",
+    "https_check": "https://www.google.com/generate_204"
+  },
+  {
+    "status": "ok",
+    "proxy": "132.243.168.30:9150",
+    "type": "socks5",
+    "ip": "45.141.117.244",
+    "country_code": "NL",
+    "country": "Netherlands",
+    "city": "Amsterdam",
+    "latency_ms": 4425,
+    "ip_check": "https://api.ipify.org?format=json",
+    "https_check": "https://www.google.com/generate_204"
+  },
+  {
+    "status": "ok",
+    "proxy": "37.18.73.60:5566",
+    "type": "socks5",
+    "ip": "192.42.116.59",
+    "country_code": "NL",
+    "country": "Netherlands",
+    "city": "Amsterdam",
+    "latency_ms": 6190,
+    "ip_check": "https://api.ipify.org?format=json",
+    "https_check": "https://www.cloudflare.com/cdn-cgi/trace"
+  },
+  {
+    "status": "ok",
     "proxy": "5.255.113.177:1080",
     "type": "socks5",
     "ip": "5.255.113.177",
     "country_code": "NL",
     "country": "Netherlands",
     "city": "Alkmaar",
-    "latency_ms": 3389,
-    "ip_check": "https://api64.ipify.org?format=json",
-    "https_check": "https://www.google.com/generate_204"
-  },
-  {
-    "status": "ok",
-    "proxy": "5.255.99.75:1080",
-    "type": "socks5",
-    "ip": "5.255.99.75",
-    "country_code": "NL",
-    "country": "Netherlands",
-    "city": "Alkmaar",
-    "latency_ms": 4181,
-    "ip_check": "https://api.ipify.org?format=json",
-    "https_check": "https://www.cloudflare.com/cdn-cgi/trace"
-  },
-  {
-    "status": "ok",
-    "proxy": "37.18.73.60:5566",
-    "type": "socks4",
-    "ip": "204.137.14.105",
-    "country_code": "NL",
-    "country": "Netherlands",
-    "city": "Amsterdam",
-    "latency_ms": 4534,
-    "ip_check": "https://api.ipify.org?format=json",
-    "https_check": "https://www.cloudflare.com/cdn-cgi/trace"
-  },
-  {
-    "status": "ok",
-    "proxy": "5.189.17.23:9050",
-    "type": "socks4",
-    "ip": "192.42.116.67",
-    "country_code": "NL",
-    "country": "Netherlands",
-    "city": "Amsterdam",
-    "latency_ms": 7802,
+    "latency_ms": 9516,
     "ip_check": "https://icanhazip.com/",
-    "https_check": "https://www.google.com/generate_204"
+    "https_check": "https://www.cloudflare.com/cdn-cgi/trace"
+  },
+  {
+    "status": "ok",
+    "proxy": "188.226.27.24:1080",
+    "type": "socks4",
+    "ip": "88.210.12.209",
+    "country_code": "NL",
+    "country": "Netherlands",
+    "city": "Amsterdam",
+    "latency_ms": 10192,
+    "ip_check": "https://api.ipify.org?format=json",
+    "https_check": "https://example.com/"
   },
   {
     "status": "ok",
@@ -55,32 +115,20 @@
     "country_code": "NL",
     "country": "Netherlands",
     "city": "Amsterdam",
-    "latency_ms": 8587,
-    "ip_check": "https://api.ipify.org?format=json",
+    "latency_ms": 11110,
+    "ip_check": "https://api64.ipify.org?format=json",
     "https_check": "https://www.cloudflare.com/cdn-cgi/trace"
   },
   {
     "status": "ok",
-    "proxy": "37.18.73.60:5566",
+    "proxy": "95.31.115.101:9150",
     "type": "socks5",
-    "ip": "192.42.116.110",
+    "ip": "192.42.116.57",
     "country_code": "NL",
     "country": "Netherlands",
     "city": "Amsterdam",
-    "latency_ms": 11608,
+    "latency_ms": 16359,
     "ip_check": "https://api64.ipify.org?format=json",
-    "https_check": "https://example.com/"
-  },
-  {
-    "status": "ok",
-    "proxy": "158.101.8.92:1080",
-    "type": "socks5",
-    "ip": "192.42.116.46",
-    "country_code": "NL",
-    "country": "Netherlands",
-    "city": "Amsterdam",
-    "latency_ms": 14416,
-    "ip_check": "https://api64.ipify.org?format=json",
-    "https_check": "https://example.com/"
+    "https_check": "https://www.google.com/generate_204"
   }
 ]
