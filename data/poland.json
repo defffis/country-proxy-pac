@@ -1,13 +1,37 @@
 [
   {
     "status": "ok",
-    "proxy": "77.65.50.118:34159",
+    "proxy": "185.14.149.33:4145",
     "type": "socks4",
-    "ip": "77.65.50.118",
+    "ip": "185.14.148.66",
     "country_code": "PL",
     "country": "Poland",
-    "city": "Poznan",
-    "latency_ms": 1602,
+    "city": "Zielona Gora",
+    "latency_ms": 2150,
+    "ip_check": "https://api64.ipify.org?format=json",
+    "https_check": "https://www.google.com/generate_204"
+  },
+  {
+    "status": "ok",
+    "proxy": "46.151.118.108:5678",
+    "type": "socks4",
+    "ip": "46.151.118.108",
+    "country_code": "PL",
+    "country": "Poland",
+    "city": "Lipsko",
+    "latency_ms": 3819,
+    "ip_check": "https://api.ipify.org?format=json",
+    "https_check": "https://www.cloudflare.com/cdn-cgi/trace"
+  },
+  {
+    "status": "ok",
+    "proxy": "185.238.238.165:58080",
+    "type": "http",
+    "ip": "185.238.236.99",
+    "country_code": "PL",
+    "country": "Poland",
+    "city": "Strzelin",
+    "latency_ms": 5069,
     "ip_check": "https://api.ipify.org?format=json",
     "https_check": "https://www.google.com/generate_204"
   },
@@ -19,44 +43,8 @@
     "country_code": "PL",
     "country": "Poland",
     "city": "Rzeszow",
-    "latency_ms": 2942,
-    "ip_check": "https://api.ipify.org?format=json",
-    "https_check": "https://www.google.com/generate_204"
-  },
-  {
-    "status": "ok",
-    "proxy": "31.42.6.125:5678",
-    "type": "socks4",
-    "ip": "31.42.6.125",
-    "country_code": "PL",
-    "country": "Poland",
-    "city": "Czestochowa",
-    "latency_ms": 3495,
-    "ip_check": "https://api64.ipify.org?format=json",
-    "https_check": "https://example.com/"
-  },
-  {
-    "status": "ok",
-    "proxy": "185.14.149.33:4145",
-    "type": "socks4",
-    "ip": "185.14.148.66",
-    "country_code": "PL",
-    "country": "Poland",
-    "city": "Zielona Gora",
-    "latency_ms": 6630,
+    "latency_ms": 5906,
     "ip_check": "https://api64.ipify.org?format=json",
     "https_check": "https://www.google.com/generate_204"
-  },
-  {
-    "status": "ok",
-    "proxy": "185.140.102.218:5678",
-    "type": "socks4",
-    "ip": "185.140.102.218",
-    "country_code": "PL",
-    "country": "Poland",
-    "city": "Jeziorany",
-    "latency_ms": 8803,
-    "ip_check": "https://ifconfig.me/ip",
-    "https_check": "https://www.cloudflare.com/cdn-cgi/trace"
   }
 ]
