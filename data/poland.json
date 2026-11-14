@@ -1,26 +1,38 @@
 [
   {
     "status": "ok",
-    "proxy": "37.131.164.39:59341",
-    "type": "socks4",
-    "ip": "37.131.165.19",
-    "country_code": "PL",
-    "country": "Poland",
-    "city": "Strzelce Krajenskie",
-    "latency_ms": 6626,
-    "ip_check": "https://api64.ipify.org?format=json",
-    "https_check": "https://www.cloudflare.com/cdn-cgi/trace"
-  },
-  {
-    "status": "ok",
     "proxy": "77.65.50.118:34159",
     "type": "socks4",
     "ip": "77.65.50.118",
     "country_code": "PL",
     "country": "Poland",
     "city": "Poznan",
-    "latency_ms": 8575,
-    "ip_check": "https://icanhazip.com/",
+    "latency_ms": 2190,
+    "ip_check": "https://api.ipify.org?format=json",
+    "https_check": "https://www.google.com/generate_204"
+  },
+  {
+    "status": "ok",
+    "proxy": "31.42.6.125:5678",
+    "type": "socks4",
+    "ip": "31.42.6.125",
+    "country_code": "PL",
+    "country": "Poland",
+    "city": "Czestochowa",
+    "latency_ms": 3728,
+    "ip_check": "https://api64.ipify.org?format=json",
+    "https_check": "https://www.google.com/generate_204"
+  },
+  {
+    "status": "ok",
+    "proxy": "185.140.102.218:5678",
+    "type": "socks4",
+    "ip": "185.140.102.218",
+    "country_code": "PL",
+    "country": "Poland",
+    "city": "Jeziorany",
+    "latency_ms": 8215,
+    "ip_check": "https://ifconfig.me/ip",
     "https_check": "https://www.google.com/generate_204"
   }
 ]
