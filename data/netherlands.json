@@ -1,13 +1,61 @@
 [
   {
     "status": "ok",
-    "proxy": "45.61.129.165:9050",
-    "type": "socks5",
-    "ip": "192.42.116.60",
+    "proxy": "144.124.251.24:10484",
+    "type": "http",
+    "ip": "144.124.251.24",
     "country_code": "NL",
     "country": "Netherlands",
     "city": "Amsterdam",
-    "latency_ms": 2547,
+    "latency_ms": 2011,
+    "ip_check": "https://api64.ipify.org?format=json",
+    "https_check": "https://www.cloudflare.com/cdn-cgi/trace"
+  },
+  {
+    "status": "ok",
+    "proxy": "37.9.4.101:1088",
+    "type": "socks5",
+    "ip": "167.71.6.59",
+    "country_code": "NL",
+    "country": "Netherlands",
+    "city": "Amsterdam",
+    "latency_ms": 2061,
+    "ip_check": "https://api.ipify.org?format=json",
+    "https_check": "https://www.google.com/generate_204"
+  },
+  {
+    "status": "ok",
+    "proxy": "37.18.73.60:5566",
+    "type": "socks5",
+    "ip": "192.42.116.106",
+    "country_code": "NL",
+    "country": "Netherlands",
+    "city": "Amsterdam",
+    "latency_ms": 3192,
+    "ip_check": "https://api.ipify.org?format=json",
+    "https_check": "https://www.google.com/generate_204"
+  },
+  {
+    "status": "ok",
+    "proxy": "144.124.251.24:10412",
+    "type": "http",
+    "ip": "144.124.251.24",
+    "country_code": "NL",
+    "country": "Netherlands",
+    "city": "Amsterdam",
+    "latency_ms": 3279,
+    "ip_check": "https://api64.ipify.org?format=json",
+    "https_check": "https://www.cloudflare.com/cdn-cgi/trace"
+  },
+  {
+    "status": "ok",
+    "proxy": "45.61.129.165:9050",
+    "type": "socks4",
+    "ip": "192.42.116.144",
+    "country_code": "NL",
+    "country": "Netherlands",
+    "city": "Amsterdam",
+    "latency_ms": 3366,
     "ip_check": "https://api.ipify.org?format=json",
     "https_check": "https://www.google.com/generate_204"
   },
@@ -19,20 +67,8 @@
     "country_code": "NL",
     "country": "Netherlands",
     "city": "Amsterdam",
-    "latency_ms": 5534,
+    "latency_ms": 5170,
     "ip_check": "https://api.ipify.org?format=json",
-    "https_check": "https://www.google.com/generate_204"
-  },
-  {
-    "status": "ok",
-    "proxy": "37.18.73.60:5566",
-    "type": "socks4",
-    "ip": "192.42.116.47",
-    "country_code": "NL",
-    "country": "Netherlands",
-    "city": "Amsterdam",
-    "latency_ms": 6634,
-    "ip_check": "https://api64.ipify.org?format=json",
     "https_check": "https://www.google.com/generate_204"
   },
   {
@@ -43,8 +79,56 @@
     "country_code": "NL",
     "country": "Netherlands",
     "city": "Alkmaar",
-    "latency_ms": 29705,
-    "ip_check": "https://ifconfig.me/ip",
+    "latency_ms": 5411,
+    "ip_check": "https://api.ipify.org?format=json",
+    "https_check": "https://www.google.com/generate_204"
+  },
+  {
+    "status": "ok",
+    "proxy": "188.226.27.24:1080",
+    "type": "socks4",
+    "ip": "88.210.12.209",
+    "country_code": "NL",
+    "country": "Netherlands",
+    "city": "Amsterdam",
+    "latency_ms": 5752,
+    "ip_check": "https://api.ipify.org?format=json",
+    "https_check": "https://www.google.com/generate_204"
+  },
+  {
+    "status": "ok",
+    "proxy": "145.220.227.132:3128",
+    "type": "socks5",
+    "ip": "145.220.183.29",
+    "country_code": "NL",
+    "country": "Netherlands",
+    "city": "Amsterdam",
+    "latency_ms": 7819,
+    "ip_check": "https://api64.ipify.org?format=json",
     "https_check": "https://example.com/"
+  },
+  {
+    "status": "ok",
+    "proxy": "45.61.129.165:9050",
+    "type": "socks5",
+    "ip": "192.42.116.110",
+    "country_code": "NL",
+    "country": "Netherlands",
+    "city": "Amsterdam",
+    "latency_ms": 11665,
+    "ip_check": "https://api.ipify.org?format=json",
+    "https_check": "https://example.com/"
+  },
+  {
+    "status": "ok",
+    "proxy": "67.205.161.254:9050",
+    "type": "socks5",
+    "ip": "192.42.116.44",
+    "country_code": "NL",
+    "country": "Netherlands",
+    "city": "Amsterdam",
+    "latency_ms": 18363,
+    "ip_check": "https://icanhazip.com/",
+    "https_check": "https://www.google.com/generate_204"
   }
 ]
