@@ -2,5 +2,5 @@
 // SOCKS PAC for Netherlands: SOCKS4 and SOCKS5 endpoints.
 // PAC has no standard SOCKS4/SOCKS5 selector; SOCKS entries are intentionally combined.
 function FindProxyForURL(url, host) {
-    return "SOCKS 37.18.73.60:5566; SOCKS 45.61.129.165:9050; SOCKS 88.198.69.51:1084; SOCKS 37.18.73.60:5566; SOCKS 132.243.168.30:9150; SOCKS 67.205.161.254:9050; DIRECT";
+    return "SOCKS 45.61.129.165:9050; SOCKS 88.198.69.51:1089; SOCKS 37.18.73.60:5566; DIRECT";
 }

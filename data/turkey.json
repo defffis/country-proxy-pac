@@ -7,20 +7,8 @@
     "country_code": "TR",
     "country": "Türkiye",
     "city": "Izmir",
-    "latency_ms": 3326,
-    "ip_check": "https://icanhazip.com/",
-    "https_check": "https://www.google.com/generate_204"
-  },
-  {
-    "status": "ok",
-    "proxy": "88.245.138.87:1080",
-    "type": "socks4",
-    "ip": "88.245.138.87",
-    "country_code": "TR",
-    "country": "Türkiye",
-    "city": "Yalova",
-    "latency_ms": 4315,
-    "ip_check": "https://api.ipify.org?format=json",
-    "https_check": "https://www.google.com/generate_204"
+    "latency_ms": 7628,
+    "ip_check": "https://api64.ipify.org?format=json",
+    "https_check": "https://www.cloudflare.com/cdn-cgi/trace"
   }
 ]
