@@ -1,5 +1,5 @@
 // Auto-generated. Do not edit manually.
 // Verified Turkey HTTP/HTTPS proxies with HTTPS support.
 function FindProxyForURL(url, host) {
-    return "PROXY 149.86.140.240:8080; PROXY 88.248.250.76:8080; DIRECT";
+    return "PROXY 87.76.138.37:8080; PROXY 78.186.147.185:3310; DIRECT";
 }
