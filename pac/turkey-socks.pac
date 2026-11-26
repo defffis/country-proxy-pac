@@ -2,5 +2,5 @@
 // SOCKS PAC for Turkey: SOCKS4 and SOCKS5 endpoints.
 // PAC has no standard SOCKS4/SOCKS5 selector; SOCKS entries are intentionally combined.
 function FindProxyForURL(url, host) {
-    return "SOCKS 65.21.252.66:10806; DIRECT";
+    return "SOCKS 79.98.32.110:1080; DIRECT";
 }

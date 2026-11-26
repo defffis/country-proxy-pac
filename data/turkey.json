@@ -1,14 +1,14 @@
 [
   {
     "status": "ok",
-    "proxy": "65.21.252.66:10806",
-    "type": "socks5",
-    "ip": "187.40.231.92",
+    "proxy": "79.98.32.110:1080",
+    "type": "socks4",
+    "ip": "79.98.32.110",
     "country_code": "TR",
     "country": "Türkiye",
-    "city": "Istanbul",
-    "latency_ms": 7011,
-    "ip_check": "https://api64.ipify.org?format=json",
+    "city": "Adana",
+    "latency_ms": 2823,
+    "ip_check": "https://api.ipify.org?format=json",
     "https_check": "https://www.google.com/generate_204"
   }
 ]
